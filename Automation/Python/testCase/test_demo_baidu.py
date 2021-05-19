@@ -4,7 +4,9 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import pytest
-from myFunc.myFunc_phare1 import webWait
+import sys
+sys.path.append("../myFunc")
+import myFunc_phare1
 
 configFile = open('../Resource/test_demo_baidu/testSelenium_config.yaml', 'r')
 config = yaml.load(configFile, Loader=yaml.FullLoader)
@@ -16,6 +18,7 @@ searchData = testData["test_search_data"]
 testElementFile = open('../Resource/test_demo_baidu/testElement.yaml', 'r')
 testElement = yaml.load(testElementFile, Loader=yaml.FullLoader)
 
+webWait = myFunc_phare1.webWait
 
 @pytest.mark.parametrize('inputValue', searchData)
 def test_search(inputValue):
