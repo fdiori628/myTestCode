@@ -1,1 +1,3 @@
 searchBar: .s_ipt
+submitBtn: .s_btn
+targetContent: content_left
