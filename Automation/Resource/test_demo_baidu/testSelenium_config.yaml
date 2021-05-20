@@ -1,1 +1,2 @@
 driverConfig: ../Drivers/chromedriver.exe
+url: http://www.baidu.com
