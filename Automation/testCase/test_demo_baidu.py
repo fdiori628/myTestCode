@@ -11,10 +11,11 @@ class TestCase:
     searchData = testData["test_search_data"]
 
     def setup(self):
+        print('test will start')
         self.baidu_Search = baidu_Search_Business.baidu_search
 
     def teardown(self):
-        print('this is teardown')
+        print('testing will done')
 
     @pytest.mark.parametrize('inputValue', searchData)
     def testSearch(self, inputValue):
