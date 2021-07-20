@@ -18,8 +18,11 @@ t = 1,2,
 
 a, b = t
 
-a, b = b, a
+a, b = b, a-
 
 t = 1,2,3,4,5
 
 a, *b, c = t
+
+3. dict get value   dict.get(xx)
+pop delete and get the value with tuple （key, value)

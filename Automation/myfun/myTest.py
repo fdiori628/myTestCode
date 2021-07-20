@@ -1,11 +1,9 @@
-touple
+a = '1,sdasd,fava,asasc,asc,ascas,casca,caca,cacac,asca,cac,acac,acas,caca,csacas,cas,214125151,515151,515'
 
-t = 1,2,
+b = '1,sdasd,fava,asasc,asc,ascas,casca,caca,cacac,asca,cac,acac,acas,caca,csacas,cas,214125151,515151,515'
 
-a, b = t
+ad = {
+    'name': 'karl',
+    'age': 20
+}
 
-a, b = b, a
-
-t = 1,2,3,4,5
-
-a, *b, c = t
