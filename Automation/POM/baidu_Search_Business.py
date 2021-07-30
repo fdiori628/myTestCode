@@ -10,9 +10,8 @@ def baidu_search(inputValue):
         chrome_options = webdriver.ChromeOptions()
         chrome_options.add_argument("--headless")
         # driver = webdriver.Chrome(desired_capabilities=caps, executable_path=config['driverConfig'])
-        driver = webdriver.Chrome(desired_capabilities=caps, executable_path=config['driverConfig_M1'],
-                                  chrome_options=chrome_options)
-
+        driver = webdriver.Chrome(desired_capabilities=caps, executable_path=config['driverConfig'],
+                                  options=chrome_options)
         url = config["url"]
         driver.get(url)
         driver.maximize_window()
