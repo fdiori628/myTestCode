@@ -26,3 +26,72 @@ a, *b, c = t
 
 3. dict get value   dict.get(xx)
 pop delete and get the value with tuple （key, value)
+
+4. 函数作为函数返回值返回，叫闭包
+def fn():
+    a = 10
+    def inner():
+        print('this is a', a)
+
+    return inner
+
+r = fn()   fn()将返回函数inner, r()等于调用函数inner
+
+5.函数装饰器
+    OCP  开放扩展，关闭修改
+    #定义装饰函数，实际就是返回一个扩展功能后的新函数
+    def myfun(fn):
+    def new_func(*args, **kwargs):
+        print('start loading')
+        fn(*args, **kwargs)
+        print('end loading')
+    return new_func
+
+    #将函数sayHello 作为参数传入myfun()里
+    @myfun
+    def sayHello(name):
+        print('hello, %s' % name)
+
+
+    sayHello('karl')
+
+6.对象
+    对象-》
+    1. ID, 2.Type, 3.Value
+
+7.class
+    通过类创建对象，对象就是类的instance, 创建对象就是class实例化
+    int(), float(), dict(), list(), 都是类
+    python里class 命名用大驼峰（js里小驼峰）
+    a = int(10)       #10 是一个class
+    b = str('hello')
+    通过类创建对象
+        1. 创建变量
+        2. 内存中创建新对象
+        3. init
+        3. 将对象的id赋值给变量
+
+    class Person:
+    def __init__(self):
+        self.name = 'Karl'
+
+    def sayhello(self):
+        print('hello, %s' % self.name)
+
+    init 初始化类属性
+
+    class Person:
+    def __init__(self, *args):
+        self.name, self.age = args
+
+    def sayhello(self):
+        print('hello, %s, the age is %s' % (self.name, self.age))
+
+
+    p1 = Person("karl", 20)
+    p1.sayhello()
+
+
+
+
+8.

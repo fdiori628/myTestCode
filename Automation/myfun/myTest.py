@@ -1,9 +1,10 @@
-a = '1,sdasd,fava,asasc,asc,ascas,casca,caca,cacac,asca,cac,acac,acas,caca,csacas,cas,214125151,515151,515'
+class Person:
+    def __init__(self, *args):
+        self.name, self.age = args
 
-b = '1,sdasd,fava,asasc,asc,ascas,casca,caca,cacac,asca,cac,acac,acas,caca,csacas,cas,214125151,515151,515'
+    def sayhello(self):
+        print('hello, %s, the age is %s' % (self.name, self.age))
 
-ad = {
-    'name': 'karl',
-    'age': 20
-}
 
+p1 = Person("karl", 20)
+p1.sayhello()

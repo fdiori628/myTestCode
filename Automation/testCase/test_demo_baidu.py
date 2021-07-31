@@ -7,16 +7,10 @@ import baidu_Search_Business
 
 class TestCase:
     testdataFile = open('../Resource/test_demo_baidu/testSelenium_Data.yaml', 'r')
-    testData = yaml.load(testdataFile, Loader=yaml.FullLoader)
+    testData = yaml.load(testdataFile, Loader=yaml.BaseLoader)
     searchData = testData["test_search_data"]
 
-    def setup(self):
-        print('test will start')
-        self.baidu_Search = baidu_Search_Business.baidu_search
-
-    def teardown(self):
-        print('testing will done')
-
     @pytest.mark.parametrize('inputValue', searchData)
-    def testSearch(self, inputValue):
-        self.baidu_Search(inputValue)
+    def testsarch(self, inputValue):
+        content = baidu_Search_Business.baidu_search(inputValue)
+        assert inputValue in content

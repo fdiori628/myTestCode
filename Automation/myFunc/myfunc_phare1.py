@@ -4,7 +4,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import yaml
 
 testElementFile = open('../Resource/test_demo_baidu/testElement.yaml', 'r')
-testElement = yaml.load(testElementFile, Loader=yaml.FullLoader)
+testElement = yaml.load(testElementFile, Loader=yaml.BaseLoader)
 
 
 def myFindElement(d, cssSelector, timeout, timeSeq):
