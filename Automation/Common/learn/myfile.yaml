@@ -1,0 +1,53 @@
+-
+  name: API smoke testcase01
+  requestdata:
+    url: http://localhost:3000/posts
+    method: get
+    param:
+      title: json-server
+      author: typicode
+  validation:
+    id: 1
+-
+  name: API smoke testcase02
+  requestdata:
+    url: http://localhost:3000/posts
+    method: get
+    param:
+      title: json-server2
+      author: typicode2
+  validation:
+    id: 2
+-
+  name: API smoke testcase03
+  requestdata:
+    url: http://localhost:3000/posts
+    method: get
+    param:
+      title: json-server2
+      author: typicode2
+  validation:
+    id: 2
+-
+  name: API smoke testcase04
+  requestdata:
+    url: http://localhost:3000/posts
+    method: get
+    param:
+      title: json-server2
+      author: typicode2
+  validation:
+    id: 2
+-
+  name: API smoke testcase05
+  requestdata:
+    url: http://localhost:3000/posts
+    method: post
+    param:
+      title: json-server2
+      author: typicode2
+    data:
+      title: karl-test
+      author: karl
+    header:
+      Content-Type: application/json

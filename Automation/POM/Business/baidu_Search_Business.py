@@ -1,10 +1,11 @@
-import sys
 from selenium import webdriver
-# sys.path.append('../myFunc/')
-from baidu_Search_Element import *
+from POM.Domelement.baidu_Search_Element import *
+from Common.yaml_until import YamlUtil
+
+config = YamlUtil('../Resource/test_demo_baidu/testSelenium_config.yaml').read_yaml()
 
 
-def baidu_search(inputValue):
+def baidu_search(inputvalue):
     caps = {"pageLoadStrategy": "eager"}
     try:
         chrome_options = webdriver.ChromeOptions()
@@ -15,11 +16,10 @@ def baidu_search(inputValue):
         url = config["url"]
         driver.get(url)
         driver.maximize_window()
-        baiduElement_searchBar(driver).send_keys(inputValue)
-        baiduElement_submitBtn(driver).click()
-        content = baiduElement_content(driver).text
+        baiduelement_searchbar(driver).send_keys(inputvalue)
+        baiduelement_submitbtn(driver).click()
+        content = baiduelement_content(driver).text
         driver.quit()
         return content
     except BaseException as e:
         raise e
-

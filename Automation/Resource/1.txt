@@ -1,1 +1,0 @@
-pytest -s --html=../Report/Test_Report_20210522.html --self-contained-html  test_demo_baidu.py
