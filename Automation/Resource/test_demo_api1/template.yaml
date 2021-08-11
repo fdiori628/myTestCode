@@ -1,0 +1,15 @@
+name: api1 smoke testcase01
+requestdata:
+  path: /posts
+  method: get
+  param:
+    title: $title
+    author: $author
+  data:
+    title: $data_title
+    author: $data_author
+  header:
+    name: karl testing
+validation:
+  title:  $expect_data
+  author: $expect_author

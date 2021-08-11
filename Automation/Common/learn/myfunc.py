@@ -1,14 +1,7 @@
-from Common.yaml_until import YamlUtil
-import pprint
-import requests
+from string import Template
 
-# r = YamlUtil('myfile.yaml').read_yaml()
-# pprint.pprint(r)
+s = Template('$who likes $what')
 
-data = {
-    "title": "json-server5",
-    "author": "typicode5"
-}
+r = s.substitute(who='Karl', what='games')
 
-r = requests.request('post', 'http://localhost:3000/posts', data=data)
-print(r.json())
+print(r)

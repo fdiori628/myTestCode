@@ -1,7 +1,8 @@
-from Common.dom_until import findelement
+from Common.dom_until import DomUntil
 from Common.yaml_until import YamlUtil
 
 testElement = YamlUtil('../Resource/test_demo_baidu/testElement.yaml').read_yaml()
+findelement = DomUntil.findelement
 
 
 def baiduelement_searchbar(driver):

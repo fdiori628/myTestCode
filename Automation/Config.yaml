@@ -1,0 +1,8 @@
+- API:
+    Domain: http://localhost:3000/
+    ReportPath: --html=./Report/test_report_api/$apiname
+    ConfigPath: ../../../Resource/$apiname/config.yaml
+    TestDataPath: ../../../Resource/$apiname/test_data.yaml
+- WEB:
+    Driver: ./Drivers/chromedriver.exe
+    Driver-m1: ./Drivers/chromedriver_M1

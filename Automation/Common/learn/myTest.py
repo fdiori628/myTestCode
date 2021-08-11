@@ -1,5 +1,5 @@
-import requests
 from Common.yaml_until import YamlUtil
+from Common.request_until import RequestUtil
 import pytest
 
 
@@ -8,6 +8,7 @@ class TestDemo:
 
     def setup(self):
         self.url = 'http://localhost:3000/posts'
+        self.send_request = RequestUtil
 
     @pytest.mark.parametrize('data', data)
     def test_get(self, con_database, data):
@@ -20,12 +21,10 @@ class TestDemo:
         name = data['name']
         if method == 'get':
             print('TestCase %s is starting' % name)
-            response = requests.request(method, url, params=parm, headers=header)
-            context = response.json()
-            assert context[0]['id'] == data['validation']['id']
+            response = self.send_request(method, url, params=parm, headers=header).send_request()
+            assert response[0]['id'] == data['validation']['id']
         else:
             requestdata = data['requestdata']['data']
             print('TestCase %s is starting' % name)
-            response = requests.request(method, url, data=requestdata)
-            context = response.json()
-            assert context['title'] == requestdata['title'], context['author'] == requestdata['author']
+            response = self.send_request(method, url, data=requestdata).send_request()
+            assert response['title'] == requestdata['title'], response['author'] == requestdata['author']

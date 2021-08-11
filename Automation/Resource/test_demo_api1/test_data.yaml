@@ -1,0 +1,32 @@
+-
+  name: api1 smoke testcase01
+  requestdata:
+    path: /posts
+    method: get
+    param:
+      title: json-server10
+      author: typicode10
+    data:
+      title: karl-test
+      author: karl-test
+    header:
+      name: karl-testing
+  validation:
+    id: 35
+-
+  name: api1 smoke testcase02
+  requestdata:
+    path: /posts
+    method: post
+    param:
+      title:
+      author:
+    data:
+      title: smoketest02
+      author: smoketest02
+    header:
+      name: karl-testing
+  validation:
+    status_code: 201
+    title: smoketest02
+    author: smoketest02

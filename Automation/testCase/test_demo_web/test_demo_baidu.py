@@ -5,7 +5,7 @@ from POM.Business import baidu_Search_Business
 
 class TestBaiduSearch:
 
-    testData = YamlUtil('../Resource/test_demo_baidu/testSelenium_Data.yaml').read_yaml()
+    testData = YamlUtil('../../Resource/test_demo_baidu/testSelenium_Data.yaml').read_yaml()
     searchData = testData["test_search_data"]
 
     @pytest.mark.parametrize('inputvalue', searchData)
