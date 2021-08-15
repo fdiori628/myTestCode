@@ -6,11 +6,9 @@
     param:
       title: json-server10
       author: typicode10
-    data:
-      title: karl-test
-      author: karl-test
-    header:
-      name: karl-testing
+    data: ~
+    headers:
+      Content-Type: application/json
   validation:
     id: 35
 -
@@ -18,14 +16,12 @@
   requestdata:
     path: /posts
     method: post
-    param:
-      title:
-      author:
+    param: ~
     data:
       title: smoketest02
       author: smoketest02
-    header:
-      name: karl-testing
+    headers:
+      Content-Type: application/json
   validation:
     status_code: 201
     title: smoketest02

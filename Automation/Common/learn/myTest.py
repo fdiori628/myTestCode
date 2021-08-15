@@ -1,30 +1,28 @@
+import logging.config
 from Common.yaml_until import YamlUtil
-from Common.request_until import RequestUtil
-import pytest
+from string import Template
+import time
 
 
-class TestDemo:
-    data = YamlUtil('myfile.yaml').read_yaml()
+t = time.strftime('%Y%m%d')
+dict_conf = YamlUtil('../../Config.yaml').read_yaml()
+o = dict_conf[2]['Logger']
+r = dict_conf[2]['Logger']['handlers']['fileHandler']['filename']
+temp = Template(r)
+loggername = {
+    "loggername": 'logger'
+}
+re = temp.substitute(loggername) + '_' + t
+o['handlers']['fileHandler']['filename'] = re
+print(o)
 
-    def setup(self):
-        self.url = 'http://localhost:3000/posts'
-        self.send_request = RequestUtil
+# logging.config.dictConfig(dict_conf[2]['Logger'])
 
-    @pytest.mark.parametrize('data', data)
-    def test_get(self, con_database, data):
-        parm = data['requestdata']['param']
-        method = data['requestdata']['method']
-        url = data['requestdata']['url']
-        header = {
-            'Content-Type': 'application/json'
-        }
-        name = data['name']
-        if method == 'get':
-            print('TestCase %s is starting' % name)
-            response = self.send_request(method, url, params=parm, headers=header).send_request()
-            assert response[0]['id'] == data['validation']['id']
-        else:
-            requestdata = data['requestdata']['data']
-            print('TestCase %s is starting' % name)
-            response = self.send_request(method, url, data=requestdata).send_request()
-            assert response['title'] == requestdata['title'], response['author'] == requestdata['author']
+
+# logger = logging.getLogger('applog')
+# d = {
+#     "name": 'Karl',
+#     "age": 111
+# }
+#
+# logger.info(f'the request body is {d}')

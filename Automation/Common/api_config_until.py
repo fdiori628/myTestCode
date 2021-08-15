@@ -6,7 +6,8 @@ class ApiConfig:
 
     def __init__(self, api_name):
         self._apiname = api_name
-        self._api = YamlUtil('../../../Config.yaml').read_yaml()[0]['API']
+        # self._api = YamlUtil('../../../Config.yaml').read_yaml()[0]['API']
+        self._api = YamlUtil('./Config.yaml').read_yaml()[0]['API']
 
     def get_apiinfo(self):
         try:

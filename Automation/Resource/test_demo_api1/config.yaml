@@ -1,2 +1,5 @@
-API Name: test_demo_api1
+ApiName: test_demo_api1
 Domain: http://localhost:3000
+DB_Server:
+  User:
+  PWD:

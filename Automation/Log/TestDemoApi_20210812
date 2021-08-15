@@ -1,0 +1,50 @@
+2021-08-12 20:40:13|INFO  |logger_until.py:Line15|Testing for test_demo_api1 is starting
+2021-08-12 20:40:13|INFO  |logger_until.py:Line15|api1 smoke testcase01 is starting
+2021-08-12 20:40:13|INFO  |logger_until.py:Line15|Calling http://localhost:3000/posts with requestinfo: {'path': '/posts', 'method': 'get', 'param': {'title': 'json-server10', 'author': 'typicode10'}, 'data': None, 'headers': {'Content-Type': 'application/json'}}
+2021-08-12 20:40:15|INFO  |logger_until.py:Line15|Getting res as [{'title': 'json-server10', 'author': 'typicode10', 'id': 35}]
+2021-08-12 20:40:15|INFO  |logger_until.py:Line15|Testing for test_demo_api1 is starting
+2021-08-12 20:40:15|INFO  |logger_until.py:Line15|api1 smoke testcase02 is starting
+2021-08-12 20:40:15|INFO  |logger_until.py:Line15|Calling http://localhost:3000/posts with requestinfo: {'path': '/posts', 'method': 'post', 'param': None, 'data': {'title': 'smoketest02', 'author': 'smoketest02'}, 'headers': {'Content-Type': 'application/json'}}
+2021-08-12 20:40:17|INFO  |logger_until.py:Line15|Getting res as {'title': 'smoketest02', 'author': 'smoketest02', 'id': 76}
+2021-08-12 20:41:08|INFO  |logger_until.py:Line15|api1 smoke testcase01 is starting
+2021-08-12 20:41:08|INFO  |logger_until.py:Line15|Calling http://localhost:3000/posts with requestinfo: {'path': '/posts', 'method': 'get', 'param': {'title': 'json-server10', 'author': 'typicode10'}, 'data': None, 'headers': {'Content-Type': 'application/json'}}
+2021-08-12 20:41:10|INFO  |logger_until.py:Line15|Getting res as [{'title': 'json-server10', 'author': 'typicode10', 'id': 35}]
+2021-08-12 20:41:10|INFO  |logger_until.py:Line15|api1 smoke testcase02 is starting
+2021-08-12 20:41:10|INFO  |logger_until.py:Line15|Calling http://localhost:3000/posts with requestinfo: {'path': '/posts', 'method': 'post', 'param': None, 'data': {'title': 'smoketest02', 'author': 'smoketest02'}, 'headers': {'Content-Type': 'application/json'}}
+2021-08-12 20:41:12|INFO  |logger_until.py:Line15|Getting res as {'title': 'smoketest02', 'author': 'smoketest02', 'id': 77}
+2021-08-12 20:46:13|INFO  |logger_until.py:Line15|api1 smoke testcase01 is starting
+2021-08-12 20:46:13|INFO  |logger_until.py:Line15|api1 smoke testcase01 is starting
+2021-08-12 20:46:13|INFO  |logger_until.py:Line15|api1 smoke testcase01 is starting
+2021-08-12 20:46:13|INFO  |logger_until.py:Line15|api1 smoke testcase01 is starting
+2021-08-12 20:46:13|INFO  |logger_until.py:Line15|api1 smoke testcase02 is starting
+2021-08-12 20:46:13|INFO  |logger_until.py:Line15|api1 smoke testcase02 is starting
+2021-08-12 20:46:13|INFO  |logger_until.py:Line15|api1 smoke testcase02 is starting
+2021-08-12 20:46:13|INFO  |logger_until.py:Line15|api1 smoke testcase02 is starting
+2021-08-12 20:46:38|INFO  |logger_until.py:Line15|api1 smoke testcase01 is starting
+2021-08-12 20:46:38|INFO  |logger_until.py:Line15|Calling http://localhost:3000/posts with requestinfo: {'method': 'get', 'others': {'params': {'title': 'json-server10', 'author': 'typicode10'}, 'headers': {'Content-Type': 'application/json'}, 'data': None}}
+2021-08-12 20:46:40|INFO  |logger_until.py:Line15|api1 smoke testcase02 is starting
+2021-08-12 20:46:40|INFO  |logger_until.py:Line15|Calling http://localhost:3000/posts with requestinfo: {'method': 'post', 'others': {'params': None, 'headers': {'Content-Type': 'application/json'}, 'data': '{"title": "smoketest02", "author": "smoketest02"}'}}
+2021-08-12 20:49:03|INFO  |logger_until.py:Line15|api1 smoke testcase01 is starting
+2021-08-12 20:49:03|INFO  |logger_until.py:Line15|Calling http://localhost:3000/posts with requestinfo: {'method': 'get', 'others': {'params': {'title': 'json-server10', 'author': 'typicode10'}, 'headers': {'Content-Type': 'application/json'}, 'data': None}}
+2021-08-12 20:49:05|INFO  |logger_until.py:Line15|Get response: [{'title': 'json-server10', 'author': 'typicode10', 'id': 35}]
+2021-08-12 20:49:05|INFO  |logger_until.py:Line15|api1 smoke testcase02 is starting
+2021-08-12 20:49:05|INFO  |logger_until.py:Line15|Calling http://localhost:3000/posts with requestinfo: {'method': 'post', 'others': {'params': None, 'headers': {'Content-Type': 'application/json'}, 'data': '{"title": "smoketest02", "author": "smoketest02"}'}}
+2021-08-12 20:49:07|INFO  |logger_until.py:Line15|Get response: {'title': 'smoketest02', 'author': 'smoketest02', 'id': 79}
+2021-08-12 20:54:48|INFO  |logger_until.py:Line15|api1 smoke testcase01 is starting
+2021-08-12 20:54:48|INFO  |logger_until.py:Line15|Calling http://localhost:3000/posts with requestinfo: {'method': 'get', 'others': {'params': {'title': 'json-server10', 'author': 'typicode10'}, 'headers': {'Content-Type': 'application/json'}, 'data': None}}
+2021-08-12 20:54:50|INFO  |logger_until.py:Line15|Get response: [{'title': 'json-server10', 'author': 'typicode10', 'id': 35}]
+2021-08-12 20:54:50|INFO  |logger_until.py:Line15|api1 smoke testcase02 is starting
+2021-08-12 20:54:50|INFO  |logger_until.py:Line15|Calling http://localhost:3000/posts with requestinfo: {'method': 'post', 'others': {'params': None, 'headers': {'Content-Type': 'application/json'}, 'data': '{"title": "smoketest02", "author": "smoketest02"}'}}
+2021-08-12 20:54:52|INFO  |logger_until.py:Line15|Get response: {'title': 'smoketest02', 'author': 'smoketest02', 'id': 80}
+2021-08-12 20:55:08|INFO  |logger_until.py:Line15|api1 smoke testcase01 is starting
+2021-08-12 20:55:08|INFO  |logger_until.py:Line15|Calling http://localhost:3000/posts with requestinfo: {'method': 'get', 'others': {'params': {'title': 'json-server10', 'author': 'typicode10'}, 'headers': {'Content-Type': 'application/json'}, 'data': None}}
+2021-08-12 20:55:10|INFO  |logger_until.py:Line15|Get response: [{'title': 'json-server10', 'author': 'typicode10', 'id': 35}]
+2021-08-12 20:55:10|INFO  |logger_until.py:Line15|api1 smoke testcase02 is starting
+2021-08-12 20:55:10|INFO  |logger_until.py:Line15|Calling http://localhost:3000/posts with requestinfo: {'method': 'post', 'others': {'params': None, 'headers': {'Content-Type': 'application/json'}, 'data': '{"title": "smoketest02", "author": "smoketest02"}'}}
+2021-08-12 20:55:12|INFO  |logger_until.py:Line15|Get response: {'title': 'smoketest02', 'author': 'smoketest02', 'id': 81}
+2021-08-12 20:55:19|INFO  |logger_until.py:Line15|api1 smoke testcase01 is starting
+2021-08-12 20:55:19|INFO  |logger_until.py:Line15|Calling http://localhost:3000/posts with requestinfo: {'method': 'get', 'others': {'params': {'title': 'json-server10', 'author': 'typicode10'}, 'headers': {'Content-Type': 'application/json'}, 'data': None}}
+2021-08-12 20:55:21|INFO  |logger_until.py:Line15|Get response: [{'title': 'json-server10', 'author': 'typicode10', 'id': 35}]
+2021-08-12 20:55:21|INFO  |logger_until.py:Line15|api1 smoke testcase02 is starting
+2021-08-12 20:55:21|INFO  |logger_until.py:Line15|Calling http://localhost:3000/posts with requestinfo: {'method': 'post', 'others': {'params': None, 'headers': {'Content-Type': 'application/json'}, 'data': '{"title": "smoketest02", "author": "smoketest02"}'}}
+2021-08-12 20:55:23|INFO  |logger_until.py:Line15|Get response: {'title': 'smoketest02', 'author': 'smoketest02', 'id': 82}
