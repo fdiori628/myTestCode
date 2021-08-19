@@ -15,7 +15,7 @@ class RequestUtil:
         method = str(self._method).lower()
         requestdata = {
             "method": self._method,
-            "others":self._kwargs
+            "others": self._kwargs
         }
         try:
             Logger().logger(f'Calling {self._url} with requestinfo: {requestdata}')

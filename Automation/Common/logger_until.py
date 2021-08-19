@@ -1,13 +1,17 @@
 from Common.yaml_until import YamlUtil
 import logging.config
 import time
+from Common.root_until import RootUntil
 
+logging.FileHandler
 
 class Logger:
 
     def __init__(self):
-        self._configpath = YamlUtil('./Config.yaml').read_yaml()[2]['Logger']
-        self._configpath['handlers']['fileHandler']['filename'] = './Log/TestDemoApi_' + time.strftime('%Y%m%d')
+        self._root = RootUntil()
+        self._configpath = self._root.get_configfile[2]['Logger']
+        self._configpath['handlers']['fileHandler'][
+            'filename'] = self._root.get_rootpath + '/Log/TestDemoApi_' + time.strftime('%Y%m%d')
         logging.config.dictConfig(self._configpath)
         self._logger = logging.getLogger('applog')
 

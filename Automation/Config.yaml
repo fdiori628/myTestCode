@@ -1,14 +1,17 @@
 - API:
     Domain: http://localhost:3000/
-    ReportPath: --html=./Report/test_report_api/$apiname
-#    ConfigPath: ../../../Resource/$apiname/config.yaml
-    ConfigPath: ./Resource/$apiname/config.yaml
-#    TestDataPath: ../../../Resource/$apiname/test_data.yaml
-    TestDataPath: ./Resource/$apiname/test_data.yaml
+    ReportPath: --html= $rootpath/Report/test_report_api/$apiname
+    ConfigPath: /Resource/$apiname/config.yaml
+    TestDataPath: /Resource/$apiname/test_data.yaml
 
 - WEB:
-    Driver: ./Drivers/chromedriver.exe
-    Driver-m1: ./Drivers/chromedriver_M1
+    Driver: $rootpath/Drivers/chromedriver.exe
+    Driver-m1: $rootpath/Drivers/chromedriver_M1
+    ReportPath: --html= $rootpath/Report/test_report_web/$appname
+    ConfigPath: $rootpath/Resource/$appname/config.yaml
+    TestDataPath: $rootpath/Resource/$appname/test_data.yaml
+    DomElement: $rootpath/Resource/$appname/Dom_Element.yaml
+    POM_business_path: $rootpath/POM/Business/$appname
 
 - Logger:
       version: 1
@@ -25,6 +28,7 @@
               when: midnight
               interval: 1
               backupCount: 1
+              encoding: utf-8
           consoleHandler:
               class: logging.StreamHandler
               level: DEBUG

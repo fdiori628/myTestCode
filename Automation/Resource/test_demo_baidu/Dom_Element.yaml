@@ -1,0 +1,6 @@
+home:
+  search_input: .s_ipt
+  submit_btn: .s_btn
+
+search:
+  content_left: '#content_left div:nth-child(1)'
