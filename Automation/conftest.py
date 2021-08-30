@@ -1,7 +1,6 @@
 import time
 import pytest
 from selenium import webdriver
-from Common.root_until import RootUntil
 from Common.web_config_until import WebConfig
 
 t = time.strftime("%Y-%m-%d %H:%M:%S")
