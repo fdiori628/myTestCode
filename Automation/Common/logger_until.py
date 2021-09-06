@@ -3,7 +3,6 @@ import logging.config
 import time
 from Common.root_until import RootUntil
 
-logging.FileHandler
 
 class Logger:
 

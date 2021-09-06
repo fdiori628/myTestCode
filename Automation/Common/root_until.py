@@ -1,12 +1,12 @@
 import os
 import re
-from Common.yaml_until import YamlUtil
-
+from yaml_until import YamlUtil
 
 class RootUntil:
 
     def __init__(self):
         self._root = os.getcwd()
+        print(self._root)
         self._projectroot = self._root[0: re.search('Automation', self._root).span()[1]]
         self._config = YamlUtil(self._projectroot + '/Config.yaml').read_yaml()
 
