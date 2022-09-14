@@ -1,0 +1,60 @@
+2022-03-04 09:50:27|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-03-04 09:50:44|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2022-03-04 09:50:48|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2022-03-04 09:50:49|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2022-03-04 09:50:55|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2022-03-04 09:50:57|INFO  |logger_until.py:Line17|click on singleChartBody
+2022-03-04 09:50:57|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2022-03-04 09:51:02|INFO  |logger_until.py:Line17|click on Values section
+2022-03-04 09:51:04|INFO  |logger_until.py:Line17|Starting test TC test_value_indicator_valueborder
+2022-03-04 09:51:04|INFO  |logger_until.py:Line17|click on Values dropdown
+2022-03-04 09:51:06|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2022-03-04 09:51:06|DEBUG |logger_until.py:Line23|value options_aria_controls: e4bea34f-36e5-432f-9ee6-ecf3f94af43b
+2022-03-04 09:51:06|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2022-03-04 09:51:06|INFO  |logger_until.py:Line17|click on view As drop-down
+2022-03-04 09:51:07|INFO  |logger_until.py:Line17|click on the options: Indicator
+2022-03-04 09:51:07|DEBUG |logger_until.py:Line23|view as options_aria_controls: d23952d3-eeb8-41dc-d420-abd17cf8c8eb
+2022-03-04 09:51:07|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2022-03-04 09:51:08|INFO  |logger_until.py:Line17|click on add button
+2022-03-04 09:51:10|INFO  |logger_until.py:Line17|click on indicator style
+2022-03-04 09:51:11|INFO  |logger_until.py:Line17|click up for indicatior
+2022-03-04 09:51:11|INFO  |logger_until.py:Line17|click on color picker component
+2022-03-04 09:51:14|INFO  |logger_until.py:Line17|click condition dropdown list
+2022-03-04 09:51:15|INFO  |logger_until.py:Line17|select > for condition
+2022-03-04 09:51:15|INFO  |logger_until.py:Line17|input 210 for control input
+2022-03-04 09:51:18|INFO  |logger_until.py:Line17|open Show Value Border toggle
+2022-03-04 09:51:20|INFO  |logger_until.py:Line17|getting test result
+2022-03-04 09:51:24|DEBUG |logger_until.py:Line23|border: 1px solid, margin: 0px 10%
+2022-03-04 09:51:24|INFO  |logger_until.py:Line17|expected value: ['1px solid rgb(65, 117, 5)', '0px 10%'], actually_result: ['1px solid', '0px 10%']
+2022-03-04 09:51:24|INFO  |logger_until.py:Line17|screenShot has been done in path
+2022-03-04 09:51:24|ERROR |logger_until.py:Line20|<class 'AssertionError'>
+NoneType: None
+2022-03-04 09:58:44|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-03-04 09:59:19|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2022-03-04 09:59:33|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2022-03-04 09:59:33|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2022-03-04 09:59:41|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2022-03-04 09:59:42|INFO  |logger_until.py:Line17|click on singleChartBody
+2022-03-04 09:59:42|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2022-03-04 09:59:49|INFO  |logger_until.py:Line17|click on Values section
+2022-03-04 09:59:51|INFO  |logger_until.py:Line17|Starting test TC test_value_indicator_valueborder
+2022-03-04 09:59:51|INFO  |logger_until.py:Line17|click on Values dropdown
+2022-03-04 09:59:52|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2022-03-04 09:59:52|DEBUG |logger_until.py:Line23|value options_aria_controls: e07fe2a0-459e-4aa5-84bd-99e277b65da7
+2022-03-04 09:59:52|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2022-03-04 09:59:52|INFO  |logger_until.py:Line17|click on view As drop-down
+2022-03-04 09:59:53|INFO  |logger_until.py:Line17|click on the options: Indicator
+2022-03-04 09:59:53|DEBUG |logger_until.py:Line23|view as options_aria_controls: ae999294-6fbb-416c-c4fc-7e9a9429fa15
+2022-03-04 09:59:53|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2022-03-04 09:59:54|INFO  |logger_until.py:Line17|click on add button
+2022-03-04 09:59:56|INFO  |logger_until.py:Line17|click on indicator style
+2022-03-04 09:59:57|INFO  |logger_until.py:Line17|click up for indicatior
+2022-03-04 09:59:58|INFO  |logger_until.py:Line17|click on color picker component
+2022-03-04 10:00:00|INFO  |logger_until.py:Line17|click condition dropdown list
+2022-03-04 10:00:01|INFO  |logger_until.py:Line17|select > for condition
+2022-03-04 10:00:01|INFO  |logger_until.py:Line17|input 210 for control input
+2022-03-04 10:00:04|INFO  |logger_until.py:Line17|open Show Value Border toggle
+2022-03-04 10:00:06|INFO  |logger_until.py:Line17|getting test result
+2022-03-04 10:00:10|DEBUG |logger_until.py:Line23|border: 1px solid, margin: 0px 10%
+2022-03-04 10:00:10|INFO  |logger_until.py:Line17|expected value: ['1px solid', '0px 10%'], actually_result: ['1px solid', '0px 10%']
+2022-03-04 10:00:10|INFO  |logger_until.py:Line17|testing test_value_indicator_valueborder is completed and passed

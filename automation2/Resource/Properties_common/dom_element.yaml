@@ -1,0 +1,13 @@
+format_bold_css: .ant-collapse-item-active i.fa-bold
+format_italic_css: .ant-collapse-item-active i.fa-italic
+format_underline_css: .ant-collapse-item-active i.fa-underline
+format_colorPicker_css: .wrapper-inline div:nth-child(2)
+format_siez_css: .wrapper-inline div:nth-child(3) .ant-select-selection--single
+position_left: .ant-collapse-item-active .icon-position-left
+position_top: .ant-collapse-item-active .icon-position-top
+position_right: .ant-collapse-item-active .icon-position-right
+position_center: .ant-collapse-item-active .icon-position-center
+position_bottom:  .ant-collapse-item-active .icon-position-bottom
+all_elements: .ant-collapse-item-active *
+table: .chart-container table tbody tr
+drop_down: div.ant-col>div.ant-select-enabled>div.ant-select-selection--single

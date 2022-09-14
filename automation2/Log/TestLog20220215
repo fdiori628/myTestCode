@@ -1,0 +1,106 @@
+2022-02-15 15:05:09|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-15 15:05:43|ERROR |logger_until.py:Line20|Message: unknown error: Cannot construct KeyEvent from non-typeable key
+  (Session info: chrome=98.0.4758.80)
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/testCase/PivotTable/Properties/test_value.py", line 53, in visit_dashboard
+    bussiness_dashboard = BusinessDashboard(driver, url, user, pwd, project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Dashboard.py", line 9, in __init__
+    self.project = BusinessProject(driver, url, username, pwd).visit_project(project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Project.py", line 12, in __init__
+    BusinessLogin(driver, url, username, pwd).login()
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Login.py", line 19, in login
+    l.login(self._username, self._pwd)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/Login.py", line 140, in login
+    l.username_input(username)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/Login.py", line 31, in username_input
+    ele.send_keys(username)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 477, in send_keys
+    self._execute(Command.SEND_KEYS_TO_ELEMENT,
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: Cannot construct KeyEvent from non-typeable key
+  (Session info: chrome=98.0.4758.80)
+
+2022-02-15 15:05:44|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-15 15:06:32|ERROR |logger_until.py:Line20|Message: unknown error: Cannot construct KeyEvent from non-typeable key
+  (Session info: chrome=98.0.4758.80)
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/testCase/PivotTable/Properties/test_value.py", line 53, in visit_dashboard
+    bussiness_dashboard = BusinessDashboard(driver, url, user, pwd, project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Dashboard.py", line 9, in __init__
+    self.project = BusinessProject(driver, url, username, pwd).visit_project(project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Project.py", line 12, in __init__
+    BusinessLogin(driver, url, username, pwd).login()
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Login.py", line 19, in login
+    l.login(self._username, self._pwd)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/Login.py", line 140, in login
+    l.username_input(username)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/Login.py", line 31, in username_input
+    ele.send_keys(username)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 477, in send_keys
+    self._execute(Command.SEND_KEYS_TO_ELEMENT,
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: Cannot construct KeyEvent from non-typeable key
+  (Session info: chrome=98.0.4758.80)
+
+2022-02-15 15:06:32|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-15 15:06:58|ERROR |logger_until.py:Line20|Message: unknown error: Cannot construct KeyEvent from non-typeable key
+  (Session info: chrome=98.0.4758.80)
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/testCase/PivotTable/Properties/test_value.py", line 53, in visit_dashboard
+    bussiness_dashboard = BusinessDashboard(driver, url, user, pwd, project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Dashboard.py", line 9, in __init__
+    self.project = BusinessProject(driver, url, username, pwd).visit_project(project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Project.py", line 12, in __init__
+    BusinessLogin(driver, url, username, pwd).login()
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Login.py", line 19, in login
+    l.login(self._username, self._pwd)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/Login.py", line 140, in login
+    l.username_input(username)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/Login.py", line 31, in username_input
+    ele.send_keys(username)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 477, in send_keys
+    self._execute(Command.SEND_KEYS_TO_ELEMENT,
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: Cannot construct KeyEvent from non-typeable key
+  (Session info: chrome=98.0.4758.80)
+
+2022-02-15 15:06:59|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-15 15:20:21|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-15 15:20:24|ERROR |logger_until.py:Line20|Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=98.0.4758.80)
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/testCase/PivotTable/Properties/test_value.py", line 53, in visit_dashboard
+    bussiness_dashboard = BusinessDashboard(driver, url, user, pwd, project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Dashboard.py", line 9, in __init__
+    self.project = BusinessProject(driver, url, username, pwd).visit_project(project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Project.py", line 12, in __init__
+    BusinessLogin(driver, url, username, pwd).login()
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Login.py", line 18, in login
+    self._driver.maximize_window()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 737, in maximize_window
+    self.execute(command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=98.0.4758.80)
+
+2022-02-15 15:21:49|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================

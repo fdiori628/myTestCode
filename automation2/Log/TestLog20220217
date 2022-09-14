@@ -1,0 +1,53 @@
+2022-02-17 15:40:39|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-17 15:41:53|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-17 16:20:37|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-17 16:26:19|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-17 16:26:25|ERROR |logger_until.py:Line20|Message: unknown error: cannot determine loading status
+from unknown error: cannot determine loading status
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=98.0.4758.102)
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/testCase/PivotTable/Properties/test_value.py", line 53, in visit_dashboard
+    bussiness_dashboard = BusinessDashboard(driver, url, user, pwd, project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Dashboard.py", line 9, in __init__
+    self.project = BusinessProject(driver, url, username, pwd).visit_project(project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Project.py", line 12, in __init__
+    BusinessLogin(driver, url, username, pwd).login()
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Login.py", line 17, in login
+    self._driver.get(self._url)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: cannot determine loading status
+from unknown error: cannot determine loading status
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=98.0.4758.102)
+
+2022-02-17 17:20:37|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-17 17:20:43|ERROR |logger_until.py:Line20|Message: unknown error: cannot determine loading status
+from unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=98.0.4758.102)
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/testCase/PivotTable/Properties/test_value.py", line 53, in visit_dashboard
+    bussiness_dashboard = BusinessDashboard(driver, url, user, pwd, project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Dashboard.py", line 9, in __init__
+    self.project = BusinessProject(driver, url, username, pwd).visit_project(project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Project.py", line 12, in __init__
+    BusinessLogin(driver, url, username, pwd).login()
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Login.py", line 17, in login
+    self._driver.get(self._url)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: cannot determine loading status
+from unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=98.0.4758.102)
+

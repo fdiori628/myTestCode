@@ -1,0 +1,7 @@
+username: .form input[name="email"]
+password: .form input[placeholder="Password*"]
+submitBtn: .form button
+privacy_checkbox: .form input[type="checkbox"]
+errMsg: .form ._1p7e4q8
+forget_pwd_email: input[placeholder="Email"]
+forget_pwd_send_btn: .form button

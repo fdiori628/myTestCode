@@ -1,0 +1,579 @@
+2022-02-16 10:33:28|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-16 10:34:42|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-16 10:34:48|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2022-02-16 10:34:51|ERROR |logger_until.py:Line20|Message: no such element: Unable to locate element: {"method":"link text","selector":"AutomationTest"}
+  (Session info: chrome=98.0.4758.102)
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/Project.py", line 18, in get_project
+    ele = self._findele(self._pageobj['projectList']).find_element_by_link_text(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 241, in find_element_by_link_text
+    return self.find_element(by=By.LINK_TEXT, value=link_text)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 658, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT,
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"link text","selector":"AutomationTest"}
+  (Session info: chrome=98.0.4758.102)
+
+2022-02-16 10:34:51|ERROR |logger_until.py:Line20|Message: no such element: Unable to locate element: {"method":"link text","selector":"AutomationTest"}
+  (Session info: chrome=98.0.4758.102)
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/testCase/PivotTable/Properties/test_value.py", line 53, in visit_dashboard
+    bussiness_dashboard = BusinessDashboard(driver, url, user, pwd, project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Dashboard.py", line 9, in __init__
+    self.project = BusinessProject(driver, url, username, pwd).visit_project(project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Project.py", line 15, in visit_project
+    self.project.visit_project(project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/Project.py", line 27, in visit_project
+    ele = Project(self._driver).get_project(project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/Project.py", line 22, in get_project
+    raise err
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/Project.py", line 18, in get_project
+    ele = self._findele(self._pageobj['projectList']).find_element_by_link_text(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 241, in find_element_by_link_text
+    return self.find_element(by=By.LINK_TEXT, value=link_text)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 658, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT,
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"link text","selector":"AutomationTest"}
+  (Session info: chrome=98.0.4758.102)
+
+2022-02-16 10:34:52|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-16 10:35:00|ERROR |logger_until.py:Line20|exceptions must derive from BaseException
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Common/dom_until.py", line 15, in findelement
+    WebDriverWait(self.driver, timeout, timeseq).until(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/testCase/PivotTable/Properties/test_value.py", line 53, in visit_dashboard
+    bussiness_dashboard = BusinessDashboard(driver, url, user, pwd, project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Dashboard.py", line 9, in __init__
+    self.project = BusinessProject(driver, url, username, pwd).visit_project(project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Project.py", line 12, in __init__
+    BusinessLogin(driver, url, username, pwd).login()
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Login.py", line 19, in login
+    l.login(self._username, self._pwd)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/Login.py", line 140, in login
+    l.username_input(username)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/Login.py", line 30, in username_input
+    ele = Login(self._driver).username()
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/Login.py", line 26, in username
+    ele = self._findele(css, 5, 0.5)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Common/dom_until.py", line 22, in findelement
+    raise (type(e), e)
+TypeError: exceptions must derive from BaseException
+2022-02-16 10:35:01|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-16 10:35:08|ERROR |logger_until.py:Line20|exceptions must derive from BaseException
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Common/dom_until.py", line 15, in findelement
+    WebDriverWait(self.driver, timeout, timeseq).until(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/testCase/PivotTable/Properties/test_value.py", line 53, in visit_dashboard
+    bussiness_dashboard = BusinessDashboard(driver, url, user, pwd, project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Dashboard.py", line 9, in __init__
+    self.project = BusinessProject(driver, url, username, pwd).visit_project(project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Project.py", line 12, in __init__
+    BusinessLogin(driver, url, username, pwd).login()
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Login.py", line 19, in login
+    l.login(self._username, self._pwd)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/Login.py", line 140, in login
+    l.username_input(username)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/Login.py", line 30, in username_input
+    ele = Login(self._driver).username()
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/Login.py", line 26, in username
+    ele = self._findele(css, 5, 0.5)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Common/dom_until.py", line 22, in findelement
+    raise (type(e), e)
+TypeError: exceptions must derive from BaseException
+2022-02-16 10:35:09|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-16 10:38:14|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-16 10:38:20|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2022-02-16 10:38:24|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2022-02-16 10:38:24|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2022-02-16 10:38:28|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2022-02-16 10:38:30|INFO  |logger_until.py:Line17|click on singleChartBody
+2022-02-16 10:38:30|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2022-02-16 10:38:31|INFO  |logger_until.py:Line17|click on Values section
+2022-02-16 10:38:33|INFO  |logger_until.py:Line17|Starting test TC test_valueas_bar_basefunc
+2022-02-16 10:38:33|INFO  |logger_until.py:Line17|click on Values dropdown
+2022-02-16 10:38:35|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2022-02-16 10:38:35|DEBUG |logger_until.py:Line23|value options_aria_controls: 2b28d41b-2aa7-444e-ee3d-5f580df75e6e
+2022-02-16 10:38:35|ERROR |logger_until.py:Line20|'Values' object has no attribute 'get_ariacontrols_id'
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/VisibilityLayer/Dashboard/Properties/values.py", line 299, in values_options
+    css = self.get_ariacontrols_id(aria_controls)
+AttributeError: 'Values' object has no attribute 'get_ariacontrols_id'
+2022-02-16 10:38:38|INFO  |logger_until.py:Line17|click on singleChartBody
+2022-02-16 10:38:38|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2022-02-16 10:38:39|INFO  |logger_until.py:Line17|click on Values section
+2022-02-16 10:38:41|INFO  |logger_until.py:Line17|Starting test TC test_valueas_bar_basefunc
+2022-02-16 10:38:41|INFO  |logger_until.py:Line17|click on Values dropdown
+2022-02-16 10:38:42|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2022-02-16 10:38:42|DEBUG |logger_until.py:Line23|value options_aria_controls: 1f68803d-e318-47c3-d46f-fdfca2702f38
+2022-02-16 10:38:42|ERROR |logger_until.py:Line20|'Values' object has no attribute 'get_ariacontrols_id'
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/VisibilityLayer/Dashboard/Properties/values.py", line 299, in values_options
+    css = self.get_ariacontrols_id(aria_controls)
+AttributeError: 'Values' object has no attribute 'get_ariacontrols_id'
+2022-02-16 10:38:45|INFO  |logger_until.py:Line17|click on singleChartBody
+2022-02-16 10:38:46|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2022-02-16 10:38:47|INFO  |logger_until.py:Line17|click on Values section
+2022-02-16 10:38:49|INFO  |logger_until.py:Line17|Starting test TC test_valueas_bar_basefunc
+2022-02-16 10:38:49|INFO  |logger_until.py:Line17|click on Values dropdown
+2022-02-16 10:38:50|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2022-02-16 10:38:50|DEBUG |logger_until.py:Line23|value options_aria_controls: f7299782-db8e-4c68-9d32-a330099e9a77
+2022-02-16 10:38:50|ERROR |logger_until.py:Line20|'Values' object has no attribute 'get_ariacontrols_id'
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/VisibilityLayer/Dashboard/Properties/values.py", line 299, in values_options
+    css = self.get_ariacontrols_id(aria_controls)
+AttributeError: 'Values' object has no attribute 'get_ariacontrols_id'
+2022-02-16 10:38:53|INFO  |logger_until.py:Line17|click on singleChartBody
+2022-02-16 10:38:54|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2022-02-16 10:38:55|INFO  |logger_until.py:Line17|click on Values section
+2022-02-16 10:38:57|INFO  |logger_until.py:Line17|Starting test TC test_valueas_bar_basefunc
+2022-02-16 10:38:57|INFO  |logger_until.py:Line17|click on Values dropdown
+2022-02-16 10:38:58|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2022-02-16 10:38:58|DEBUG |logger_until.py:Line23|value options_aria_controls: c6397b0c-e3af-4171-8f23-a527779ce3ed
+2022-02-16 10:38:58|ERROR |logger_until.py:Line20|'Values' object has no attribute 'get_ariacontrols_id'
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/VisibilityLayer/Dashboard/Properties/values.py", line 299, in values_options
+    css = self.get_ariacontrols_id(aria_controls)
+AttributeError: 'Values' object has no attribute 'get_ariacontrols_id'
+2022-02-16 10:39:01|INFO  |logger_until.py:Line17|click on singleChartBody
+2022-02-16 10:39:01|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2022-02-16 10:39:02|INFO  |logger_until.py:Line17|click on Values section
+2022-02-16 10:39:04|INFO  |logger_until.py:Line17|Starting test TC test_value_colorCoding_values
+2022-02-16 10:39:04|INFO  |logger_until.py:Line17|click on Values dropdown
+2022-02-16 10:39:05|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2022-02-16 10:39:05|DEBUG |logger_until.py:Line23|value options_aria_controls: 4e6b7cb6-56ee-419d-8c7d-c290668b2bb3
+2022-02-16 10:39:05|ERROR |logger_until.py:Line20|'Values' object has no attribute 'get_ariacontrols_id'
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/VisibilityLayer/Dashboard/Properties/values.py", line 299, in values_options
+    css = self.get_ariacontrols_id(aria_controls)
+AttributeError: 'Values' object has no attribute 'get_ariacontrols_id'
+2022-02-16 10:39:08|INFO  |logger_until.py:Line17|click on singleChartBody
+2022-02-16 10:39:09|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2022-02-16 10:39:10|INFO  |logger_until.py:Line17|click on Values section
+2022-02-16 10:39:12|INFO  |logger_until.py:Line17|Starting test TC test_value_colorCoding_values
+2022-02-16 10:39:12|INFO  |logger_until.py:Line17|click on Values dropdown
+2022-02-16 10:39:13|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2022-02-16 10:39:13|DEBUG |logger_until.py:Line23|value options_aria_controls: ca38ffbf-5eef-4a00-a6d9-110433959139
+2022-02-16 10:39:13|ERROR |logger_until.py:Line20|'Values' object has no attribute 'get_ariacontrols_id'
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/VisibilityLayer/Dashboard/Properties/values.py", line 299, in values_options
+    css = self.get_ariacontrols_id(aria_controls)
+AttributeError: 'Values' object has no attribute 'get_ariacontrols_id'
+2022-02-16 10:39:16|INFO  |logger_until.py:Line17|click on singleChartBody
+2022-02-16 10:39:17|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2022-02-16 10:39:18|INFO  |logger_until.py:Line17|click on Values section
+2022-02-16 10:39:20|INFO  |logger_until.py:Line17|Starting test TC test_value_colorCoding_values
+2022-02-16 10:39:20|INFO  |logger_until.py:Line17|click on Values dropdown
+2022-02-16 10:39:21|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2022-02-16 10:39:21|DEBUG |logger_until.py:Line23|value options_aria_controls: 319280b2-f682-40e4-e9b7-bb8e34e5256a
+2022-02-16 10:39:21|ERROR |logger_until.py:Line20|'Values' object has no attribute 'get_ariacontrols_id'
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/VisibilityLayer/Dashboard/Properties/values.py", line 299, in values_options
+    css = self.get_ariacontrols_id(aria_controls)
+AttributeError: 'Values' object has no attribute 'get_ariacontrols_id'
+2022-02-16 10:52:23|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-16 10:52:29|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2022-02-16 10:52:30|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2022-02-16 10:52:31|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2022-02-16 10:52:35|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2022-02-16 10:52:36|INFO  |logger_until.py:Line17|click on singleChartBody
+2022-02-16 10:52:37|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2022-02-16 10:52:38|INFO  |logger_until.py:Line17|click on Values section
+2022-02-16 10:52:40|INFO  |logger_until.py:Line17|Starting test TC test_valueas_bar_basefunc
+2022-02-16 10:52:40|INFO  |logger_until.py:Line17|click on Values dropdown
+2022-02-16 10:52:41|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2022-02-16 10:52:41|DEBUG |logger_until.py:Line23|value options_aria_controls: 81bc5875-0476-405e-a83d-99e7163da423
+2022-02-16 10:52:41|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2022-02-16 10:52:41|INFO  |logger_until.py:Line17|click on view As drop-down
+2022-02-16 10:52:42|INFO  |logger_until.py:Line17|click on the options: Bar
+2022-02-16 10:52:43|DEBUG |logger_until.py:Line23|view as options_aria_controls: 0f8b7870-25e8-42ea-9d95-c583738595e1
+2022-02-16 10:52:43|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2022-02-16 10:52:49|INFO  |logger_until.py:Line17|expected value: bar-viewer, actually_result: bar-viewer
+2022-02-16 10:52:49|INFO  |logger_until.py:Line17|testing test_valueas_bar_basefunc is completed and passed
+2022-02-16 10:52:52|INFO  |logger_until.py:Line17|click on singleChartBody
+2022-02-16 10:52:52|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2022-02-16 10:52:53|INFO  |logger_until.py:Line17|click on Values section
+2022-02-16 10:52:55|INFO  |logger_until.py:Line17|Starting test TC test_value_colorCoding_values
+2022-02-16 10:52:55|INFO  |logger_until.py:Line17|click on Values dropdown
+2022-02-16 10:52:56|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2022-02-16 10:52:56|DEBUG |logger_until.py:Line23|value options_aria_controls: e5cd038e-b78e-40ac-e69b-21c07dd0e885
+2022-02-16 10:52:56|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2022-02-16 10:52:57|INFO  |logger_until.py:Line17|click on view As drop-down
+2022-02-16 10:52:58|INFO  |logger_until.py:Line17|click on the options: Color Coding
+2022-02-16 10:52:58|DEBUG |logger_until.py:Line23|view as options_aria_controls: 83ac5e97-5330-4700-d4db-5107229141f4
+2022-02-16 10:52:58|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2022-02-16 10:53:00|INFO  |logger_until.py:Line17|click on Add New Button
+2022-02-16 10:53:01|INFO  |logger_until.py:Line17|Click on background color picker
+2022-02-16 10:53:02|INFO  |logger_until.py:Line17|select #8B572A for background color
+2022-02-16 10:53:03|INFO  |logger_until.py:Line17|Click on color picker
+2022-02-16 10:53:04|INFO  |logger_until.py:Line17|select #F5A623 for background color
+2022-02-16 10:53:05|INFO  |logger_until.py:Line17|click on condition dropdown list
+2022-02-16 10:53:11|INFO  |logger_until.py:Line17|getting test result
+2022-02-16 10:53:22|INFO  |logger_until.py:Line17|click on condition dropdown list
+2022-02-16 10:53:23|INFO  |logger_until.py:Line17|select <
+2022-02-16 10:53:23|INFO  |logger_until.py:Line17|getting test result
+2022-02-16 10:53:35|INFO  |logger_until.py:Line17|click on condition dropdown list
+2022-02-16 10:53:36|INFO  |logger_until.py:Line17|select =
+2022-02-16 10:53:36|INFO  |logger_until.py:Line17|getting test result
+2022-02-16 10:53:47|INFO  |logger_until.py:Line17|click on condition dropdown list
+2022-02-16 10:53:48|INFO  |logger_until.py:Line17|select >=
+2022-02-16 10:53:48|INFO  |logger_until.py:Line17|getting test result
+2022-02-16 10:54:00|INFO  |logger_until.py:Line17|click on condition dropdown list
+2022-02-16 10:54:01|INFO  |logger_until.py:Line17|select <=
+2022-02-16 10:54:01|INFO  |logger_until.py:Line17|getting test result
+2022-02-16 10:54:13|INFO  |logger_until.py:Line17|expected value: [[('', ''), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)')], [('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('', ''), ('', '')], [('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', '')], [('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)')], [('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', '')]], actually_result: [[('', ''), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)')], [('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('', ''), ('', '')], [('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', '')], [('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)')], [('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', '')]]
+2022-02-16 10:54:13|INFO  |logger_until.py:Line17|testing test_value_colorCoding_values is completed and passed
+2022-02-16 10:54:15|INFO  |logger_until.py:Line17|click on singleChartBody
+2022-02-16 10:54:16|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2022-02-16 10:54:17|INFO  |logger_until.py:Line17|click on Values section
+2022-02-16 10:54:19|INFO  |logger_until.py:Line17|Starting test TC test_value_colorCoding_values_multiple
+2022-02-16 10:54:19|INFO  |logger_until.py:Line17|click on Values dropdown
+2022-02-16 10:54:20|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2022-02-16 10:54:20|DEBUG |logger_until.py:Line23|value options_aria_controls: cb51acb7-bcad-4273-c635-370f2ad7335b
+2022-02-16 10:54:20|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2022-02-16 10:54:20|INFO  |logger_until.py:Line17|click on view As drop-down
+2022-02-16 10:54:21|INFO  |logger_until.py:Line17|click on the options: Color Coding
+2022-02-16 10:54:21|DEBUG |logger_until.py:Line23|view as options_aria_controls: 8459f840-6da3-4fc1-8efa-e8ecb333b63d
+2022-02-16 10:54:21|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2022-02-16 10:54:23|INFO  |logger_until.py:Line17|click on Add New Button
+2022-02-16 10:54:25|INFO  |logger_until.py:Line17|Click on background color picker
+2022-02-16 10:54:26|INFO  |logger_until.py:Line17|select #8B572A for background color
+2022-02-16 10:54:27|INFO  |logger_until.py:Line17|Click on color picker
+2022-02-16 10:54:28|INFO  |logger_until.py:Line17|select #F5A623 for background color
+2022-02-16 10:54:29|INFO  |logger_until.py:Line17|click on condition dropdown list
+2022-02-16 10:54:41|INFO  |logger_until.py:Line17|click on Add New Button
+2022-02-16 10:54:42|INFO  |logger_until.py:Line17|Click on background color picker
+2022-02-16 10:54:43|INFO  |logger_until.py:Line17|select #8B572A for background color
+2022-02-16 10:54:44|INFO  |logger_until.py:Line17|Click on color picker
+2022-02-16 10:54:45|INFO  |logger_until.py:Line17|select #F8E71C for background color
+2022-02-16 10:54:46|INFO  |logger_until.py:Line17|click on condition dropdown list
+2022-02-16 10:54:52|INFO  |logger_until.py:Line17|getting test result
+2022-02-16 10:55:03|INFO  |logger_until.py:Line17|expected value: [('', ''), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(248, 231, 28)'), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(248, 231, 28)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(248, 231, 28)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)')], actually_result: [('', ''), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(248, 231, 28)'), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(248, 231, 28)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(248, 231, 28)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)')]
+2022-02-16 10:55:03|INFO  |logger_until.py:Line17|testing test_value_colorCoding_values_multiple is completed and passed
+2022-02-16 10:55:05|INFO  |logger_until.py:Line17|click on singleChartBody
+2022-02-16 10:55:05|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2022-02-16 10:55:07|INFO  |logger_until.py:Line17|click on Values section
+2022-02-16 10:55:09|INFO  |logger_until.py:Line17|Starting test TC test_value_colorCoding_var_sum
+2022-02-16 10:55:09|INFO  |logger_until.py:Line17|click on Values dropdown
+2022-02-16 10:55:10|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2022-02-16 10:55:10|DEBUG |logger_until.py:Line23|value options_aria_controls: d183af8e-e198-4f8a-f14d-6c4c01cef5b2
+2022-02-16 10:55:10|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2022-02-16 10:55:10|INFO  |logger_until.py:Line17|click on view As drop-down
+2022-02-16 10:55:11|INFO  |logger_until.py:Line17|click on the options: Color Coding
+2022-02-16 10:55:11|DEBUG |logger_until.py:Line23|view as options_aria_controls: 4b849843-6561-478a-974c-3569aa5f9b99
+2022-02-16 10:55:11|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2022-02-16 10:55:12|INFO  |logger_until.py:Line17|click on type dropdown list
+2022-02-16 10:55:13|INFO  |logger_until.py:Line17|select Variables for type
+2022-02-16 10:55:15|INFO  |logger_until.py:Line17|click on Add New Button
+2022-02-16 10:55:16|INFO  |logger_until.py:Line17|Click on background color picker
+2022-02-16 10:55:17|INFO  |logger_until.py:Line17|select #8B572A for background color
+2022-02-16 10:55:18|INFO  |logger_until.py:Line17|Click on color picker
+2022-02-16 10:55:19|INFO  |logger_until.py:Line17|select #F5A623 for background color
+2022-02-16 10:55:20|INFO  |logger_until.py:Line17|click on condition dropdown list
+2022-02-16 10:55:24|INFO  |logger_until.py:Line17|click on variables dropdown list
+2022-02-16 10:55:25|INFO  |logger_until.py:Line17|select target_count
+2022-02-16 10:55:26|INFO  |logger_until.py:Line17|click on aggregation dropdown list
+2022-02-16 10:55:28|INFO  |logger_until.py:Line17|select target_count
+2022-02-16 10:55:29|INFO  |logger_until.py:Line17|getting test result
+2022-02-16 10:55:41|INFO  |logger_until.py:Line17|click on condition dropdown list
+2022-02-16 10:55:44|INFO  |logger_until.py:Line17|getting test result
+2022-02-16 10:55:56|INFO  |logger_until.py:Line17|click on condition dropdown list
+2022-02-16 10:55:58|INFO  |logger_until.py:Line17|getting test result
+2022-02-16 10:56:10|INFO  |logger_until.py:Line17|click on condition dropdown list
+2022-02-16 10:56:13|INFO  |logger_until.py:Line17|getting test result
+2022-02-16 10:56:25|INFO  |logger_until.py:Line17|click on condition dropdown list
+2022-02-16 10:56:27|INFO  |logger_until.py:Line17|getting test result
+2022-02-16 10:56:40|INFO  |logger_until.py:Line17|expected value: [[('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', '')], [('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)')], [('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', '')], [('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', '')], [('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)')]], actually_result: [[('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', '')], [('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)')], [('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', '')], [('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', '')], [('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)')]]
+2022-02-16 10:56:40|INFO  |logger_until.py:Line17|testing test_value_colorCoding_var_sum is completed and passed
+2022-02-16 10:56:42|INFO  |logger_until.py:Line17|click on singleChartBody
+2022-02-16 10:56:42|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2022-02-16 10:56:44|INFO  |logger_until.py:Line17|click on Values section
+2022-02-16 10:56:46|INFO  |logger_until.py:Line17|Starting test TC test_value_colorCoding_var_allowGrounp_sum
+2022-02-16 10:56:46|INFO  |logger_until.py:Line17|click on Values dropdown
+2022-02-16 10:56:47|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2022-02-16 10:56:47|DEBUG |logger_until.py:Line23|value options_aria_controls: 8df70ad7-0daa-4f2c-d16a-c5569b577a8b
+2022-02-16 10:56:47|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2022-02-16 10:56:47|INFO  |logger_until.py:Line17|click on view As drop-down
+2022-02-16 10:56:48|INFO  |logger_until.py:Line17|click on the options: Color Coding
+2022-02-16 10:56:48|DEBUG |logger_until.py:Line23|view as options_aria_controls: 6b1b5925-5b23-412e-bfef-98811e47db57
+2022-02-16 10:56:48|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2022-02-16 10:56:50|INFO  |logger_until.py:Line17|click on type dropdown list
+2022-02-16 10:56:51|INFO  |logger_until.py:Line17|select Variables for type
+2022-02-16 10:56:52|INFO  |logger_until.py:Line17|click on Add New Button
+2022-02-16 10:56:53|INFO  |logger_until.py:Line17|Click on background color picker
+2022-02-16 10:56:54|INFO  |logger_until.py:Line17|select #8B572A for background color
+2022-02-16 10:56:55|INFO  |logger_until.py:Line17|Click on color picker
+2022-02-16 10:56:57|INFO  |logger_until.py:Line17|select #F5A623 for background color
+2022-02-16 10:56:58|INFO  |logger_until.py:Line17|click on condition dropdown list
+2022-02-16 10:57:01|INFO  |logger_until.py:Line17|click on variables dropdown list
+2022-02-16 10:57:02|INFO  |logger_until.py:Line17|select target_count
+2022-02-16 10:57:03|INFO  |logger_until.py:Line17|click on aggregation dropdown list
+2022-02-16 10:57:05|INFO  |logger_until.py:Line17|select target_count
+2022-02-16 10:57:09|INFO  |logger_until.py:Line17|getting test result
+2022-02-16 10:57:21|INFO  |logger_until.py:Line17|click on condition dropdown list
+2022-02-16 10:57:24|INFO  |logger_until.py:Line17|getting test result
+2022-02-16 10:57:36|INFO  |logger_until.py:Line17|click on condition dropdown list
+2022-02-16 10:57:38|INFO  |logger_until.py:Line17|getting test result
+2022-02-16 10:57:50|INFO  |logger_until.py:Line17|click on condition dropdown list
+2022-02-16 10:57:53|INFO  |logger_until.py:Line17|getting test result
+2022-02-16 10:58:05|INFO  |logger_until.py:Line17|click on condition dropdown list
+2022-02-16 10:58:07|INFO  |logger_until.py:Line17|getting test result
+2022-02-16 10:58:20|INFO  |logger_until.py:Line17|expected value: [[('', ''), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', '')], [('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)')], [('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', '')], [('', ''), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', '')], [('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)')]], actually_result: [[('', ''), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', '')], [('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)')], [('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', '')], [('', ''), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', '')], [('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)')]]
+2022-02-16 10:58:20|INFO  |logger_until.py:Line17|testing test_value_colorCoding_var_allowGrounp_sum is completed and passed
+2022-02-16 10:58:22|INFO  |logger_until.py:Line17|click on singleChartBody
+2022-02-16 10:58:22|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2022-02-16 10:58:24|INFO  |logger_until.py:Line17|click on Values section
+2022-02-16 10:58:26|INFO  |logger_until.py:Line17|Starting test TC test_value_colorCoding_var_allowGrounp_min
+2022-02-16 10:58:26|INFO  |logger_until.py:Line17|click on Values dropdown
+2022-02-16 10:58:27|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2022-02-16 10:58:27|DEBUG |logger_until.py:Line23|value options_aria_controls: 2234a4f3-b896-47ba-c472-eb65d759909c
+2022-02-16 10:58:27|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2022-02-16 10:58:27|INFO  |logger_until.py:Line17|click on view As drop-down
+2022-02-16 10:58:28|INFO  |logger_until.py:Line17|click on the options: Color Coding
+2022-02-16 10:58:29|DEBUG |logger_until.py:Line23|view as options_aria_controls: d5a4f7fb-0b69-488f-be05-f2a65e30d2cf
+2022-02-16 10:58:29|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2022-02-16 10:58:30|INFO  |logger_until.py:Line17|click on type dropdown list
+2022-02-16 10:58:31|INFO  |logger_until.py:Line17|select Variables for type
+2022-02-16 10:58:32|INFO  |logger_until.py:Line17|click on Add New Button
+2022-02-16 10:58:34|INFO  |logger_until.py:Line17|Click on background color picker
+2022-02-16 10:58:35|INFO  |logger_until.py:Line17|select #8B572A for background color
+2022-02-16 10:58:36|INFO  |logger_until.py:Line17|Click on color picker
+2022-02-16 10:58:37|INFO  |logger_until.py:Line17|select #F5A623 for background color
+2022-02-16 10:58:38|INFO  |logger_until.py:Line17|click on condition dropdown list
+2022-02-16 10:58:41|INFO  |logger_until.py:Line17|click on variables dropdown list
+2022-02-16 10:58:43|INFO  |logger_until.py:Line17|select target_count
+2022-02-16 10:58:44|INFO  |logger_until.py:Line17|click on aggregation dropdown list
+2022-02-16 10:58:46|INFO  |logger_until.py:Line17|select target_count
+2022-02-16 10:58:50|INFO  |logger_until.py:Line17|getting test result
+2022-02-16 10:59:03|INFO  |logger_until.py:Line17|click on condition dropdown list
+2022-02-16 10:59:06|INFO  |logger_until.py:Line17|getting test result
+2022-02-16 10:59:17|INFO  |logger_until.py:Line17|click on condition dropdown list
+2022-02-16 10:59:20|INFO  |logger_until.py:Line17|getting test result
+2022-02-16 10:59:32|INFO  |logger_until.py:Line17|click on condition dropdown list
+2022-02-16 10:59:35|INFO  |logger_until.py:Line17|getting test result
+2022-02-16 10:59:47|INFO  |logger_until.py:Line17|click on condition dropdown list
+2022-02-16 10:59:50|INFO  |logger_until.py:Line17|getting test result
+2022-02-16 11:00:03|INFO  |logger_until.py:Line17|expected value: [[('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)')], [('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('', ''), ('', '')], [('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', '')], [('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)')], [('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('', ''), ('', '')]], actually_result: [[('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)')], [('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('', ''), ('', '')], [('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', '')], [('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)')], [('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('', ''), ('', '')]]
+2022-02-16 11:00:03|INFO  |logger_until.py:Line17|testing test_value_colorCoding_var_allowGrounp_min is completed and passed
+2022-02-16 11:00:05|INFO  |logger_until.py:Line17|click on singleChartBody
+2022-02-16 11:00:05|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2022-02-16 11:00:07|INFO  |logger_until.py:Line17|click on Values section
+2022-02-16 11:00:09|INFO  |logger_until.py:Line17|Starting test TC test_value_gradient_baseFunc
+2022-02-16 11:00:09|INFO  |logger_until.py:Line17|click on Values dropdown
+2022-02-16 11:00:10|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2022-02-16 11:00:10|DEBUG |logger_until.py:Line23|value options_aria_controls: f6a9b935-a51d-49fc-adf8-5b480bb7b02a
+2022-02-16 11:00:10|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2022-02-16 11:00:10|INFO  |logger_until.py:Line17|click on view As drop-down
+2022-02-16 11:00:12|INFO  |logger_until.py:Line17|click on the options: Gradient Color
+2022-02-16 11:00:12|DEBUG |logger_until.py:Line23|view as options_aria_controls: 776a7807-b0f0-48a3-8464-970725c51dfa
+2022-02-16 11:00:12|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2022-02-16 11:00:15|INFO  |logger_until.py:Line17|Getting test result
+2022-02-16 11:00:15|INFO  |logger_until.py:Line17|getting test result
+2022-02-16 11:00:26|INFO  |logger_until.py:Line17|expected value: [('rgb(100, 128, 167)', ''), ('rgb(39, 75, 127)', ''), ('rgb(222, 235, 247)', ''), ('rgb(39, 75, 127)', ''), ('rgb(100, 128, 167)', ''), ('rgb(222, 235, 247)', ''), ('rgb(39, 75, 127)', ''), ('rgb(39, 75, 127)', ''), ('rgb(191, 208, 227)', ''), ('rgb(100, 128, 167)', ''), ('rgb(39, 75, 127)', ''), ('rgb(222, 235, 247)', ''), ('rgb(100, 128, 167)', ''), ('rgb(222, 235, 247)', ''), ('rgb(39, 75, 127)', ''), ('rgb(69, 101, 147)', ''), ('rgb(39, 75, 127)', ''), ('rgb(69, 101, 147)', '')], actually_result: [('rgb(100, 128, 167)', ''), ('rgb(39, 75, 127)', ''), ('rgb(222, 235, 247)', ''), ('rgb(39, 75, 127)', ''), ('rgb(100, 128, 167)', ''), ('rgb(222, 235, 247)', ''), ('rgb(39, 75, 127)', ''), ('rgb(39, 75, 127)', ''), ('rgb(191, 208, 227)', ''), ('rgb(100, 128, 167)', ''), ('rgb(39, 75, 127)', ''), ('rgb(222, 235, 247)', ''), ('rgb(100, 128, 167)', ''), ('rgb(222, 235, 247)', ''), ('rgb(39, 75, 127)', ''), ('rgb(69, 101, 147)', ''), ('rgb(39, 75, 127)', ''), ('rgb(69, 101, 147)', '')]
+2022-02-16 11:00:26|INFO  |logger_until.py:Line17|screenShot has been done in path
+2022-02-16 11:00:26|ERROR |logger_until.py:Line20|<class 'AssertionError'>
+NoneType: None
+2022-02-16 11:00:31|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-16 11:00:31|ERROR |logger_until.py:Line20|HTTPConnectionPool(host='127.0.0.1', port=54051): Max retries exceeded with url: /session/dcbd495d3b92b1fa25c2e703cfc4c9fb/title (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x103e6eda0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/urllib3/util/connection.py", line 96, in create_connection
+    raise err
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/urllib3/util/connection.py", line 86, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/urllib3/connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/urllib3/connectionpool.py", line 394, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/urllib3/connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/http/client.py", line 1276, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/http/client.py", line 1322, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/http/client.py", line 1271, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/http/client.py", line 1031, in _send_output
+    self.send(msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/http/client.py", line 969, in send
+    self.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x103e6eda0>: Failed to establish a new connection: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/testCase/PivotTable/Properties/test_value.py", line 53, in visit_dashboard
+    bussiness_dashboard = BusinessDashboard(driver, url, user, pwd, project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Dashboard.py", line 9, in __init__
+    self.project = BusinessProject(driver, url, username, pwd).visit_project(project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Project.py", line 12, in __init__
+    BusinessLogin(driver, url, username, pwd).login()
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Login.py", line 16, in login
+    l = Login(self._driver)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/Login.py", line 21, in __init__
+    self.title = _driver.title
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 342, in title
+    resp = self.execute(Command.GET_TITLE)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 319, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/remote_connection.py", line 374, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/remote_connection.py", line 397, in _request
+    resp = self._conn.request(method, url, body=body, headers=headers)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/urllib3/request.py", line 74, in request
+    return self.request_encode_url(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/urllib3/request.py", line 96, in request_encode_url
+    return self.urlopen(method, url, **extra_kw)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/urllib3/poolmanager.py", line 375, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/urllib3/connectionpool.py", line 783, in urlopen
+    return self.urlopen(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/urllib3/connectionpool.py", line 783, in urlopen
+    return self.urlopen(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/urllib3/connectionpool.py", line 783, in urlopen
+    return self.urlopen(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/urllib3/connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/urllib3/util/retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=54051): Max retries exceeded with url: /session/dcbd495d3b92b1fa25c2e703cfc4c9fb/title (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x103e6eda0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2022-02-16 14:20:04|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-16 14:20:52|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-16 14:20:58|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2022-02-16 14:20:59|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2022-02-16 14:21:00|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2022-02-16 16:12:58|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-16 18:29:48|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-16 18:29:58|ERROR |logger_until.py:Line20|Message: unknown error: cannot determine loading status
+from unknown error: cannot determine loading status
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=98.0.4758.102)
+Traceback (most recent call last):
+  File "/Users/graphic/Desktop/EyeGuide_ESBAutomation/testCase/PivotTable/Properties/test_value.py", line 53, in visit_dashboard
+    bussiness_dashboard = BusinessDashboard(driver, url, user, pwd, project_name)
+  File "/Users/graphic/Desktop/EyeGuide_ESBAutomation/Components/Business/Dashboard.py", line 9, in __init__
+    self.project = BusinessProject(driver, url, username, pwd).visit_project(project_name)
+  File "/Users/graphic/Desktop/EyeGuide_ESBAutomation/Components/Business/Project.py", line 12, in __init__
+    BusinessLogin(driver, url, username, pwd).login()
+  File "/Users/graphic/Desktop/EyeGuide_ESBAutomation/Components/Business/Login.py", line 17, in login
+    self._driver.get(self._url)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: cannot determine loading status
+from unknown error: cannot determine loading status
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=98.0.4758.102)
+
+2022-02-16 18:33:08|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-16 18:33:24|ERROR |logger_until.py:Line20|Message: unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=98.0.4758.102)
+Traceback (most recent call last):
+  File "/Users/graphic/Desktop/EyeGuide_ESBAutomation/testCase/PivotTable/Properties/test_value.py", line 53, in visit_dashboard
+    bussiness_dashboard = BusinessDashboard(driver, url, user, pwd, project_name)
+  File "/Users/graphic/Desktop/EyeGuide_ESBAutomation/Components/Business/Dashboard.py", line 9, in __init__
+    self.project = BusinessProject(driver, url, username, pwd).visit_project(project_name)
+  File "/Users/graphic/Desktop/EyeGuide_ESBAutomation/Components/Business/Project.py", line 12, in __init__
+    BusinessLogin(driver, url, username, pwd).login()
+  File "/Users/graphic/Desktop/EyeGuide_ESBAutomation/Components/Business/Login.py", line 17, in login
+    self._driver.get(self._url)
+  File "/Users/graphic/Desktop/EyeGuide_ESBAutomation/venv/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/Users/graphic/Desktop/EyeGuide_ESBAutomation/venv/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/graphic/Desktop/EyeGuide_ESBAutomation/venv/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=98.0.4758.102)
+
+2022-02-16 18:35:47|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-16 18:35:50|ERROR |logger_until.py:Line20|Message: unknown error: cannot determine loading status
+from unknown error: cannot determine loading status
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=98.0.4758.102)
+Traceback (most recent call last):
+  File "/Users/graphic/Desktop/EyeGuide_ESBAutomation/testCase/PivotTable/Properties/test_value.py", line 53, in visit_dashboard
+    bussiness_dashboard = BusinessDashboard(driver, url, user, pwd, project_name)
+  File "/Users/graphic/Desktop/EyeGuide_ESBAutomation/Components/Business/Dashboard.py", line 9, in __init__
+    self.project = BusinessProject(driver, url, username, pwd).visit_project(project_name)
+  File "/Users/graphic/Desktop/EyeGuide_ESBAutomation/Components/Business/Project.py", line 12, in __init__
+    BusinessLogin(driver, url, username, pwd).login()
+  File "/Users/graphic/Desktop/EyeGuide_ESBAutomation/Components/Business/Login.py", line 17, in login
+    self._driver.get(self._url)
+  File "/Users/graphic/Desktop/EyeGuide_ESBAutomation/venv/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/Users/graphic/Desktop/EyeGuide_ESBAutomation/venv/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/graphic/Desktop/EyeGuide_ESBAutomation/venv/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: cannot determine loading status
+from unknown error: cannot determine loading status
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=98.0.4758.102)
+
+2022-02-16 18:37:25|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-16 18:37:26|ERROR |logger_until.py:Line20|Message: unknown error: cannot determine loading status
+from unknown error: cannot determine loading status
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=98.0.4758.102)
+Traceback (most recent call last):
+  File "/Users/graphic/Desktop/EyeGuide_ESBAutomation/testCase/PivotTable/Properties/test_value.py", line 53, in visit_dashboard
+    bussiness_dashboard = BusinessDashboard(driver, url, user, pwd, project_name)
+  File "/Users/graphic/Desktop/EyeGuide_ESBAutomation/Components/Business/Dashboard.py", line 9, in __init__
+    self.project = BusinessProject(driver, url, username, pwd).visit_project(project_name)
+  File "/Users/graphic/Desktop/EyeGuide_ESBAutomation/Components/Business/Project.py", line 12, in __init__
+    BusinessLogin(driver, url, username, pwd).login()
+  File "/Users/graphic/Desktop/EyeGuide_ESBAutomation/Components/Business/Login.py", line 17, in login
+    self._driver.get(self._url)
+  File "/Users/graphic/Desktop/EyeGuide_ESBAutomation/venv/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/Users/graphic/Desktop/EyeGuide_ESBAutomation/venv/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/graphic/Desktop/EyeGuide_ESBAutomation/venv/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: cannot determine loading status
+from unknown error: cannot determine loading status
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=98.0.4758.102)
+

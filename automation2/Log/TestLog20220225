@@ -1,0 +1,268 @@
+2022-02-25 09:58:29|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-25 09:58:43|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2022-02-25 09:58:52|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2022-02-25 09:58:52|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2022-02-25 09:59:09|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2022-02-25 09:59:11|INFO  |logger_until.py:Line17|click on singleChartBody
+2022-02-25 09:59:11|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2022-02-25 09:59:18|INFO  |logger_until.py:Line17|click on Values section
+2022-02-25 09:59:21|INFO  |logger_until.py:Line17|Starting test TC test_hide_value_headers
+2022-02-25 09:59:21|INFO  |logger_until.py:Line17|click on Hide value headers toggle
+2022-02-25 09:59:21|INFO  |logger_until.py:Line17|verify the value header is hiding...
+2022-02-25 09:59:25|INFO  |logger_until.py:Line17|expected value: item, actually_result: item
+2022-02-25 09:59:25|INFO  |logger_until.py:Line17|testing test_hide_value_headers is completed and passed
+2022-02-25 09:59:28|INFO  |logger_until.py:Line17|click on singleChartBody
+2022-02-25 09:59:28|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2022-02-25 09:59:29|INFO  |logger_until.py:Line17|click on Values section
+2022-02-25 09:59:31|INFO  |logger_until.py:Line17|Starting test TC test_value_header_border
+2022-02-25 09:59:31|INFO  |logger_until.py:Line17|click on value header border dropdown element
+2022-02-25 09:59:34|INFO  |logger_until.py:Line17|verify the border options is correct
+2022-02-25 09:59:34|INFO  |logger_until.py:Line17|expected value: ['Apr', 'Jan', 'Mar'], actually_result: ['Apr', 'Jan', 'Mar']
+2022-02-25 09:59:37|INFO  |logger_until.py:Line17|click on singleChartBody
+2022-02-25 09:59:37|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2022-02-25 09:59:38|INFO  |logger_until.py:Line17|click on Values section
+2022-02-25 09:59:40|INFO  |logger_until.py:Line17|Starting test TC test_value_header_border
+2022-02-25 09:59:40|INFO  |logger_until.py:Line17|click on value header border dropdown element
+2022-02-25 09:59:43|INFO  |logger_until.py:Line17|verify the border options is correct
+2022-02-25 09:59:43|INFO  |logger_until.py:Line17|expected value: ['Apr', 'Jan', 'Mar'], actually_result: ['Apr', 'Jan', 'Mar']
+2022-02-25 09:59:45|INFO  |logger_until.py:Line17|click on singleChartBody
+2022-02-25 09:59:46|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2022-02-25 09:59:47|INFO  |logger_until.py:Line17|click on Values section
+2022-02-25 09:59:49|INFO  |logger_until.py:Line17|Starting test TC test_value_header_border
+2022-02-25 09:59:49|INFO  |logger_until.py:Line17|click on value header border dropdown element
+2022-02-25 10:00:09|ERROR |logger_until.py:Line20|exceptions must derive from BaseException
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Common/dom_until.py", line 26, in findelements
+    WebDriverWait(self.driver, timeout, timeseq).until(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/VisibilityLayer/Dashboard/Properties/values.py", line 33, in values_all
+    eles = self._findeles(css_all)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Common/dom_until.py", line 42, in findelements
+    raise (type(e), e)
+TypeError: exceptions must derive from BaseException
+2022-02-25 10:00:09|ERROR |logger_until.py:Line20|exceptions must derive from BaseException
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Common/dom_until.py", line 26, in findelements
+    WebDriverWait(self.driver, timeout, timeseq).until(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/VisibilityLayer/Dashboard/Properties/values.py", line 33, in values_all
+    eles = self._findeles(css_all)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Common/dom_until.py", line 42, in findelements
+    raise (type(e), e)
+TypeError: exceptions must derive from BaseException
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/VisibilityLayer/Dashboard/Properties/values.py", line 197, in value_header_border
+    eles = self.values_all()
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/VisibilityLayer/Dashboard/Properties/values.py", line 36, in values_all
+    raise e and self._log.logger_error(e)
+TypeError: exceptions must derive from BaseException
+2022-02-25 10:00:22|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-25 10:00:42|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2022-02-25 10:01:02|ERROR |logger_until.py:Line20|exceptions must derive from BaseException
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Common/dom_until.py", line 15, in findelement
+    WebDriverWait(self.driver, timeout, timeseq).until(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/Project.py", line 18, in get_project
+    ele = self._findele(self._pageobj['projectList']).find_element_by_link_text(
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Common/dom_until.py", line 22, in findelement
+    raise (type(e), e)
+TypeError: exceptions must derive from BaseException
+2022-02-25 10:01:02|ERROR |logger_until.py:Line20|exceptions must derive from BaseException
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Common/dom_until.py", line 15, in findelement
+    WebDriverWait(self.driver, timeout, timeseq).until(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/testCase/PivotTable/Properties/test_value.py", line 53, in visit_dashboard
+    bussiness_dashboard = BusinessDashboard(driver, url, user, pwd, project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Dashboard.py", line 9, in __init__
+    self.project = BusinessProject(driver, url, username, pwd).visit_project(project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Project.py", line 15, in visit_project
+    self.project.visit_project(project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/Project.py", line 27, in visit_project
+    ele = Project(self._driver).get_project(project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/Project.py", line 22, in get_project
+    raise err
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/Project.py", line 18, in get_project
+    ele = self._findele(self._pageobj['projectList']).find_element_by_link_text(
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Common/dom_until.py", line 22, in findelement
+    raise (type(e), e)
+TypeError: exceptions must derive from BaseException
+2022-02-25 10:01:03|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-25 10:06:23|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-25 10:08:19|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2022-02-25 10:11:17|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2022-02-25 10:11:18|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2022-02-25 10:13:13|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2022-02-25 10:13:13|INFO  |logger_until.py:Line17|click on singleChartBody
+2022-02-25 10:13:13|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2022-02-25 10:13:24|INFO  |logger_until.py:Line17|click on Values section
+2022-02-25 10:13:26|INFO  |logger_until.py:Line17|Starting test TC test_hide_value_headers
+2022-02-25 10:13:26|INFO  |logger_until.py:Line17|click on Hide value headers toggle
+2022-02-25 10:13:26|INFO  |logger_until.py:Line17|verify the value header is hiding...
+2022-02-25 10:13:31|INFO  |logger_until.py:Line17|expected value: item, actually_result: item
+2022-02-25 10:13:31|INFO  |logger_until.py:Line17|testing test_hide_value_headers is completed and passed
+2022-02-25 10:13:33|INFO  |logger_until.py:Line17|click on singleChartBody
+2022-02-25 10:13:33|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2022-02-25 10:13:36|INFO  |logger_until.py:Line17|click on Values section
+2022-02-25 10:13:38|INFO  |logger_until.py:Line17|Starting test TC test_value_header_border
+2022-02-25 10:13:38|INFO  |logger_until.py:Line17|click on value header border dropdown element
+2022-02-25 10:13:40|INFO  |logger_until.py:Line17|verify the border options is correct
+2022-02-25 10:13:40|INFO  |logger_until.py:Line17|expected value: ['Apr', 'Jan', 'Mar'], actually_result: ['Apr', 'Jan', 'Mar']
+2022-02-25 10:13:43|INFO  |logger_until.py:Line17|click on singleChartBody
+2022-02-25 10:13:43|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2022-02-25 10:13:45|INFO  |logger_until.py:Line17|click on Values section
+2022-02-25 10:13:47|INFO  |logger_until.py:Line17|Starting test TC test_value_header_border
+2022-02-25 10:13:47|INFO  |logger_until.py:Line17|click on value header border dropdown element
+2022-02-25 10:14:07|ERROR |logger_until.py:Line20|exceptions must derive from BaseException
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Common/dom_until.py", line 26, in findelements
+    WebDriverWait(self.driver, timeout, timeseq).until(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/VisibilityLayer/Dashboard/Properties/values.py", line 33, in values_all
+    eles = self._findeles(css_all)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Common/dom_until.py", line 42, in findelements
+    raise (type(e), e)
+TypeError: exceptions must derive from BaseException
+2022-02-25 10:14:07|ERROR |logger_until.py:Line20|exceptions must derive from BaseException
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Common/dom_until.py", line 26, in findelements
+    WebDriverWait(self.driver, timeout, timeseq).until(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/VisibilityLayer/Dashboard/Properties/values.py", line 33, in values_all
+    eles = self._findeles(css_all)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Common/dom_until.py", line 42, in findelements
+    raise (type(e), e)
+TypeError: exceptions must derive from BaseException
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/VisibilityLayer/Dashboard/Properties/values.py", line 197, in value_header_border
+    eles = self.values_all()
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/VisibilityLayer/Dashboard/Properties/values.py", line 36, in values_all
+    raise e and self._log.logger_error(e)
+TypeError: exceptions must derive from BaseException
+2022-02-25 10:14:43|ERROR |logger_until.py:Line20|exceptions must derive from BaseException
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Common/dom_until.py", line 15, in findelement
+    WebDriverWait(self.driver, timeout, timeseq).until(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/VisibilityLayer/Dashboard/Dashboard.py", line 50, in single_chart_body
+    ele = self._findele(css, 15, 1)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Common/dom_until.py", line 22, in findelement
+    raise (type(e), e)
+TypeError: exceptions must derive from BaseException
+2022-02-25 10:14:43|ERROR |logger_until.py:Line20|exceptions must derive from BaseException
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Common/dom_until.py", line 15, in findelement
+    WebDriverWait(self.driver, timeout, timeseq).until(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/VisibilityLayer/Dashboard/Dashboard.py", line 50, in single_chart_body
+    ele = self._findele(css, 15, 1)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Common/dom_until.py", line 22, in findelement
+    raise (type(e), e)
+TypeError: exceptions must derive from BaseException
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/VisibilityLayer/Dashboard/Dashboard.py", line 59, in single_chart_body_click
+    Dashboard(self._driver).single_chart_body().click()
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/VisibilityLayer/Dashboard/Dashboard.py", line 55, in single_chart_body
+    raise err and self._log.logger_error(err)
+TypeError: exceptions must derive from BaseException
+2022-02-25 10:14:43|ERROR |logger_until.py:Line20|exceptions must derive from BaseException
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Common/dom_until.py", line 15, in findelement
+    WebDriverWait(self.driver, timeout, timeseq).until(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/VisibilityLayer/Dashboard/Dashboard.py", line 50, in single_chart_body
+    ele = self._findele(css, 15, 1)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Common/dom_until.py", line 22, in findelement
+    raise (type(e), e)
+TypeError: exceptions must derive from BaseException
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/VisibilityLayer/Dashboard/Dashboard.py", line 59, in single_chart_body_click
+    Dashboard(self._driver).single_chart_body().click()
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/VisibilityLayer/Dashboard/Dashboard.py", line 55, in single_chart_body
+    raise err and self._log.logger_error(err)
+TypeError: exceptions must derive from BaseException
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/testCase/PivotTable/Properties/test_value.py", line 63, in properties_op
+    self.dashboard.single_chart_body_click()
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/VisibilityLayer/Dashboard/Dashboard.py", line 62, in single_chart_body_click
+    raise err and self._log.logger_error(err)
+TypeError: exceptions must derive from BaseException

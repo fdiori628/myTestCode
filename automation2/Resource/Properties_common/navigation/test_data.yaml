@@ -1,0 +1,3 @@
+test_data:
+  expected_result:
+    test_navSetup: "[('rgb(65, 131, 196)', 'underline'), ('rgb(65, 131, 196)', 'underline'), ('rgb(65, 131, 196)', 'underline'), ('rgb(65, 131, 196)', 'underline'), ('rgb(65, 131, 196)', 'underline'), ('rgb(65, 131, 196)', 'underline'), ('rgb(65, 131, 196)', 'underline')]"

@@ -1,0 +1,6 @@
+all_elements: .ant-collapse-item-active *
+rotation_horizontal: .icon-rotation-horizontal
+rotation_up: .icon-rotation-up
+rotation_down: .icon-rotation-down
+rotation_right-down: .icon-rotation-right-down
+rotation_right-up: .icon-rotation-right-up

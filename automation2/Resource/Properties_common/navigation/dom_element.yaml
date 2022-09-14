@@ -1,0 +1,4 @@
+all_elements: .ant-collapse-item-active *
+createNewBtn: .ant-collapse-item-active button
+dropDown: .ant-select-selection--single
+viewScreenDivResult: div

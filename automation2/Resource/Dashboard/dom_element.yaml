@@ -1,0 +1,16 @@
+dashboardList: .ant-table-tbody
+dropDownCss: .ant-select-selection--single
+addChartBtn: "i[aria-label='icon: plus']"
+actionTool:
+  edit: "div.card-actions i[aria-label='icon: edit']"
+  lock: ".card-actions>a:nth-child(1) i"
+  drillDown: "div.card-actions i[aria-label='icon: double-right']"
+singleChartBody: .card-body
+screen: .attached *
+pivotTable_drillDown_navBar: .ant-modal-content div[role='tablist'] div[role="tab"]
+pivotTable_drillDown_navContainer: .ant-modal-content div[role='tablist'] .ant-collapse-item-active
+pivotTable_drillDown_screenSetup_container: .ant-modal-content div[role='tablist'] .ant-collapse-item-active .ant-tabs-content
+pivotTable_drillDown_screenSetup_currentScreen_container: .ant-modal-content .ant-collapse-item-active .ant-tabs-tabpane-active .ant-tabs-tabpane-active
+chartInputText: Type to search charts
+chartTabContainerCss: .ant-tabs-nav-scroll *
+pivotTable_drillDown_screenSetup_currentScreen_chart_inherentDropdown: .ant-spin-container li

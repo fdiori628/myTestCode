@@ -1,0 +1,16 @@
+2022-03-08 18:32:14|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-03-08 18:32:19|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2022-03-08 18:32:20|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2022-03-08 18:32:21|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2022-03-08 18:32:24|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2022-03-08 18:32:24|INFO  |logger_until.py:Line17|click on singleChartBody
+2022-03-08 18:32:24|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2022-03-08 18:32:27|INFO  |logger_until.py:Line17|click on Values section
+2022-03-08 18:32:29|INFO  |logger_until.py:Line17|Starting test TC test_hide_value_headers
+2022-03-08 18:32:29|INFO  |logger_until.py:Line17|click on Hide value headers toggle
+2022-03-08 18:32:29|INFO  |logger_until.py:Line17|verify the value header is hiding...
+2022-03-08 18:32:33|INFO  |logger_until.py:Line17|expected value: item, actually_result: item
+2022-03-08 18:32:33|INFO  |logger_until.py:Line17|testing test_hide_value_headers is completed and passed
+2022-03-08 18:32:36|INFO  |logger_until.py:Line17|click on singleChartBody
+2022-03-08 18:32:36|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2022-03-08 18:32:38|INFO  |logger_until.py:Line17|click on Values section

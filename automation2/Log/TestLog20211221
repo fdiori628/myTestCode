@@ -1,0 +1,171 @@
+2021-12-21 10:49:26|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-21 10:49:41|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-12-21 10:49:47|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-12-21 10:49:47|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2021-12-21 10:49:57|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-12-21 10:49:57|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-21 10:49:57|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-21 10:50:04|INFO  |logger_until.py:Line17|click on Values section
+2021-12-21 10:50:06|INFO  |logger_until.py:Line17|Starting test TC test_hide_value_headers
+2021-12-21 10:50:06|INFO  |logger_until.py:Line17|click on Hide value headers toggle
+2021-12-21 10:50:06|INFO  |logger_until.py:Line17|verify the value header is hiding...
+2021-12-21 10:50:12|INFO  |logger_until.py:Line17|expected value: item, actually_result: item
+2021-12-21 10:50:12|INFO  |logger_until.py:Line17|testing test_hide_value_headers is completed and passed
+2021-12-21 10:50:15|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-21 10:50:15|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-21 10:50:16|INFO  |logger_until.py:Line17|click on Values section
+2021-12-21 10:50:18|INFO  |logger_until.py:Line17|Starting test TC test_value_header_border
+2021-12-21 10:50:18|INFO  |logger_until.py:Line17|click on value header border dropdown element
+2021-12-21 10:50:20|INFO  |logger_until.py:Line17|verify the border options is correct
+2021-12-21 10:50:20|INFO  |logger_until.py:Line17|expected value: ['Apr', 'Jan', 'Mar'], actually_result: ['Apr', 'Jan', 'Mar']
+2021-12-21 10:50:20|INFO  |logger_until.py:Line17|testing test_value_header_border is completed and passed
+2021-12-21 10:50:23|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-21 10:50:23|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-21 10:50:24|INFO  |logger_until.py:Line17|click on Values section
+2021-12-21 10:50:26|INFO  |logger_until.py:Line17|Starting test TC test_value_header_border_del
+2021-12-21 10:50:26|INFO  |logger_until.py:Line17|click on delete icon for existed header border
+2021-12-21 10:50:31|INFO  |logger_until.py:Line17|testing test_value_header_border_del is completed and passed
+2021-12-21 10:50:33|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-21 10:50:33|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-21 10:50:35|INFO  |logger_until.py:Line17|click on Values section
+2021-12-21 10:50:37|INFO  |logger_until.py:Line17|Starting test TC test_value_header_border_close
+2021-12-21 10:50:37|INFO  |logger_until.py:Line17|click on close icon for existed header border
+2021-12-21 11:11:28|ERROR |logger_until.py:Line20|217
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/testCase/PivotTable/Properties/test_value.py", line 43, in visit_dashboard
+    env_info = self.config.get_env_info(self.env)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Common/web_config_until.py", line 36, in get_env_info
+    return self.env[env]
+KeyError: 217
+2021-12-21 11:12:02|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-21 11:12:09|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-12-21 11:12:10|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-12-21 11:12:10|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2021-12-21 11:12:12|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-12-21 11:12:12|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-21 11:12:12|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-21 11:12:13|INFO  |logger_until.py:Line17|click on Values section
+2021-12-21 11:12:15|INFO  |logger_until.py:Line17|Starting test TC test_hide_value_headers
+2021-12-21 11:12:15|INFO  |logger_until.py:Line17|click on Hide value headers toggle
+2021-12-21 11:12:16|INFO  |logger_until.py:Line17|verify the value header is hiding...
+2021-12-21 11:12:22|INFO  |logger_until.py:Line17|expected value: item, actually_result: item
+2021-12-21 11:12:22|INFO  |logger_until.py:Line17|testing test_hide_value_headers is completed and passed
+2021-12-21 11:12:52|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-21 11:13:00|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-12-21 11:13:02|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-12-21 11:13:02|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2021-12-21 11:13:03|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-12-21 11:13:03|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-21 11:13:04|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-21 11:13:05|INFO  |logger_until.py:Line17|click on Values section
+2021-12-21 11:13:07|INFO  |logger_until.py:Line17|Starting test TC test_valueas_bar_basefunc
+2021-12-21 11:13:07|INFO  |logger_until.py:Line17|click on Values dropdown
+2021-12-21 11:13:08|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2021-12-21 11:13:08|DEBUG |logger_until.py:Line23|value options_aria_controls: e379b237-78d9-4204-ebbc-d6d8927a6fb3
+2021-12-21 11:13:08|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2021-12-21 11:13:08|INFO  |logger_until.py:Line17|click on view As drop-down
+2021-12-21 11:13:09|INFO  |logger_until.py:Line17|click on the options: Bar
+2021-12-21 11:13:09|DEBUG |logger_until.py:Line23|view as options_aria_controls: 99b1a834-5d46-44fb-8da8-3dea428a0c95
+2021-12-21 11:13:09|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2021-12-21 11:13:16|INFO  |logger_until.py:Line17|expected value: bar-viewer, actually_result: bar-viewer
+2021-12-21 11:13:16|INFO  |logger_until.py:Line17|testing test_valueas_bar_basefunc is completed and passed
+2021-12-21 11:30:53|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-21 11:31:01|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-12-21 11:31:02|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-12-21 11:31:02|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2021-12-21 11:31:03|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-12-21 11:31:05|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-21 11:31:05|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-21 11:31:06|INFO  |logger_until.py:Line17|click on Navigation section
+2021-12-21 11:50:14|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-21 11:50:21|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-12-21 11:50:22|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-12-21 11:50:22|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2021-12-21 11:50:24|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-12-21 11:50:24|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-21 11:50:24|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-21 11:50:26|INFO  |logger_until.py:Line17|click on Navigation section
+2021-12-21 11:50:28|INFO  |logger_until.py:Line17|Starting test TC test_navSetup
+2021-12-21 11:50:28|INFO  |logger_until.py:Line17|click on Create New button
+2021-12-21 11:52:40|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-21 11:52:48|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-12-21 11:52:49|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-12-21 11:52:49|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2021-12-21 11:52:51|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-12-21 11:52:51|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-21 11:52:51|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-21 11:52:53|INFO  |logger_until.py:Line17|click on Navigation section
+2021-12-21 11:52:55|INFO  |logger_until.py:Line17|Starting test TC test_navSetup
+2021-12-21 11:52:55|INFO  |logger_until.py:Line17|click on Create New button
+2021-12-21 13:43:53|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-21 13:43:59|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-12-21 13:44:00|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-12-21 13:44:01|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2021-12-21 13:44:02|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-12-21 13:44:02|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-21 13:44:02|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-21 13:44:04|INFO  |logger_until.py:Line17|click on Navigation section
+2021-12-21 13:44:06|INFO  |logger_until.py:Line17|Starting test TC test_navSetup
+2021-12-21 13:44:06|INFO  |logger_until.py:Line17|click on Create New button
+2021-12-21 13:44:42|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-21 13:44:48|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-12-21 13:44:49|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-12-21 13:44:49|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2021-12-21 13:44:50|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-12-21 13:44:50|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-21 13:44:51|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-21 13:44:52|INFO  |logger_until.py:Line17|click on Navigation section
+2021-12-21 13:44:54|INFO  |logger_until.py:Line17|Starting test TC test_navSetup
+2021-12-21 13:44:54|INFO  |logger_until.py:Line17|click on Create New button
+2021-12-21 13:49:55|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-21 13:50:01|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-12-21 13:50:02|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-12-21 13:50:02|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2021-12-21 13:50:04|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-12-21 13:50:04|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-21 13:50:04|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-21 13:50:05|INFO  |logger_until.py:Line17|click on Navigation section
+2021-12-21 13:50:07|INFO  |logger_until.py:Line17|Starting test TC test_navSetup
+2021-12-21 13:50:07|INFO  |logger_until.py:Line17|click on Create New button
+2021-12-21 13:50:10|INFO  |logger_until.py:Line17|click on type dropdown list
+2021-12-21 13:50:12|INFO  |logger_until.py:Line17|select Row Headers
+2021-12-21 13:50:26|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-21 13:50:33|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-12-21 13:50:34|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-12-21 13:50:34|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2021-12-21 13:50:35|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-12-21 13:50:35|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-21 13:50:36|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-21 13:50:37|INFO  |logger_until.py:Line17|click on Navigation section
+2021-12-21 13:50:39|INFO  |logger_until.py:Line17|Starting test TC test_navSetup
+2021-12-21 13:50:39|INFO  |logger_until.py:Line17|click on Create New button
+2021-12-21 13:50:42|INFO  |logger_until.py:Line17|click on type dropdown list
+2021-12-21 13:50:43|INFO  |logger_until.py:Line17|select Row Headers
+2021-12-21 13:53:20|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-21 13:53:27|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-12-21 13:53:28|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-12-21 13:53:28|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2021-12-21 13:53:29|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-12-21 13:53:29|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-21 13:53:30|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-21 13:53:31|INFO  |logger_until.py:Line17|click on Navigation section
+2021-12-21 13:53:33|INFO  |logger_until.py:Line17|Starting test TC test_navSetup
+2021-12-21 13:53:33|INFO  |logger_until.py:Line17|click on Create New button
+2021-12-21 13:53:37|INFO  |logger_until.py:Line17|click on type dropdown list
+2021-12-21 13:53:38|INFO  |logger_until.py:Line17|select Row Headers
+2021-12-21 13:53:39|INFO  |logger_until.py:Line17|click on field dropdown list
+2021-12-21 13:53:40|INFO  |logger_until.py:Line17|select item
+2021-12-21 13:58:54|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-21 13:59:03|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-12-21 13:59:04|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-12-21 13:59:04|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2021-12-21 13:59:06|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-12-21 13:59:06|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-21 13:59:06|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-21 13:59:07|INFO  |logger_until.py:Line17|click on Navigation section
+2021-12-21 13:59:10|INFO  |logger_until.py:Line17|Starting test TC test_navSetup
+2021-12-21 13:59:10|INFO  |logger_until.py:Line17|click on Create New button
+2021-12-21 13:59:13|INFO  |logger_until.py:Line17|click on type dropdown list
+2021-12-21 13:59:14|INFO  |logger_until.py:Line17|select Row Headers
+2021-12-21 13:59:15|INFO  |logger_until.py:Line17|click on field dropdown list
+2021-12-21 13:59:16|INFO  |logger_until.py:Line17|select item

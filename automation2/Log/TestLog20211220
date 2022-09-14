@@ -1,0 +1,1208 @@
+2021-12-20 14:12:46|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-20 14:14:25|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-20 14:16:10|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-12-20 14:17:39|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-12-20 14:17:39|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2021-12-20 14:19:33|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-12-20 14:19:34|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-20 14:19:34|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-20 14:19:54|ERROR |logger_until.py:Line20|exceptions must derive from BaseException
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Common/dom_until.py", line 15, in findelement
+    WebDriverWait(self.driver, timeout, timeseq).until(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/VisibilityLayer/Dashboard/ChartEdit.py", line 71, in properties_tab
+    ele = self._findele(css)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Common/dom_until.py", line 22, in findelement
+    raise (type(e), e)
+TypeError: exceptions must derive from BaseException
+2021-12-20 14:19:54|ERROR |logger_until.py:Line20|exceptions must derive from BaseException
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Common/dom_until.py", line 15, in findelement
+    WebDriverWait(self.driver, timeout, timeseq).until(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/VisibilityLayer/Dashboard/ChartEdit.py", line 71, in properties_tab
+    ele = self._findele(css)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Common/dom_until.py", line 22, in findelement
+    raise (type(e), e)
+TypeError: exceptions must derive from BaseException
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/testCase/PivotTable/Properties/test_value.py", line 63, in properties_op
+    self.chart_edit.properties_tab().click()
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/VisibilityLayer/Dashboard/ChartEdit.py", line 74, in properties_tab
+    raise err and self._log.logger_error(err)
+TypeError: exceptions must derive from BaseException
+2021-12-20 14:27:11|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-20 14:27:19|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-12-20 14:27:22|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-12-20 14:27:22|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2021-12-20 14:27:27|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-12-20 14:27:27|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-20 14:27:28|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-20 14:27:30|INFO  |logger_until.py:Line17|click on Values section
+2021-12-20 14:27:32|INFO  |logger_until.py:Line17|Starting test TC test_value_value_baseFunc
+2021-12-20 14:27:32|INFO  |logger_until.py:Line17|click on Values dropdown
+2021-12-20 14:27:33|INFO  |logger_until.py:Line17|click on options: target_count
+2021-12-20 14:27:33|DEBUG |logger_until.py:Line23|value options_aria_controls: 2b8a9cd3-3ad9-407f-f486-9a16f258a8ee
+2021-12-20 14:27:33|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2021-12-20 14:28:26|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-20 14:28:34|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-12-20 14:28:39|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-12-20 14:28:39|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2021-12-20 14:28:47|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-12-20 14:28:48|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-20 14:28:48|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-20 14:28:52|INFO  |logger_until.py:Line17|click on Values section
+2021-12-20 14:28:54|INFO  |logger_until.py:Line17|Starting test TC test_value_value_baseFunc
+2021-12-20 14:28:54|INFO  |logger_until.py:Line17|click on Values dropdown
+2021-12-20 14:28:55|INFO  |logger_until.py:Line17|click on options: target_count
+2021-12-20 14:28:55|DEBUG |logger_until.py:Line23|value options_aria_controls: bf6895b9-c784-4768-86ee-9a0ad85b27e4
+2021-12-20 14:28:55|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2021-12-20 14:29:14|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-20 14:29:24|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-12-20 14:29:29|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-12-20 14:29:29|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2021-12-20 14:29:38|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-12-20 14:29:38|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-20 14:29:39|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-20 14:29:54|INFO  |logger_until.py:Line17|click on Values section
+2021-12-20 14:29:56|INFO  |logger_until.py:Line17|Starting test TC test_value_value_baseFunc
+2021-12-20 14:29:56|INFO  |logger_until.py:Line17|click on Values dropdown
+2021-12-20 14:30:16|ERROR |logger_until.py:Line20|exceptions must derive from BaseException
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Common/dom_until.py", line 26, in findelements
+    WebDriverWait(self.driver, timeout, timeseq).until(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/VisibilityLayer/Dashboard/Properties/values.py", line 33, in values_all
+    eles = self._findeles(css_all)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Common/dom_until.py", line 42, in findelements
+    raise (type(e), e)
+TypeError: exceptions must derive from BaseException
+2021-12-20 14:30:16|ERROR |logger_until.py:Line20|exceptions must derive from BaseException
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Common/dom_until.py", line 26, in findelements
+    WebDriverWait(self.driver, timeout, timeseq).until(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/VisibilityLayer/Dashboard/Properties/values.py", line 33, in values_all
+    eles = self._findeles(css_all)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Common/dom_until.py", line 42, in findelements
+    raise (type(e), e)
+TypeError: exceptions must derive from BaseException
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/VisibilityLayer/Dashboard/Properties/values.py", line 278, in values
+    eles = self.values_all()
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/VisibilityLayer/Dashboard/Properties/values.py", line 36, in values_all
+    raise e and self._log.logger_error(e)
+TypeError: exceptions must derive from BaseException
+2021-12-20 14:31:47|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-20 14:31:57|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-12-20 14:32:00|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-12-20 14:32:00|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2021-12-20 14:32:05|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-12-20 14:32:05|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-20 14:32:06|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-20 14:32:08|INFO  |logger_until.py:Line17|click on Values section
+2021-12-20 14:32:10|INFO  |logger_until.py:Line17|Starting test TC test_value_value_baseFunc
+2021-12-20 14:32:10|INFO  |logger_until.py:Line17|click on Values dropdown
+2021-12-20 14:32:11|INFO  |logger_until.py:Line17|click on options: target_count(sum)
+2021-12-20 14:32:11|DEBUG |logger_until.py:Line23|value options_aria_controls: 6c0b3eda-3117-4384-a9b3-36fdfc08d276
+2021-12-20 14:32:11|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2021-12-20 14:32:11|INFO  |logger_until.py:Line17|click on view As drop-down
+2021-12-20 14:32:12|INFO  |logger_until.py:Line17|click on the options: Value
+2021-12-20 14:32:12|DEBUG |logger_until.py:Line23|view as options_aria_controls: 8e814924-0d51-4117-a4f4-a758e201f916
+2021-12-20 14:32:12|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2021-12-20 14:32:17|INFO  |logger_until.py:Line17|110281.5
+2021-12-20 14:33:14|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-20 14:33:22|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-12-20 14:33:24|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-12-20 14:33:24|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2021-12-20 14:33:29|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-12-20 14:33:29|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-20 14:33:29|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-20 14:33:32|INFO  |logger_until.py:Line17|click on Values section
+2021-12-20 14:33:34|INFO  |logger_until.py:Line17|Starting test TC test_value_value_baseFunc
+2021-12-20 14:33:34|INFO  |logger_until.py:Line17|click on Values dropdown
+2021-12-20 14:33:35|INFO  |logger_until.py:Line17|click on options: target_count(sum)
+2021-12-20 14:33:35|DEBUG |logger_until.py:Line23|value options_aria_controls: d81ab734-d820-4b62-9d63-e61f528adaaa
+2021-12-20 14:33:35|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2021-12-20 14:33:35|INFO  |logger_until.py:Line17|click on view As drop-down
+2021-12-20 14:33:36|INFO  |logger_until.py:Line17|click on the options: Value
+2021-12-20 14:33:36|DEBUG |logger_until.py:Line23|view as options_aria_controls: 97dc111d-4bda-4127-b704-ba07581dec9e
+2021-12-20 14:33:36|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2021-12-20 14:33:41|INFO  |logger_until.py:Line17|expected value: 110281.5, actually_result: 110281.5
+2021-12-20 14:33:41|INFO  |logger_until.py:Line17|screenShot has been done in path
+2021-12-20 14:33:41|ERROR |logger_until.py:Line20|<class 'AssertionError'>
+NoneType: None
+2021-12-20 14:36:53|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-20 14:37:07|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-12-20 14:37:10|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-12-20 14:37:10|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2021-12-20 14:37:16|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-12-20 14:37:16|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-20 14:37:16|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-20 14:37:18|INFO  |logger_until.py:Line17|click on Values section
+2021-12-20 14:37:20|INFO  |logger_until.py:Line17|Starting test TC test_value_value_unitConversion
+2021-12-20 14:37:20|INFO  |logger_until.py:Line17|click on Values dropdown
+2021-12-20 14:37:41|ERROR |logger_until.py:Line20|exceptions must derive from BaseException
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Common/dom_until.py", line 26, in findelements
+    WebDriverWait(self.driver, timeout, timeseq).until(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/VisibilityLayer/Dashboard/Properties/values.py", line 33, in values_all
+    eles = self._findeles(css_all)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Common/dom_until.py", line 42, in findelements
+    raise (type(e), e)
+TypeError: exceptions must derive from BaseException
+2021-12-20 14:37:41|ERROR |logger_until.py:Line20|exceptions must derive from BaseException
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Common/dom_until.py", line 26, in findelements
+    WebDriverWait(self.driver, timeout, timeseq).until(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/VisibilityLayer/Dashboard/Properties/values.py", line 33, in values_all
+    eles = self._findeles(css_all)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Common/dom_until.py", line 42, in findelements
+    raise (type(e), e)
+TypeError: exceptions must derive from BaseException
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/VisibilityLayer/Dashboard/Properties/values.py", line 278, in values
+    eles = self.values_all()
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/VisibilityLayer/Dashboard/Properties/values.py", line 36, in values_all
+    raise e and self._log.logger_error(e)
+TypeError: exceptions must derive from BaseException
+2021-12-20 14:38:02|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-20 14:38:09|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-12-20 14:38:12|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-12-20 14:38:12|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2021-12-20 14:38:17|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-12-20 14:38:17|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-20 14:38:17|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-20 14:38:20|INFO  |logger_until.py:Line17|click on Values section
+2021-12-20 14:38:22|INFO  |logger_until.py:Line17|Starting test TC test_value_value_unitConversion
+2021-12-20 14:38:22|INFO  |logger_until.py:Line17|click on Values dropdown
+2021-12-20 14:38:23|INFO  |logger_until.py:Line17|click on options: target_count(sum)
+2021-12-20 14:38:23|DEBUG |logger_until.py:Line23|value options_aria_controls: 50260f9f-2484-4fcf-a1df-24095f4b0f90
+2021-12-20 14:38:23|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2021-12-20 14:38:23|INFO  |logger_until.py:Line17|click on view As drop-down
+2021-12-20 14:38:24|INFO  |logger_until.py:Line17|click on the options: Value
+2021-12-20 14:38:24|DEBUG |logger_until.py:Line23|view as options_aria_controls: a8598db7-7a68-43ba-a7ed-04d0b5be986a
+2021-12-20 14:38:24|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2021-12-20 14:38:31|INFO  |logger_until.py:Line17|110.281K
+2021-12-20 14:49:22|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-20 14:49:29|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-12-20 14:49:32|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-12-20 14:49:32|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2021-12-20 14:49:38|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-12-20 14:49:38|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-20 14:49:38|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-20 14:49:40|INFO  |logger_until.py:Line17|click on Values section
+2021-12-20 14:49:43|INFO  |logger_until.py:Line17|Starting test TC test_value_gradient_baseFunc
+2021-12-20 14:49:43|INFO  |logger_until.py:Line17|click on Values dropdown
+2021-12-20 14:49:44|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2021-12-20 14:49:44|DEBUG |logger_until.py:Line23|value options_aria_controls: 6f940455-1a85-4fc6-87f9-2da26cc96e2f
+2021-12-20 14:49:44|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2021-12-20 14:49:44|INFO  |logger_until.py:Line17|click on view As drop-down
+2021-12-20 14:49:45|INFO  |logger_until.py:Line17|click on the options: Gradient Color
+2021-12-20 14:49:45|DEBUG |logger_until.py:Line23|view as options_aria_controls: 9b3b9c12-f2ce-4021-f270-b9902164123d
+2021-12-20 14:49:45|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2021-12-20 14:49:48|INFO  |logger_until.py:Line17|Getting test result
+2021-12-20 14:49:52|INFO  |logger_until.py:Line17|getting test result
+2021-12-20 14:50:02|INFO  |logger_until.py:Line17|[('rgb(100, 128, 167)', ''), ('rgb(39, 75, 127)', ''), ('rgb(222, 235, 247)', ''), ('rgb(39, 75, 127)', ''), ('rgb(100, 128, 167)', ''), ('rgb(222, 235, 247)', ''), ('rgb(39, 75, 127)', ''), ('rgb(39, 75, 127)', ''), ('rgb(191, 208, 227)', ''), ('rgb(100, 128, 167)', ''), ('rgb(39, 75, 127)', ''), ('rgb(222, 235, 247)', ''), ('rgb(100, 128, 167)', ''), ('rgb(222, 235, 247)', ''), ('rgb(39, 75, 127)', ''), ('rgb(69, 101, 147)', ''), ('rgb(39, 75, 127)', ''), ('rgb(69, 101, 147)', '')]
+2021-12-20 15:48:49|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-20 15:48:57|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-12-20 15:49:00|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-12-20 15:49:00|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2021-12-20 15:49:06|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-12-20 15:49:06|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-20 15:49:06|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-20 15:49:08|INFO  |logger_until.py:Line17|click on Values section
+2021-12-20 15:49:10|INFO  |logger_until.py:Line17|Starting test TC test_valueas_bar_types_values_delete
+2021-12-20 15:49:10|INFO  |logger_until.py:Line17|click on Values dropdown
+2021-12-20 15:49:11|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2021-12-20 15:49:12|DEBUG |logger_until.py:Line23|value options_aria_controls: 2b11160a-3c5d-4034-bc89-0845efd916e5
+2021-12-20 15:49:12|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2021-12-20 15:49:12|INFO  |logger_until.py:Line17|click on view As drop-down
+2021-12-20 15:49:13|INFO  |logger_until.py:Line17|click on the options: Bar
+2021-12-20 15:49:13|DEBUG |logger_until.py:Line23|view as options_aria_controls: d0b8ff37-d47a-4dc7-fd95-fc17cae98876
+2021-12-20 15:49:13|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2021-12-20 15:49:14|INFO  |logger_until.py:Line17|click on Add New button
+2021-12-20 15:49:14|DEBUG |logger_until.py:Line23|view_as_bar eles: {'bar_color_btn': <selenium.webdriver.remote.webelement.WebElement (session="e85b91996e0c53177885a07ca7dd94f9", element="bf520bd7-98a4-43af-a096-d1fcdce88cf5")>, 'display_mode_toggle': <selenium.webdriver.remote.webelement.WebElement (session="e85b91996e0c53177885a07ca7dd94f9", element="d0f233aa-5bff-40ca-a5fa-a5032973a3f0")>, 'min_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="e85b91996e0c53177885a07ca7dd94f9", element="eb74de75-fb48-47c4-a71a-f6253d01a652")>, 'max_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="e85b91996e0c53177885a07ca7dd94f9", element="fcabe6ec-900d-445b-bee3-9ddca4410cbb")>, 'types_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="e85b91996e0c53177885a07ca7dd94f9", element="4ccfd2c7-5f9d-4aaa-86b1-4a579cf8e2f7")>, 'addnew_btn': <selenium.webdriver.remote.webelement.WebElement (session="e85b91996e0c53177885a07ca7dd94f9", element="95efed0c-f584-4586-9762-8b1f4a65ce6a")>}
+2021-12-20 15:49:15|INFO  |logger_until.py:Line17|click on color picker
+2021-12-20 15:49:15|DEBUG |logger_until.py:Line23|view_as_bar_controls_component: {'color_picker': <selenium.webdriver.remote.webelement.WebElement (session="e85b91996e0c53177885a07ca7dd94f9", element="2f962ac8-a202-4dd5-bf7d-f8eafafedf3b")>, 'condition': <selenium.webdriver.remote.webelement.WebElement (session="e85b91996e0c53177885a07ca7dd94f9", element="64fba250-2122-4d16-a97f-5310465e752e")>, 'value': <selenium.webdriver.remote.webelement.WebElement (session="e85b91996e0c53177885a07ca7dd94f9", element="59f4a15f-72ed-4cbc-b20b-ca9d9cdb57b7")>, 'delete': <selenium.webdriver.remote.webelement.WebElement (session="e85b91996e0c53177885a07ca7dd94f9", element="1ab861ce-4cfc-464d-902c-1368df971ebd")>, 'var_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="e85b91996e0c53177885a07ca7dd94f9", element="2f962ac8-a202-4dd5-bf7d-f8eafafedf3b")>}
+2021-12-20 15:49:16|INFO  |logger_until.py:Line17|click on color: #417505
+2021-12-20 15:49:23|DEBUG |logger_until.py:Line23|view_as_bar_controls_component: {'color_picker': <selenium.webdriver.remote.webelement.WebElement (session="e85b91996e0c53177885a07ca7dd94f9", element="2f962ac8-a202-4dd5-bf7d-f8eafafedf3b")>, 'condition': <selenium.webdriver.remote.webelement.WebElement (session="e85b91996e0c53177885a07ca7dd94f9", element="64fba250-2122-4d16-a97f-5310465e752e")>, 'value': <selenium.webdriver.remote.webelement.WebElement (session="e85b91996e0c53177885a07ca7dd94f9", element="59f4a15f-72ed-4cbc-b20b-ca9d9cdb57b7")>, 'delete': <selenium.webdriver.remote.webelement.WebElement (session="e85b91996e0c53177885a07ca7dd94f9", element="1ab861ce-4cfc-464d-902c-1368df971ebd")>, 'var_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="e85b91996e0c53177885a07ca7dd94f9", element="2f962ac8-a202-4dd5-bf7d-f8eafafedf3b")>}
+2021-12-20 15:49:29|INFO  |logger_until.py:Line17|expected value: ['rgb(65, 117, 5)', 'rgb(74, 144, 226)'], actually_result: ['rgb(65, 117, 5)', 'rgb(74, 144, 226)']
+2021-12-20 15:49:29|INFO  |logger_until.py:Line17|testing test_valueas_bar_types_values_delete is completed and passed
+2021-12-20 15:49:31|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-20 15:49:31|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-20 15:49:32|INFO  |logger_until.py:Line17|click on Values section
+2021-12-20 15:51:15|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-20 15:51:28|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-12-20 15:51:31|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-12-20 15:51:31|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2021-12-20 15:51:37|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-12-20 15:51:37|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-20 15:51:38|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-20 15:51:40|INFO  |logger_until.py:Line17|click on Values section
+2021-12-20 15:51:42|INFO  |logger_until.py:Line17|Starting test TC test_valueas_bar_types_values_delete
+2021-12-20 15:51:42|INFO  |logger_until.py:Line17|click on Values dropdown
+2021-12-20 15:52:02|ERROR |logger_until.py:Line20|exceptions must derive from BaseException
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Common/dom_until.py", line 26, in findelements
+    WebDriverWait(self.driver, timeout, timeseq).until(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/VisibilityLayer/Dashboard/Properties/values.py", line 33, in values_all
+    eles = self._findeles(css_all)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Common/dom_until.py", line 42, in findelements
+    raise (type(e), e)
+TypeError: exceptions must derive from BaseException
+2021-12-20 15:52:02|ERROR |logger_until.py:Line20|exceptions must derive from BaseException
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Common/dom_until.py", line 26, in findelements
+    WebDriverWait(self.driver, timeout, timeseq).until(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/VisibilityLayer/Dashboard/Properties/values.py", line 33, in values_all
+    eles = self._findeles(css_all)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Common/dom_until.py", line 42, in findelements
+    raise (type(e), e)
+TypeError: exceptions must derive from BaseException
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/VisibilityLayer/Dashboard/Properties/values.py", line 278, in values
+    eles = self.values_all()
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/VisibilityLayer/Dashboard/Properties/values.py", line 36, in values_all
+    raise e and self._log.logger_error(e)
+TypeError: exceptions must derive from BaseException
+2021-12-20 16:09:47|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-20 16:09:56|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-12-20 16:09:59|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-12-20 16:09:59|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2021-12-20 16:10:05|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-12-20 16:10:05|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-20 16:10:05|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-20 16:10:08|INFO  |logger_until.py:Line17|click on Values section
+2021-12-20 16:10:10|INFO  |logger_until.py:Line17|Starting test TC test_hide_value_headers
+2021-12-20 16:10:10|INFO  |logger_until.py:Line17|click on Hide value headers toggle
+2021-12-20 16:10:10|INFO  |logger_until.py:Line17|verify the value header is hiding...
+2021-12-20 16:10:16|INFO  |logger_until.py:Line17|expected value: item, actually_result: item
+2021-12-20 16:10:16|INFO  |logger_until.py:Line17|testing test_hide_value_headers is completed and passed
+2021-12-20 16:10:19|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-20 16:10:19|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-20 16:10:20|INFO  |logger_until.py:Line17|click on Values section
+2021-12-20 16:10:22|INFO  |logger_until.py:Line17|Starting test TC test_value_header_border
+2021-12-20 16:10:22|INFO  |logger_until.py:Line17|click on value header border dropdown element
+2021-12-20 16:10:24|INFO  |logger_until.py:Line17|verify the border options is correct
+2021-12-20 16:10:24|INFO  |logger_until.py:Line17|expected value: ['Apr', 'Jan', 'Mar'], actually_result: ['Apr', 'Jan', 'Mar']
+2021-12-20 16:10:24|INFO  |logger_until.py:Line17|testing test_value_header_border is completed and passed
+2021-12-20 16:10:27|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-20 16:10:27|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-20 16:10:28|INFO  |logger_until.py:Line17|click on Values section
+2021-12-20 16:10:30|INFO  |logger_until.py:Line17|Starting test TC test_value_header_border_del
+2021-12-20 16:10:30|INFO  |logger_until.py:Line17|click on delete icon for existed header border
+2021-12-20 16:10:35|INFO  |logger_until.py:Line17|testing test_value_header_border_del is completed and passed
+2021-12-20 16:10:37|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-20 16:10:37|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-20 16:10:39|INFO  |logger_until.py:Line17|click on Values section
+2021-12-20 16:10:41|INFO  |logger_until.py:Line17|Starting test TC test_value_header_border_close
+2021-12-20 16:10:41|INFO  |logger_until.py:Line17|click on close icon for existed header border
+2021-12-20 16:10:42|INFO  |logger_until.py:Line17|expected value: 1, actually_result: 2
+2021-12-20 16:10:42|INFO  |logger_until.py:Line17|screenShot has been done in path
+2021-12-20 16:10:42|ERROR |logger_until.py:Line20|<class 'AssertionError'>
+NoneType: None
+2021-12-20 16:10:45|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-20 16:10:45|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-20 16:12:57|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-20 16:13:10|ERROR |logger_until.py:Line20|Message: unknown error: net::ERR_CONNECTION_CLOSED
+  (Session info: chrome=96.0.4664.110)
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/testCase/PivotTable/Properties/test_value.py", line 51, in visit_dashboard
+    bussiness_dashboard = BusinessDashboard(driver, url, user, pwd, project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Dashboard.py", line 9, in __init__
+    self.project = BusinessProject(driver, url, username, pwd).visit_project(project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Project.py", line 12, in __init__
+    BusinessLogin(driver, url, username, pwd).login()
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Login.py", line 17, in login
+    self._driver.get(self._url)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_CONNECTION_CLOSED
+  (Session info: chrome=96.0.4664.110)
+
+2021-12-20 16:13:11|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-20 16:13:12|ERROR |logger_until.py:Line20|Message: unknown error: net::ERR_CONNECTION_CLOSED
+  (Session info: chrome=96.0.4664.110)
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/testCase/PivotTable/Properties/test_value.py", line 51, in visit_dashboard
+    bussiness_dashboard = BusinessDashboard(driver, url, user, pwd, project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Dashboard.py", line 9, in __init__
+    self.project = BusinessProject(driver, url, username, pwd).visit_project(project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Project.py", line 12, in __init__
+    BusinessLogin(driver, url, username, pwd).login()
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Login.py", line 17, in login
+    self._driver.get(self._url)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_CONNECTION_CLOSED
+  (Session info: chrome=96.0.4664.110)
+
+2021-12-20 16:13:13|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-20 16:13:16|ERROR |logger_until.py:Line20|Message: unknown error: net::ERR_CONNECTION_CLOSED
+  (Session info: chrome=96.0.4664.110)
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/testCase/PivotTable/Properties/test_value.py", line 51, in visit_dashboard
+    bussiness_dashboard = BusinessDashboard(driver, url, user, pwd, project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Dashboard.py", line 9, in __init__
+    self.project = BusinessProject(driver, url, username, pwd).visit_project(project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Project.py", line 12, in __init__
+    BusinessLogin(driver, url, username, pwd).login()
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Login.py", line 17, in login
+    self._driver.get(self._url)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_CONNECTION_CLOSED
+  (Session info: chrome=96.0.4664.110)
+
+2021-12-20 16:13:16|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-20 16:13:23|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-12-20 16:13:28|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-12-20 16:13:28|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2021-12-20 16:13:35|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-12-20 16:13:35|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-20 16:13:35|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-20 16:13:38|INFO  |logger_until.py:Line17|click on Values section
+2021-12-20 16:13:40|INFO  |logger_until.py:Line17|Starting test TC test_hide_value_headers
+2021-12-20 16:13:40|INFO  |logger_until.py:Line17|click on Hide value headers toggle
+2021-12-20 16:13:40|INFO  |logger_until.py:Line17|verify the value header is hiding...
+2021-12-20 16:13:47|INFO  |logger_until.py:Line17|expected value: item, actually_result: item
+2021-12-20 16:13:47|INFO  |logger_until.py:Line17|testing test_hide_value_headers is completed and passed
+2021-12-20 16:13:49|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-20 16:13:49|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-20 16:13:50|INFO  |logger_until.py:Line17|click on Values section
+2021-12-20 16:13:53|INFO  |logger_until.py:Line17|Starting test TC test_value_header_border
+2021-12-20 16:13:53|INFO  |logger_until.py:Line17|click on value header border dropdown element
+2021-12-20 16:13:55|INFO  |logger_until.py:Line17|verify the border options is correct
+2021-12-20 16:13:55|INFO  |logger_until.py:Line17|expected value: ['Apr', 'Jan', 'Mar'], actually_result: ['Apr', 'Jan', 'Mar']
+2021-12-20 16:13:55|INFO  |logger_until.py:Line17|testing test_value_header_border is completed and passed
+2021-12-20 16:13:57|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-20 16:13:57|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-20 16:13:58|INFO  |logger_until.py:Line17|click on Values section
+2021-12-20 16:14:00|INFO  |logger_until.py:Line17|Starting test TC test_value_header_border_del
+2021-12-20 16:14:00|INFO  |logger_until.py:Line17|click on delete icon for existed header border
+2021-12-20 16:14:05|INFO  |logger_until.py:Line17|testing test_value_header_border_del is completed and passed
+2021-12-20 16:14:07|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-20 16:14:08|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-20 16:14:09|INFO  |logger_until.py:Line17|click on Values section
+2021-12-20 16:14:11|INFO  |logger_until.py:Line17|Starting test TC test_value_header_border_close
+2021-12-20 16:14:11|INFO  |logger_until.py:Line17|click on close icon for existed header border
+2021-12-20 16:14:12|INFO  |logger_until.py:Line17|expected value: 1, actually_result: 1
+2021-12-20 16:14:12|INFO  |logger_until.py:Line17|testing test_value_header_border_close is completed and passed
+2021-12-20 16:24:42|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-20 16:24:50|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-12-20 16:24:53|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-12-20 16:24:53|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2021-12-20 16:24:59|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-12-20 16:24:59|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-20 16:24:59|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-20 16:25:01|INFO  |logger_until.py:Line17|click on Values section
+2021-12-20 16:25:04|INFO  |logger_until.py:Line17|Starting test TC test_hide_value_headers
+2021-12-20 16:25:04|INFO  |logger_until.py:Line17|click on Hide value headers toggle
+2021-12-20 16:25:04|INFO  |logger_until.py:Line17|verify the value header is hiding...
+2021-12-20 16:25:10|INFO  |logger_until.py:Line17|expected value: item, actually_result: item
+2021-12-20 16:25:10|INFO  |logger_until.py:Line17|testing test_hide_value_headers is completed and passed
+2021-12-20 16:25:12|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-20 16:25:12|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-20 16:25:14|INFO  |logger_until.py:Line17|click on Values section
+2021-12-20 16:25:16|INFO  |logger_until.py:Line17|Starting test TC test_value_header_border
+2021-12-20 16:25:16|INFO  |logger_until.py:Line17|click on value header border dropdown element
+2021-12-20 16:25:18|INFO  |logger_until.py:Line17|verify the border options is correct
+2021-12-20 16:25:18|INFO  |logger_until.py:Line17|expected value: ['Apr', 'Jan', 'Mar'], actually_result: ['Apr', 'Jan', 'Mar']
+2021-12-20 16:25:18|INFO  |logger_until.py:Line17|testing test_value_header_border is completed and passed
+2021-12-20 16:25:20|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-20 16:25:20|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-20 16:25:21|INFO  |logger_until.py:Line17|click on Values section
+2021-12-20 16:25:24|INFO  |logger_until.py:Line17|Starting test TC test_value_header_border_del
+2021-12-20 16:25:24|INFO  |logger_until.py:Line17|click on delete icon for existed header border
+2021-12-20 16:25:28|INFO  |logger_until.py:Line17|testing test_value_header_border_del is completed and passed
+2021-12-20 16:25:30|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-20 16:25:31|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-20 16:25:32|INFO  |logger_until.py:Line17|click on Values section
+2021-12-20 16:25:34|INFO  |logger_until.py:Line17|Starting test TC test_value_header_border_close
+2021-12-20 16:25:34|INFO  |logger_until.py:Line17|click on close icon for existed header border
+2021-12-20 16:25:35|INFO  |logger_until.py:Line17|expected value: 1, actually_result: 1
+2021-12-20 16:25:35|INFO  |logger_until.py:Line17|testing test_value_header_border_close is completed and passed
+2021-12-20 16:25:37|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-20 16:25:37|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-20 16:25:38|INFO  |logger_until.py:Line17|click on Values section
+2021-12-20 16:25:41|INFO  |logger_until.py:Line17|Starting test TC test_value_emptycell
+2021-12-20 16:25:41|INFO  |logger_until.py:Line17|input text into Expty Cell Value field: emptyvalue
+2021-12-20 16:25:55|INFO  |logger_until.py:Line17|expected value: emptyvalue, actually_result: emptyvalue
+2021-12-20 16:25:55|INFO  |logger_until.py:Line17|testing test_value_emptycell is completed and passed
+2021-12-20 16:25:58|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-20 16:25:58|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-20 16:25:59|INFO  |logger_until.py:Line17|click on Values section
+2021-12-20 16:26:01|INFO  |logger_until.py:Line17|Starting test TC test_valueas_bar_barcolor
+2021-12-20 16:26:01|INFO  |logger_until.py:Line17|click on Values dropdown
+2021-12-20 16:26:02|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2021-12-20 16:26:02|DEBUG |logger_until.py:Line23|value options_aria_controls: 08b20657-3a3c-414e-d029-e9a0fe6ec581
+2021-12-20 16:26:02|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2021-12-20 16:26:02|INFO  |logger_until.py:Line17|click on view As drop-down
+2021-12-20 16:26:04|INFO  |logger_until.py:Line17|click on the options: Bar
+2021-12-20 16:26:04|DEBUG |logger_until.py:Line23|view as options_aria_controls: 9c62e714-e7c6-42a9-ccbc-81063e01748e
+2021-12-20 16:26:04|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2021-12-20 16:26:06|INFO  |logger_until.py:Line17|click on Bar Color picker
+2021-12-20 16:26:06|DEBUG |logger_until.py:Line23|view_as_bar eles: {'bar_color_btn': <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="358a15df-d24f-48bd-8ce7-bdb9a0fa614f")>, 'display_mode_toggle': <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="2b462b92-3133-4d24-97d6-45c6e0ae3e96")>, 'min_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="35aa89f1-abc5-4c98-8ef1-8b4ea0eff9d8")>, 'max_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="05b47866-d0f5-4c38-b444-557cdd88cb17")>, 'types_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="bc000ec0-b13d-422b-95db-b4eaa188f28d")>, 'addnew_btn': <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="dbbf3abf-29a1-4808-b4c5-e9a78a92813a")>}
+2021-12-20 16:26:06|INFO  |logger_until.py:Line17|click on color: #417505
+2021-12-20 16:26:07|INFO  |logger_until.py:Line17|close the color picker
+2021-12-20 16:26:07|DEBUG |logger_until.py:Line23|view_as_bar eles: {'bar_color_btn': <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="358a15df-d24f-48bd-8ce7-bdb9a0fa614f")>, 'display_mode_toggle': <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="2b462b92-3133-4d24-97d6-45c6e0ae3e96")>, 'min_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="35aa89f1-abc5-4c98-8ef1-8b4ea0eff9d8")>, 'max_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="05b47866-d0f5-4c38-b444-557cdd88cb17")>, 'types_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="bc000ec0-b13d-422b-95db-b4eaa188f28d")>, 'addnew_btn': <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="dbbf3abf-29a1-4808-b4c5-e9a78a92813a")>}
+2021-12-20 16:26:13|INFO  |logger_until.py:Line17|expected_indicator: background-color: rgb(65, 117, 5), actually_indicator: display: block; height: 100%; width: 29.5775%; text-align: center; color: rgb(0, 0, 0); font-size: 14px; font-style: normal; text-decoration: none; background-color: rgb(65, 117, 5); margin-left: 28.169%; white-space: nowrap;
+2021-12-20 16:26:13|INFO  |logger_until.py:Line17|testing test_valueas_bar_barcolor is completed and passed
+2021-12-20 16:26:15|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-20 16:26:15|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-20 16:26:16|INFO  |logger_until.py:Line17|click on Values section
+2021-12-20 16:26:18|INFO  |logger_until.py:Line17|Starting test TC test_valueas_bar_min
+2021-12-20 16:26:18|INFO  |logger_until.py:Line17|click on Values dropdown
+2021-12-20 16:26:19|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2021-12-20 16:26:20|DEBUG |logger_until.py:Line23|value options_aria_controls: cdaa02df-30f4-4975-c0cd-8883c1830a94
+2021-12-20 16:26:20|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2021-12-20 16:26:20|INFO  |logger_until.py:Line17|click on view As drop-down
+2021-12-20 16:26:21|INFO  |logger_until.py:Line17|click on the options: Bar
+2021-12-20 16:26:21|DEBUG |logger_until.py:Line23|view as options_aria_controls: 3b9e0d30-eaa8-47ae-edc4-634c0cad45da
+2021-12-20 16:26:21|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2021-12-20 16:26:26|INFO  |logger_until.py:Line17|get min (default) bar width: 28.169%
+2021-12-20 16:26:26|INFO  |logger_until.py:Line17|click on Min drop-down list
+2021-12-20 16:26:26|DEBUG |logger_until.py:Line23|view_as_bar eles: {'bar_color_btn': <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="c81737b7-d5b2-4335-8049-aabc770179e3")>, 'display_mode_toggle': <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="077cfedc-98c7-4209-8b0d-150e2ec60b40")>, 'min_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="5db14af8-d456-4518-9dfe-719dea6fd3f7")>, 'max_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="8cb085c5-ca4d-4be3-b1cc-143b43cc7ca5")>, 'types_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="4adaf2f7-6fdf-40c4-af3c-59cb9a0e6070")>, 'addnew_btn': <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="7a35fbfe-9e71-4625-9ecc-174a8175999f")>}
+2021-12-20 16:26:27|INFO  |logger_until.py:Line17|select - 100% for min
+2021-12-20 16:26:27|DEBUG |logger_until.py:Line23|view_as_bar eles: {'bar_color_btn': <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="c81737b7-d5b2-4335-8049-aabc770179e3")>, 'display_mode_toggle': <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="077cfedc-98c7-4209-8b0d-150e2ec60b40")>, 'min_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="5db14af8-d456-4518-9dfe-719dea6fd3f7")>, 'max_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="8cb085c5-ca4d-4be3-b1cc-143b43cc7ca5")>, 'types_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="4adaf2f7-6fdf-40c4-af3c-59cb9a0e6070")>, 'addnew_btn': <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="7a35fbfe-9e71-4625-9ecc-174a8175999f")>}
+2021-12-20 16:26:27|DEBUG |logger_until.py:Line23|view_as_bar_min_options: [<selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="277ec1da-ec80-414c-ae23-021adb70d8d9")>, <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="3624573d-1a9c-40e4-a63c-e5d3f1d8cd6a")>, <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="56a18caa-d56f-4031-867f-05d1b8a47f43")>]
+2021-12-20 16:26:30|INFO  |logger_until.py:Line17|get -100% bar width: 0.195695%
+2021-12-20 16:26:30|INFO  |logger_until.py:Line17|click on Min drop-down list
+2021-12-20 16:26:30|DEBUG |logger_until.py:Line23|view_as_bar eles: {'bar_color_btn': <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="c81737b7-d5b2-4335-8049-aabc770179e3")>, 'display_mode_toggle': <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="077cfedc-98c7-4209-8b0d-150e2ec60b40")>, 'min_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="5db14af8-d456-4518-9dfe-719dea6fd3f7")>, 'max_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="8cb085c5-ca4d-4be3-b1cc-143b43cc7ca5")>, 'types_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="4adaf2f7-6fdf-40c4-af3c-59cb9a0e6070")>, 'addnew_btn': <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="7a35fbfe-9e71-4625-9ecc-174a8175999f")>}
+2021-12-20 16:26:31|INFO  |logger_until.py:Line17|select 0 for min
+2021-12-20 16:26:31|DEBUG |logger_until.py:Line23|view_as_bar eles: {'bar_color_btn': <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="c81737b7-d5b2-4335-8049-aabc770179e3")>, 'display_mode_toggle': <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="077cfedc-98c7-4209-8b0d-150e2ec60b40")>, 'min_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="5db14af8-d456-4518-9dfe-719dea6fd3f7")>, 'max_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="8cb085c5-ca4d-4be3-b1cc-143b43cc7ca5")>, 'types_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="4adaf2f7-6fdf-40c4-af3c-59cb9a0e6070")>, 'addnew_btn': <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="7a35fbfe-9e71-4625-9ecc-174a8175999f")>}
+2021-12-20 16:26:31|DEBUG |logger_until.py:Line23|view_as_bar_min_options: [<selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="277ec1da-ec80-414c-ae23-021adb70d8d9")>, <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="3624573d-1a9c-40e4-a63c-e5d3f1d8cd6a")>, <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="56a18caa-d56f-4031-867f-05d1b8a47f43")>]
+2021-12-20 16:26:34|INFO  |logger_until.py:Line17|get -100% bar width: 0%
+2021-12-20 16:26:34|INFO  |logger_until.py:Line17|expected value: ['28.169%', '0.195695%', '0%'], actually_result: ['28.169%', '0.195695%', '0%']
+2021-12-20 16:26:34|INFO  |logger_until.py:Line17|testing test_valueas_bar_min is completed and passed
+2021-12-20 16:26:37|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-20 16:26:37|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-20 16:26:38|INFO  |logger_until.py:Line17|click on Values section
+2021-12-20 16:26:40|INFO  |logger_until.py:Line17|Starting test TC test_valueas_bar_max
+2021-12-20 16:26:40|INFO  |logger_until.py:Line17|click on Values dropdown
+2021-12-20 16:26:41|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2021-12-20 16:26:41|DEBUG |logger_until.py:Line23|value options_aria_controls: 177facb2-1f44-4cce-c543-632eb54d8e11
+2021-12-20 16:26:41|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2021-12-20 16:26:41|INFO  |logger_until.py:Line17|click on view As drop-down
+2021-12-20 16:26:42|INFO  |logger_until.py:Line17|click on the options: Bar
+2021-12-20 16:26:43|DEBUG |logger_until.py:Line23|view as options_aria_controls: 5cef2a92-5968-4b2a-b34a-3d7fae49b2b7
+2021-12-20 16:26:43|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2021-12-20 16:26:47|INFO  |logger_until.py:Line17|get min (default) bar width: 28.169%
+2021-12-20 16:26:47|INFO  |logger_until.py:Line17|click on Max drop-down list
+2021-12-20 16:26:47|DEBUG |logger_until.py:Line23|view_as_bar eles: {'bar_color_btn': <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="ac478c9c-6cf9-4c17-8d2d-ff6745664a2b")>, 'display_mode_toggle': <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="b28e5e48-6548-4c0c-bae2-0679d25e08f4")>, 'min_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="254a87f8-d831-46d7-a7e5-241c851304f4")>, 'max_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="e3d5975a-cad1-4c10-8a83-c379004d96db")>, 'types_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="bf421610-4108-4345-bacc-7ba5ddabfb80")>, 'addnew_btn': <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="0b821c4c-9f21-4104-87f4-338236a075e9")>}
+2021-12-20 16:26:48|INFO  |logger_until.py:Line17|select 0 for max
+2021-12-20 16:26:49|DEBUG |logger_until.py:Line23|view_as_bar eles: {'bar_color_btn': <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="ac478c9c-6cf9-4c17-8d2d-ff6745664a2b")>, 'display_mode_toggle': <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="b28e5e48-6548-4c0c-bae2-0679d25e08f4")>, 'min_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="254a87f8-d831-46d7-a7e5-241c851304f4")>, 'max_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="e3d5975a-cad1-4c10-8a83-c379004d96db")>, 'types_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="bf421610-4108-4345-bacc-7ba5ddabfb80")>, 'addnew_btn': <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="0b821c4c-9f21-4104-87f4-338236a075e9")>}
+2021-12-20 16:26:49|INFO  |logger_until.py:Line17|max_ariacontrols: edfcdf07-920b-435c-f99d-78764fbaa6a1
+2021-12-20 16:26:49|DEBUG |logger_until.py:Line23|view_as_bar_min_options: [<selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="0155ef6a-c217-44f6-80d5-f03781ff664b")>, <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="6d1778f6-e47c-46fe-9cf3-2c82080ef223")>, <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="4def355b-6fb7-4a94-844d-ebfdb3b946d9")>]
+2021-12-20 16:26:52|INFO  |logger_until.py:Line17|get 0 bar max width: 100%
+2021-12-20 16:26:52|INFO  |logger_until.py:Line17|click on Max drop-down list
+2021-12-20 16:26:52|DEBUG |logger_until.py:Line23|view_as_bar eles: {'bar_color_btn': <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="ac478c9c-6cf9-4c17-8d2d-ff6745664a2b")>, 'display_mode_toggle': <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="b28e5e48-6548-4c0c-bae2-0679d25e08f4")>, 'min_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="254a87f8-d831-46d7-a7e5-241c851304f4")>, 'max_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="e3d5975a-cad1-4c10-8a83-c379004d96db")>, 'types_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="bf421610-4108-4345-bacc-7ba5ddabfb80")>, 'addnew_btn': <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="0b821c4c-9f21-4104-87f4-338236a075e9")>}
+2021-12-20 16:26:53|INFO  |logger_until.py:Line17|select 100% for max
+2021-12-20 16:26:53|DEBUG |logger_until.py:Line23|view_as_bar eles: {'bar_color_btn': <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="ac478c9c-6cf9-4c17-8d2d-ff6745664a2b")>, 'display_mode_toggle': <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="b28e5e48-6548-4c0c-bae2-0679d25e08f4")>, 'min_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="254a87f8-d831-46d7-a7e5-241c851304f4")>, 'max_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="e3d5975a-cad1-4c10-8a83-c379004d96db")>, 'types_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="bf421610-4108-4345-bacc-7ba5ddabfb80")>, 'addnew_btn': <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="0b821c4c-9f21-4104-87f4-338236a075e9")>}
+2021-12-20 16:26:53|INFO  |logger_until.py:Line17|max_ariacontrols: edfcdf07-920b-435c-f99d-78764fbaa6a1
+2021-12-20 16:26:53|DEBUG |logger_until.py:Line23|view_as_bar_min_options: [<selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="0155ef6a-c217-44f6-80d5-f03781ff664b")>, <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="6d1778f6-e47c-46fe-9cf3-2c82080ef223")>, <selenium.webdriver.remote.webelement.WebElement (session="4e3a418e5e8c6945812e5b36050f7f18", element="4def355b-6fb7-4a94-844d-ebfdb3b946d9")>]
+2021-12-20 16:26:56|INFO  |logger_until.py:Line17|get 100% bar max width: 99.5025%
+2021-12-20 16:26:56|INFO  |logger_until.py:Line17|['28.169%', '100%', '99.5025%']
+2021-12-20 16:26:56|INFO  |logger_until.py:Line17|expected value: ['28.169%', '100%', '99.5025%'], actually_result: ['28.169%', '100%', '99.5025%']
+2021-12-20 16:26:56|INFO  |logger_until.py:Line17|testing test_valueas_bar_max is completed and passed
+2021-12-20 16:26:59|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-20 16:26:59|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-20 16:27:00|INFO  |logger_until.py:Line17|click on Values section
+2021-12-20 16:27:02|INFO  |logger_until.py:Line17|Starting test TC test_value_bar_unit_format
+2021-12-20 16:27:02|INFO  |logger_until.py:Line17|click on Values dropdown
+2021-12-20 16:27:03|INFO  |logger_until.py:Line17|click on options: target_count(sum)
+2021-12-20 16:27:03|DEBUG |logger_until.py:Line23|value options_aria_controls: ea045670-edc5-4252-e538-be0d0f63b6eb
+2021-12-20 16:27:03|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2021-12-20 16:27:03|INFO  |logger_until.py:Line17|click on view As drop-down
+2021-12-20 16:27:05|INFO  |logger_until.py:Line17|click on the options: Bar
+2021-12-20 16:27:05|DEBUG |logger_until.py:Line23|view as options_aria_controls: bd2f8118-1a55-49a1-dd30-96c73872a5e6
+2021-12-20 16:27:05|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2021-12-20 16:27:06|INFO  |logger_until.py:Line17|click on display value toggle
+2021-12-20 16:27:07|INFO  |logger_until.py:Line17|set format B, I, underline
+2021-12-20 16:27:13|INFO  |logger_until.py:Line17|getting test result
+2021-12-20 16:27:17|INFO  |logger_until.py:Line17|expected value: ['rgb(65, 117, 5)', 'italic', 'bold', 'underline', '10px'], actually_result: ['rgb(65, 117, 5)', 'italic', 'bold', 'underline', '10px']
+2021-12-20 16:27:17|INFO  |logger_until.py:Line17|testing test_value_bar_unit_format is completed and passed
+2021-12-20 16:27:19|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-20 16:27:19|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-20 16:27:20|INFO  |logger_until.py:Line17|click on Values section
+2021-12-20 16:27:23|INFO  |logger_until.py:Line17|Starting test TC test_value_bar_unit_alignment
+2021-12-20 16:27:23|INFO  |logger_until.py:Line17|click on Values dropdown
+2021-12-20 16:27:24|INFO  |logger_until.py:Line17|click on options: target_count(sum)
+2021-12-20 16:27:24|DEBUG |logger_until.py:Line23|value options_aria_controls: 6b046839-6a67-4377-d0a6-2d376e23c218
+2021-12-20 16:27:24|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2021-12-20 16:27:24|INFO  |logger_until.py:Line17|click on view As drop-down
+2021-12-20 16:27:25|INFO  |logger_until.py:Line17|click on the options: Bar
+2021-12-20 16:27:25|DEBUG |logger_until.py:Line23|view as options_aria_controls: 76a8b1ba-5c49-4afc-9621-ec93c258ebc3
+2021-12-20 16:27:25|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2021-12-20 16:27:26|INFO  |logger_until.py:Line17|click on display value toggle
+2021-12-20 16:27:27|INFO  |logger_until.py:Line17|set format left, center, right
+2021-12-20 16:27:27|INFO  |logger_until.py:Line17|getting center test result
+2021-12-20 16:27:31|INFO  |logger_until.py:Line17|click on left btn
+2021-12-20 16:27:33|INFO  |logger_until.py:Line17|getting left test result
+2021-12-20 16:27:36|INFO  |logger_until.py:Line17|click on left btn
+2021-12-20 16:27:38|INFO  |logger_until.py:Line17|getting right test result
+2021-12-20 16:27:42|INFO  |logger_until.py:Line17|expected value: ['center', 'left', 'right'], actually_result: ['center', 'left', 'right']
+2021-12-20 16:27:42|INFO  |logger_until.py:Line17|testing test_value_bar_unit_alignment is completed and passed
+2021-12-20 16:27:44|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-20 16:27:44|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-20 16:27:45|INFO  |logger_until.py:Line17|click on Values section
+2021-12-20 16:27:47|INFO  |logger_until.py:Line17|Starting test TC test_value_indicator_size
+2021-12-20 16:27:47|INFO  |logger_until.py:Line17|click on Values dropdown
+2021-12-20 16:27:49|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2021-12-20 16:27:49|DEBUG |logger_until.py:Line23|value options_aria_controls: 65ee558b-7cc0-4f72-aa88-214695ccedef
+2021-12-20 16:27:49|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2021-12-20 16:27:49|INFO  |logger_until.py:Line17|click on view As drop-down
+2021-12-20 16:27:50|INFO  |logger_until.py:Line17|click on the options: Indicator
+2021-12-20 16:27:50|DEBUG |logger_until.py:Line23|view as options_aria_controls: 19681e4e-8124-4ac5-fca8-66b412a8221c
+2021-12-20 16:27:50|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2021-12-20 16:27:51|INFO  |logger_until.py:Line17|click on add button
+2021-12-20 16:27:53|INFO  |logger_until.py:Line17|click on indicator style
+2021-12-20 16:27:55|INFO  |logger_until.py:Line17|click up for indicatior
+2021-12-20 16:27:55|INFO  |logger_until.py:Line17|click on color picker component
+2021-12-20 16:27:57|INFO  |logger_until.py:Line17|click condition dropdown list
+2021-12-20 16:27:58|INFO  |logger_until.py:Line17|select > for condition
+2021-12-20 16:27:59|INFO  |logger_until.py:Line17|input 0 for control input
+2021-12-20 16:28:00|INFO  |logger_until.py:Line17|set size = 10px
+2021-12-20 16:28:08|INFO  |logger_until.py:Line17|expected value: ['10px', '10px'], actually_result: ['10px', '10px']
+2021-12-20 16:28:08|INFO  |logger_until.py:Line17|testing test_value_indicator_size is completed and passed
+2021-12-20 16:28:10|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-20 16:28:10|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-20 16:28:11|INFO  |logger_until.py:Line17|click on Values section
+2021-12-20 16:28:13|INFO  |logger_until.py:Line17|Starting test TC test_value_indicator_values_delete
+2021-12-20 16:28:13|INFO  |logger_until.py:Line17|click on Values dropdown
+2021-12-20 16:28:14|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2021-12-20 16:28:15|DEBUG |logger_until.py:Line23|value options_aria_controls: 1426595d-7dc8-41b3-ed88-2d5dd9480939
+2021-12-20 16:28:15|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2021-12-20 16:28:15|INFO  |logger_until.py:Line17|click on view As drop-down
+2021-12-20 16:28:16|INFO  |logger_until.py:Line17|click on the options: Indicator
+2021-12-20 16:28:16|DEBUG |logger_until.py:Line23|view as options_aria_controls: cbcc5334-19a0-4165-bfbd-d3f1aaf64ede
+2021-12-20 16:28:16|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2021-12-20 16:28:17|INFO  |logger_until.py:Line17|click on add button
+2021-12-20 16:28:19|INFO  |logger_until.py:Line17|click on indicator style
+2021-12-20 16:28:21|INFO  |logger_until.py:Line17|click up for indicatior
+2021-12-20 16:28:21|INFO  |logger_until.py:Line17|click on color picker component
+2021-12-20 16:28:23|INFO  |logger_until.py:Line17|click condition dropdown list
+2021-12-20 16:28:25|INFO  |logger_until.py:Line17|select > for condition
+2021-12-20 16:28:25|INFO  |logger_until.py:Line17|input 210 for control input
+2021-12-20 16:28:30|INFO  |logger_until.py:Line17|getting test result
+2021-12-20 16:28:34|INFO  |logger_until.py:Line17|click on delete icon
+2021-12-20 16:28:36|INFO  |logger_until.py:Line17|getting test result
+2021-12-20 16:28:39|INFO  |logger_until.py:Line17|[[('anticon anticon-minus', ''), ('arrowIcon arrowUp', 'rgb(65, 117, 5)'), ('anticon anticon-minus', ''), ('arrowIcon arrowUp', 'rgb(65, 117, 5)'), ('arrowIcon arrowUp', 'rgb(65, 117, 5)'), ('anticon anticon-minus', ''), ('arrowIcon arrowUp', 'rgb(65, 117, 5)'), ('arrowIcon arrowUp', 'rgb(65, 117, 5)'), ('anticon anticon-minus', ''), ('arrowIcon arrowUp', 'rgb(65, 117, 5)'), ('arrowIcon arrowUp', 'rgb(65, 117, 5)'), ('anticon anticon-minus', ''), ('arrowIcon arrowUp', 'rgb(65, 117, 5)'), ('anticon anticon-minus', ''), ('arrowIcon arrowUp', 'rgb(65, 117, 5)'), ('arrowIcon arrowUp', 'rgb(65, 117, 5)'), ('arrowIcon arrowUp', 'rgb(65, 117, 5)'), ('arrowIcon arrowUp', 'rgb(65, 117, 5)'), ('anticon anticon-minus', ''), ('anticon anticon-minus', ''), ('anticon anticon-minus', '')], [('anticon anticon-minus', ''), ('anticon anticon-minus', ''), ('anticon anticon-minus', ''), ('anticon anticon-minus', ''), ('anticon anticon-minus', ''), ('anticon anticon-minus', ''), ('anticon anticon-minus', ''), ('anticon anticon-minus', ''), ('anticon anticon-minus', ''), ('anticon anticon-minus', ''), ('anticon anticon-minus', ''), ('anticon anticon-minus', ''), ('anticon anticon-minus', ''), ('anticon anticon-minus', ''), ('anticon anticon-minus', ''), ('anticon anticon-minus', ''), ('anticon anticon-minus', ''), ('anticon anticon-minus', ''), ('anticon anticon-minus', ''), ('anticon anticon-minus', ''), ('anticon anticon-minus', '')]]
+2021-12-20 16:28:42|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-20 16:28:42|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-20 16:28:43|INFO  |logger_until.py:Line17|click on Values section
+2021-12-20 16:28:45|INFO  |logger_until.py:Line17|Starting test TC test_value_indicator_valueborder
+2021-12-20 16:28:45|INFO  |logger_until.py:Line17|click on Values dropdown
+2021-12-20 16:28:46|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2021-12-20 16:28:46|DEBUG |logger_until.py:Line23|value options_aria_controls: a94f8528-9ef1-47de-85dc-f33556d959d9
+2021-12-20 16:28:46|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2021-12-20 16:28:46|INFO  |logger_until.py:Line17|click on view As drop-down
+2021-12-20 16:28:48|INFO  |logger_until.py:Line17|click on the options: Indicator
+2021-12-20 16:28:48|DEBUG |logger_until.py:Line23|view as options_aria_controls: 6e69c66f-d54b-41f2-d649-5c645c25ba18
+2021-12-20 16:28:48|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2021-12-20 16:28:49|INFO  |logger_until.py:Line17|click on add button
+2021-12-20 16:28:51|INFO  |logger_until.py:Line17|click on indicator style
+2021-12-20 16:28:53|INFO  |logger_until.py:Line17|click up for indicatior
+2021-12-20 16:28:53|INFO  |logger_until.py:Line17|click on color picker component
+2021-12-20 16:28:55|INFO  |logger_until.py:Line17|click condition dropdown list
+2021-12-20 16:28:57|INFO  |logger_until.py:Line17|select > for condition
+2021-12-20 16:28:57|INFO  |logger_until.py:Line17|input 210 for control input
+2021-12-20 16:29:00|INFO  |logger_until.py:Line17|open Show Value Border toggle
+2021-12-20 16:29:03|INFO  |logger_until.py:Line17|getting test result
+2021-12-20 16:29:06|DEBUG |logger_until.py:Line23|border: 1px solid rgb(65, 117, 5), margin: 0px 10%
+2021-12-20 16:29:06|INFO  |logger_until.py:Line17|expected value: ['1px solid rgb(65, 117, 5)', '0px 10%'], actually_result: ['1px solid rgb(65, 117, 5)', '0px 10%']
+2021-12-20 16:29:06|INFO  |logger_until.py:Line17|testing test_value_indicator_valueborder is completed and passed
+2021-12-20 16:29:08|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-20 16:29:09|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-20 16:29:10|INFO  |logger_until.py:Line17|click on Values section
+2021-12-20 16:29:12|INFO  |logger_until.py:Line17|Starting test TC test_value_indicator_valuelabels
+2021-12-20 16:29:12|INFO  |logger_until.py:Line17|click on Values dropdown
+2021-12-20 16:29:13|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2021-12-20 16:29:13|DEBUG |logger_until.py:Line23|value options_aria_controls: 8ba9f336-3143-4b7e-94eb-f2a40499a221
+2021-12-20 16:29:13|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2021-12-20 16:29:13|INFO  |logger_until.py:Line17|click on view As drop-down
+2021-12-20 16:29:15|INFO  |logger_until.py:Line17|click on the options: Indicator
+2021-12-20 16:29:15|DEBUG |logger_until.py:Line23|view as options_aria_controls: 5aaa3f9d-e9b7-447a-b4e8-3a9cc008cd88
+2021-12-20 16:29:15|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2021-12-20 16:29:16|INFO  |logger_until.py:Line17|click on add button
+2021-12-20 16:29:18|INFO  |logger_until.py:Line17|click on indicator style
+2021-12-20 16:29:19|INFO  |logger_until.py:Line17|click up for indicatior
+2021-12-20 16:29:20|INFO  |logger_until.py:Line17|click on color picker component
+2021-12-20 16:29:22|INFO  |logger_until.py:Line17|click condition dropdown list
+2021-12-20 16:29:24|INFO  |logger_until.py:Line17|select > for condition
+2021-12-20 16:29:24|INFO  |logger_until.py:Line17|input 210 for control input
+2021-12-20 16:29:28|INFO  |logger_until.py:Line17|open Show Value Labels toggle
+2021-12-20 16:29:30|INFO  |logger_until.py:Line17|click on bold btn
+2021-12-20 16:29:31|INFO  |logger_until.py:Line17|click on italic btn
+2021-12-20 16:29:32|INFO  |logger_until.py:Line17|click on underline btn
+2021-12-20 16:29:33|INFO  |logger_until.py:Line17|click on color picker btn
+2021-12-20 16:29:34|INFO  |logger_until.py:Line17|select color: #417505
+2021-12-20 16:29:35|INFO  |logger_until.py:Line17|click on size dropdown
+2021-12-20 16:29:36|INFO  |logger_until.py:Line17|select 10 px for size
+2021-12-20 16:29:39|INFO  |logger_until.py:Line17|getting test result
+2021-12-20 16:29:43|INFO  |logger_until.py:Line17|expected value: ['rgb(65, 117, 5)', '10px', 'italic', 'bold', 'underline'], actually_result: ['rgb(65, 117, 5)', '10px', 'italic', 'bold', 'underline']
+2021-12-20 16:29:43|INFO  |logger_until.py:Line17|testing test_value_indicator_valuelabels is completed and passed
+2021-12-20 16:29:45|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-20 16:29:45|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-20 16:29:46|INFO  |logger_until.py:Line17|click on Values section
+2021-12-20 16:29:48|INFO  |logger_until.py:Line17|Starting test TC test_value_indicator_valuelabels_position
+2021-12-20 16:29:48|INFO  |logger_until.py:Line17|click on Values dropdown
+2021-12-20 16:29:50|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2021-12-20 16:29:50|DEBUG |logger_until.py:Line23|value options_aria_controls: ba51ec31-0041-4a4f-cb95-664cf7198f7a
+2021-12-20 16:29:50|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2021-12-20 16:29:50|INFO  |logger_until.py:Line17|click on view As drop-down
+2021-12-20 16:29:51|INFO  |logger_until.py:Line17|click on the options: Indicator
+2021-12-20 16:29:51|DEBUG |logger_until.py:Line23|view as options_aria_controls: 90ebf93a-849a-43f7-c2d5-f61d77816bb0
+2021-12-20 16:29:51|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2021-12-20 16:29:52|INFO  |logger_until.py:Line17|click on add button
+2021-12-20 16:29:55|INFO  |logger_until.py:Line17|click on indicator style
+2021-12-20 16:29:56|INFO  |logger_until.py:Line17|click up for indicatior
+2021-12-20 16:29:56|INFO  |logger_until.py:Line17|click on color picker component
+2021-12-20 16:29:59|INFO  |logger_until.py:Line17|click condition dropdown list
+2021-12-20 16:30:00|INFO  |logger_until.py:Line17|select > for condition
+2021-12-20 16:30:00|INFO  |logger_until.py:Line17|input 210 for control input
+2021-12-20 16:30:05|INFO  |logger_until.py:Line17|open Show Value Labels toggle
+2021-12-20 16:30:06|INFO  |logger_until.py:Line17|click on position: left
+2021-12-20 16:30:08|INFO  |logger_until.py:Line17|getting test result
+2021-12-20 16:30:12|INFO  |logger_until.py:Line17|click on position: top
+2021-12-20 16:30:14|INFO  |logger_until.py:Line17|getting test result
+2021-12-20 16:30:17|INFO  |logger_until.py:Line17|click on position: right
+2021-12-20 16:30:19|INFO  |logger_until.py:Line17|getting test result
+2021-12-20 16:30:22|INFO  |logger_until.py:Line17|click on position: bottom
+2021-12-20 16:30:24|INFO  |logger_until.py:Line17|getting test result
+2021-12-20 16:30:28|INFO  |logger_until.py:Line17|expected value: ['row', 'column', 'row-reverse', 'column-reverse'], actually_result: ['row', 'column', 'row-reverse', 'column-reverse']
+2021-12-20 16:30:28|INFO  |logger_until.py:Line17|testing test_value_indicator_valuelabels_position is completed and passed
+2021-12-20 16:30:30|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-20 16:30:30|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-20 16:30:32|INFO  |logger_until.py:Line17|click on Values section
+2021-12-20 16:30:34|INFO  |logger_until.py:Line17|Starting test TC test_value_starRate_size
+2021-12-20 16:30:34|INFO  |logger_until.py:Line17|click on Values dropdown
+2021-12-20 16:30:35|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2021-12-20 16:30:35|DEBUG |logger_until.py:Line23|value options_aria_controls: a0e14ea0-9293-47d3-d0c4-a012a45aff1b
+2021-12-20 16:30:35|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2021-12-20 16:30:35|INFO  |logger_until.py:Line17|click on view As drop-down
+2021-12-20 16:30:36|INFO  |logger_until.py:Line17|click on the options: Star Rate
+2021-12-20 16:30:37|DEBUG |logger_until.py:Line23|view as options_aria_controls: e989e967-7781-42d3-aa16-389c8eb137a4
+2021-12-20 16:30:37|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2021-12-20 16:30:38|INFO  |logger_until.py:Line17|input full star: 5
+2021-12-20 16:30:39|INFO  |logger_until.py:Line17|input full star: 400
+2021-12-20 16:30:54|INFO  |logger_until.py:Line17|expected value: 14px, actually_result: 14px
+2021-12-20 16:30:54|INFO  |logger_until.py:Line17|testing test_value_starRate_size is completed and passed
+2021-12-20 16:39:14|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-20 16:39:15|ERROR |logger_until.py:Line20|Message: unknown error: net::ERR_CONNECTION_CLOSED
+  (Session info: chrome=96.0.4664.110)
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/testCase/PivotTable/Properties/test_value.py", line 51, in visit_dashboard
+    bussiness_dashboard = BusinessDashboard(driver, url, user, pwd, project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Dashboard.py", line 9, in __init__
+    self.project = BusinessProject(driver, url, username, pwd).visit_project(project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Project.py", line 12, in __init__
+    BusinessLogin(driver, url, username, pwd).login()
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Login.py", line 17, in login
+    self._driver.get(self._url)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_CONNECTION_CLOSED
+  (Session info: chrome=96.0.4664.110)
+
+2021-12-20 16:39:16|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-20 16:39:21|ERROR |logger_until.py:Line20|Message: unknown error: net::ERR_CONNECTION_CLOSED
+  (Session info: chrome=96.0.4664.110)
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/testCase/PivotTable/Properties/test_value.py", line 51, in visit_dashboard
+    bussiness_dashboard = BusinessDashboard(driver, url, user, pwd, project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Dashboard.py", line 9, in __init__
+    self.project = BusinessProject(driver, url, username, pwd).visit_project(project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Project.py", line 12, in __init__
+    BusinessLogin(driver, url, username, pwd).login()
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Login.py", line 17, in login
+    self._driver.get(self._url)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_CONNECTION_CLOSED
+  (Session info: chrome=96.0.4664.110)
+
+2021-12-20 16:39:21|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-20 16:39:22|ERROR |logger_until.py:Line20|Message: unknown error: net::ERR_CONNECTION_CLOSED
+  (Session info: chrome=96.0.4664.110)
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/testCase/PivotTable/Properties/test_value.py", line 51, in visit_dashboard
+    bussiness_dashboard = BusinessDashboard(driver, url, user, pwd, project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Dashboard.py", line 9, in __init__
+    self.project = BusinessProject(driver, url, username, pwd).visit_project(project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Project.py", line 12, in __init__
+    BusinessLogin(driver, url, username, pwd).login()
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Login.py", line 17, in login
+    self._driver.get(self._url)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_CONNECTION_CLOSED
+  (Session info: chrome=96.0.4664.110)
+
+2021-12-20 16:39:23|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-20 16:39:24|ERROR |logger_until.py:Line20|Message: unknown error: net::ERR_CONNECTION_CLOSED
+  (Session info: chrome=96.0.4664.110)
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/testCase/PivotTable/Properties/test_value.py", line 51, in visit_dashboard
+    bussiness_dashboard = BusinessDashboard(driver, url, user, pwd, project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Dashboard.py", line 9, in __init__
+    self.project = BusinessProject(driver, url, username, pwd).visit_project(project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Project.py", line 12, in __init__
+    BusinessLogin(driver, url, username, pwd).login()
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Login.py", line 17, in login
+    self._driver.get(self._url)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_CONNECTION_CLOSED
+  (Session info: chrome=96.0.4664.110)
+
+2021-12-20 16:39:25|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-20 16:39:26|ERROR |logger_until.py:Line20|Message: unknown error: net::ERR_CONNECTION_CLOSED
+  (Session info: chrome=96.0.4664.110)
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/testCase/PivotTable/Properties/test_value.py", line 51, in visit_dashboard
+    bussiness_dashboard = BusinessDashboard(driver, url, user, pwd, project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Dashboard.py", line 9, in __init__
+    self.project = BusinessProject(driver, url, username, pwd).visit_project(project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Project.py", line 12, in __init__
+    BusinessLogin(driver, url, username, pwd).login()
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Login.py", line 17, in login
+    self._driver.get(self._url)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_CONNECTION_CLOSED
+  (Session info: chrome=96.0.4664.110)
+
+2021-12-20 16:39:27|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-20 16:39:30|ERROR |logger_until.py:Line20|Message: unknown error: net::ERR_CONNECTION_CLOSED
+  (Session info: chrome=96.0.4664.110)
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/testCase/PivotTable/Properties/test_value.py", line 51, in visit_dashboard
+    bussiness_dashboard = BusinessDashboard(driver, url, user, pwd, project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Dashboard.py", line 9, in __init__
+    self.project = BusinessProject(driver, url, username, pwd).visit_project(project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Project.py", line 12, in __init__
+    BusinessLogin(driver, url, username, pwd).login()
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Login.py", line 17, in login
+    self._driver.get(self._url)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_CONNECTION_CLOSED
+  (Session info: chrome=96.0.4664.110)
+
+2021-12-20 16:39:30|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-20 16:39:32|ERROR |logger_until.py:Line20|Message: unknown error: net::ERR_CONNECTION_CLOSED
+  (Session info: chrome=96.0.4664.110)
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/testCase/PivotTable/Properties/test_value.py", line 51, in visit_dashboard
+    bussiness_dashboard = BusinessDashboard(driver, url, user, pwd, project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Dashboard.py", line 9, in __init__
+    self.project = BusinessProject(driver, url, username, pwd).visit_project(project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Project.py", line 12, in __init__
+    BusinessLogin(driver, url, username, pwd).login()
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Login.py", line 17, in login
+    self._driver.get(self._url)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_CONNECTION_CLOSED
+  (Session info: chrome=96.0.4664.110)
+
+2021-12-20 16:39:33|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-20 16:39:40|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-12-20 16:39:45|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-12-20 16:39:45|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2021-12-20 16:39:51|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-12-20 16:39:51|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-20 16:39:51|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-20 16:39:55|INFO  |logger_until.py:Line17|click on Values section
+2021-12-20 16:39:57|INFO  |logger_until.py:Line17|Starting test TC test_value_header_border_del
+2021-12-20 16:39:57|INFO  |logger_until.py:Line17|click on delete icon for existed header border
+2021-12-20 16:40:01|INFO  |logger_until.py:Line17|testing test_value_header_border_del is completed and passed
+2021-12-20 16:40:04|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-20 16:40:04|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-20 16:40:05|INFO  |logger_until.py:Line17|click on Values section
+2021-12-20 16:40:07|INFO  |logger_until.py:Line17|Starting test TC test_value_header_border_close
+2021-12-20 16:40:07|INFO  |logger_until.py:Line17|click on close icon for existed header border
+2021-12-20 16:40:08|INFO  |logger_until.py:Line17|expected value: 1, actually_result: 1
+2021-12-20 16:40:08|INFO  |logger_until.py:Line17|testing test_value_header_border_close is completed and passed
+2021-12-20 16:40:10|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-20 16:40:10|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-20 16:40:12|INFO  |logger_until.py:Line17|click on Values section
+2021-12-20 16:40:14|INFO  |logger_until.py:Line17|Starting test TC test_value_emptycell
+2021-12-20 16:40:14|INFO  |logger_until.py:Line17|input text into Expty Cell Value field: emptyvalue
+2021-12-20 16:40:29|INFO  |logger_until.py:Line17|expected value: emptyvalue, actually_result: emptyvalue
+2021-12-20 16:40:29|INFO  |logger_until.py:Line17|testing test_value_emptycell is completed and passed
+2021-12-20 16:40:31|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-20 16:40:31|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-20 16:40:32|INFO  |logger_until.py:Line17|click on Values section
+2021-12-20 16:40:34|INFO  |logger_until.py:Line17|Starting test TC test_valueas_bar_barcolor
+2021-12-20 16:40:34|INFO  |logger_until.py:Line17|click on Values dropdown
+2021-12-20 16:40:35|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2021-12-20 16:40:36|DEBUG |logger_until.py:Line23|value options_aria_controls: ae0f3ce3-1e52-419b-e8a3-59133704707c
+2021-12-20 16:40:36|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2021-12-20 16:40:36|INFO  |logger_until.py:Line17|click on view As drop-down
+2021-12-20 16:40:37|INFO  |logger_until.py:Line17|click on the options: Bar
+2021-12-20 16:40:37|DEBUG |logger_until.py:Line23|view as options_aria_controls: 2d53a8f0-d7e7-41b9-aeb4-f64241aacce0
+2021-12-20 16:40:37|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2021-12-20 16:40:39|INFO  |logger_until.py:Line17|click on Bar Color picker
+2021-12-20 16:40:39|DEBUG |logger_until.py:Line23|view_as_bar eles: {'bar_color_btn': <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="059b4731-5bed-4469-8148-192c888ca610")>, 'display_mode_toggle': <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="f2ea590b-410b-4b3b-b568-f82e0ede48e0")>, 'min_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="9747aa07-85ee-4bf7-931e-b53968b5f6bf")>, 'max_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="edb020c0-f830-4cb3-80a1-dd4fa8b16b8e")>, 'types_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="3d09bd64-e7c0-4472-850c-cd459d48b45f")>, 'addnew_btn': <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="30845f35-cdd8-43ad-a4c8-1ce1552e29c0")>}
+2021-12-20 16:40:39|INFO  |logger_until.py:Line17|click on color: #417505
+2021-12-20 16:40:40|INFO  |logger_until.py:Line17|close the color picker
+2021-12-20 16:40:40|DEBUG |logger_until.py:Line23|view_as_bar eles: {'bar_color_btn': <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="059b4731-5bed-4469-8148-192c888ca610")>, 'display_mode_toggle': <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="f2ea590b-410b-4b3b-b568-f82e0ede48e0")>, 'min_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="9747aa07-85ee-4bf7-931e-b53968b5f6bf")>, 'max_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="edb020c0-f830-4cb3-80a1-dd4fa8b16b8e")>, 'types_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="3d09bd64-e7c0-4472-850c-cd459d48b45f")>, 'addnew_btn': <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="30845f35-cdd8-43ad-a4c8-1ce1552e29c0")>}
+2021-12-20 16:40:46|INFO  |logger_until.py:Line17|expected_indicator: background-color: rgb(65, 117, 5), actually_indicator: display: block; height: 100%; width: 29.5775%; text-align: center; color: rgb(0, 0, 0); font-size: 14px; font-style: normal; text-decoration: none; background-color: rgb(65, 117, 5); margin-left: 28.169%; white-space: nowrap;
+2021-12-20 16:40:46|INFO  |logger_until.py:Line17|testing test_valueas_bar_barcolor is completed and passed
+2021-12-20 16:40:48|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-20 16:40:48|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-20 16:40:49|INFO  |logger_until.py:Line17|click on Values section
+2021-12-20 16:40:51|INFO  |logger_until.py:Line17|Starting test TC test_valueas_bar_min
+2021-12-20 16:40:51|INFO  |logger_until.py:Line17|click on Values dropdown
+2021-12-20 16:40:52|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2021-12-20 16:40:52|DEBUG |logger_until.py:Line23|value options_aria_controls: 2b8ddb28-b0ed-4bb3-c3ae-b34a71b12689
+2021-12-20 16:40:53|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2021-12-20 16:40:53|INFO  |logger_until.py:Line17|click on view As drop-down
+2021-12-20 16:40:54|INFO  |logger_until.py:Line17|click on the options: Bar
+2021-12-20 16:40:54|DEBUG |logger_until.py:Line23|view as options_aria_controls: 058f58e9-6e2f-4a59-af53-3fd092b6913d
+2021-12-20 16:40:54|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2021-12-20 16:40:58|INFO  |logger_until.py:Line17|get min (default) bar width: 28.169%
+2021-12-20 16:40:58|INFO  |logger_until.py:Line17|click on Min drop-down list
+2021-12-20 16:40:58|DEBUG |logger_until.py:Line23|view_as_bar eles: {'bar_color_btn': <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="e4148edc-886e-465c-a1af-972e45a8b23f")>, 'display_mode_toggle': <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="f55b872e-3604-4da3-92c4-e94bb7133943")>, 'min_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="ca84fcde-64fb-4020-8347-dcf26c023d2c")>, 'max_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="8fb8d5d2-6a9f-4a86-8af7-a960ede9b7ea")>, 'types_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="50efc2a1-4d44-4157-8eae-ff8afe4a6a41")>, 'addnew_btn': <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="730230c7-b476-4ca9-8b40-1a1ddd73bc38")>}
+2021-12-20 16:40:59|INFO  |logger_until.py:Line17|select - 100% for min
+2021-12-20 16:41:00|DEBUG |logger_until.py:Line23|view_as_bar eles: {'bar_color_btn': <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="e4148edc-886e-465c-a1af-972e45a8b23f")>, 'display_mode_toggle': <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="f55b872e-3604-4da3-92c4-e94bb7133943")>, 'min_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="ca84fcde-64fb-4020-8347-dcf26c023d2c")>, 'max_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="8fb8d5d2-6a9f-4a86-8af7-a960ede9b7ea")>, 'types_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="50efc2a1-4d44-4157-8eae-ff8afe4a6a41")>, 'addnew_btn': <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="730230c7-b476-4ca9-8b40-1a1ddd73bc38")>}
+2021-12-20 16:41:00|DEBUG |logger_until.py:Line23|view_as_bar_min_options: [<selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="24d1f421-3820-4566-abc5-12cc78c90a93")>, <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="2d26a8f0-1783-459f-bae1-0a11cb3af06f")>, <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="3106da8f-e3f1-4905-b8f6-bda254693789")>]
+2021-12-20 16:41:03|INFO  |logger_until.py:Line17|get -100% bar width: 0.195695%
+2021-12-20 16:41:03|INFO  |logger_until.py:Line17|click on Min drop-down list
+2021-12-20 16:41:03|DEBUG |logger_until.py:Line23|view_as_bar eles: {'bar_color_btn': <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="e4148edc-886e-465c-a1af-972e45a8b23f")>, 'display_mode_toggle': <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="f55b872e-3604-4da3-92c4-e94bb7133943")>, 'min_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="ca84fcde-64fb-4020-8347-dcf26c023d2c")>, 'max_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="8fb8d5d2-6a9f-4a86-8af7-a960ede9b7ea")>, 'types_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="50efc2a1-4d44-4157-8eae-ff8afe4a6a41")>, 'addnew_btn': <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="730230c7-b476-4ca9-8b40-1a1ddd73bc38")>}
+2021-12-20 16:41:04|INFO  |logger_until.py:Line17|select 0 for min
+2021-12-20 16:41:04|DEBUG |logger_until.py:Line23|view_as_bar eles: {'bar_color_btn': <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="e4148edc-886e-465c-a1af-972e45a8b23f")>, 'display_mode_toggle': <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="f55b872e-3604-4da3-92c4-e94bb7133943")>, 'min_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="ca84fcde-64fb-4020-8347-dcf26c023d2c")>, 'max_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="8fb8d5d2-6a9f-4a86-8af7-a960ede9b7ea")>, 'types_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="50efc2a1-4d44-4157-8eae-ff8afe4a6a41")>, 'addnew_btn': <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="730230c7-b476-4ca9-8b40-1a1ddd73bc38")>}
+2021-12-20 16:41:04|DEBUG |logger_until.py:Line23|view_as_bar_min_options: [<selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="24d1f421-3820-4566-abc5-12cc78c90a93")>, <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="2d26a8f0-1783-459f-bae1-0a11cb3af06f")>, <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="3106da8f-e3f1-4905-b8f6-bda254693789")>]
+2021-12-20 16:41:07|INFO  |logger_until.py:Line17|get -100% bar width: 0%
+2021-12-20 16:41:07|INFO  |logger_until.py:Line17|expected value: ['28.169%', '0.195695%', '0%'], actually_result: ['28.169%', '0.195695%', '0%']
+2021-12-20 16:41:07|INFO  |logger_until.py:Line17|testing test_valueas_bar_min is completed and passed
+2021-12-20 16:41:09|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-20 16:41:09|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-20 16:41:10|INFO  |logger_until.py:Line17|click on Values section
+2021-12-20 16:41:13|INFO  |logger_until.py:Line17|Starting test TC test_valueas_bar_max
+2021-12-20 16:41:13|INFO  |logger_until.py:Line17|click on Values dropdown
+2021-12-20 16:41:14|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2021-12-20 16:41:14|DEBUG |logger_until.py:Line23|value options_aria_controls: 2e1adced-681b-4d97-c7cd-3a42c94e3087
+2021-12-20 16:41:14|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2021-12-20 16:41:14|INFO  |logger_until.py:Line17|click on view As drop-down
+2021-12-20 16:41:15|INFO  |logger_until.py:Line17|click on the options: Bar
+2021-12-20 16:41:15|DEBUG |logger_until.py:Line23|view as options_aria_controls: e39507a0-9c36-40a4-8870-aeaf0220ef09
+2021-12-20 16:41:15|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2021-12-20 16:41:20|INFO  |logger_until.py:Line17|get min (default) bar width: 28.169%
+2021-12-20 16:41:20|INFO  |logger_until.py:Line17|click on Max drop-down list
+2021-12-20 16:41:20|DEBUG |logger_until.py:Line23|view_as_bar eles: {'bar_color_btn': <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="acdba791-7e47-4f70-b14d-1171289d83fc")>, 'display_mode_toggle': <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="81a61cbe-9d90-4e6b-9f5f-a448828ba166")>, 'min_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="4d5010c8-e9e7-42ab-9c31-c41c601a1aca")>, 'max_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="4d5c13d3-ccdd-4edd-8087-6a60caa21ffc")>, 'types_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="a2917bc5-fa62-4d1c-8d58-d9111ec96599")>, 'addnew_btn': <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="dcea5472-b845-4a94-b409-0aef63680963")>}
+2021-12-20 16:41:21|INFO  |logger_until.py:Line17|select 0 for max
+2021-12-20 16:41:21|DEBUG |logger_until.py:Line23|view_as_bar eles: {'bar_color_btn': <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="acdba791-7e47-4f70-b14d-1171289d83fc")>, 'display_mode_toggle': <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="81a61cbe-9d90-4e6b-9f5f-a448828ba166")>, 'min_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="4d5010c8-e9e7-42ab-9c31-c41c601a1aca")>, 'max_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="4d5c13d3-ccdd-4edd-8087-6a60caa21ffc")>, 'types_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="a2917bc5-fa62-4d1c-8d58-d9111ec96599")>, 'addnew_btn': <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="dcea5472-b845-4a94-b409-0aef63680963")>}
+2021-12-20 16:41:21|INFO  |logger_until.py:Line17|max_ariacontrols: 54267801-dac9-43bc-bb8a-63ca1dcfdf2e
+2021-12-20 16:41:21|DEBUG |logger_until.py:Line23|view_as_bar_min_options: [<selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="c74168d4-2639-46b1-80cb-79953e84dc8f")>, <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="89423437-3f42-4c1e-8b14-2c1164a5efed")>, <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="281e8f73-9d95-4a21-b1ed-9f180ceef93e")>]
+2021-12-20 16:41:24|INFO  |logger_until.py:Line17|get 0 bar max width: 100%
+2021-12-20 16:41:24|INFO  |logger_until.py:Line17|click on Max drop-down list
+2021-12-20 16:41:24|DEBUG |logger_until.py:Line23|view_as_bar eles: {'bar_color_btn': <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="acdba791-7e47-4f70-b14d-1171289d83fc")>, 'display_mode_toggle': <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="81a61cbe-9d90-4e6b-9f5f-a448828ba166")>, 'min_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="4d5010c8-e9e7-42ab-9c31-c41c601a1aca")>, 'max_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="4d5c13d3-ccdd-4edd-8087-6a60caa21ffc")>, 'types_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="a2917bc5-fa62-4d1c-8d58-d9111ec96599")>, 'addnew_btn': <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="dcea5472-b845-4a94-b409-0aef63680963")>}
+2021-12-20 16:41:25|INFO  |logger_until.py:Line17|select 100% for max
+2021-12-20 16:41:25|DEBUG |logger_until.py:Line23|view_as_bar eles: {'bar_color_btn': <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="acdba791-7e47-4f70-b14d-1171289d83fc")>, 'display_mode_toggle': <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="81a61cbe-9d90-4e6b-9f5f-a448828ba166")>, 'min_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="4d5010c8-e9e7-42ab-9c31-c41c601a1aca")>, 'max_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="4d5c13d3-ccdd-4edd-8087-6a60caa21ffc")>, 'types_dropdown': <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="a2917bc5-fa62-4d1c-8d58-d9111ec96599")>, 'addnew_btn': <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="dcea5472-b845-4a94-b409-0aef63680963")>}
+2021-12-20 16:41:25|INFO  |logger_until.py:Line17|max_ariacontrols: 54267801-dac9-43bc-bb8a-63ca1dcfdf2e
+2021-12-20 16:41:25|DEBUG |logger_until.py:Line23|view_as_bar_min_options: [<selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="c74168d4-2639-46b1-80cb-79953e84dc8f")>, <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="89423437-3f42-4c1e-8b14-2c1164a5efed")>, <selenium.webdriver.remote.webelement.WebElement (session="314fc6558f737e5da9af5bd13cdbb4c4", element="281e8f73-9d95-4a21-b1ed-9f180ceef93e")>]
+2021-12-20 16:41:28|INFO  |logger_until.py:Line17|get 100% bar max width: 99.5025%
+2021-12-20 16:41:28|INFO  |logger_until.py:Line17|['28.169%', '100%', '99.5025%']
+2021-12-20 16:41:28|INFO  |logger_until.py:Line17|expected value: ['28.169%', '100%', '99.5025%'], actually_result: ['28.169%', '100%', '99.5025%']
+2021-12-20 16:41:28|INFO  |logger_until.py:Line17|testing test_valueas_bar_max is completed and passed
+2021-12-20 16:41:31|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-20 16:41:31|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-20 16:41:32|INFO  |logger_until.py:Line17|click on Values section
+2021-12-20 16:41:34|INFO  |logger_until.py:Line17|Starting test TC test_value_bar_unit_format
+2021-12-20 16:41:34|INFO  |logger_until.py:Line17|click on Values dropdown
+2021-12-20 16:41:35|INFO  |logger_until.py:Line17|click on options: target_count(sum)
+2021-12-20 16:41:35|DEBUG |logger_until.py:Line23|value options_aria_controls: 0ff627ef-aec7-46cb-8671-7534f96ba575
+2021-12-20 16:41:35|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2021-12-20 16:41:35|INFO  |logger_until.py:Line17|click on view As drop-down
+2021-12-20 16:41:36|INFO  |logger_until.py:Line17|click on the options: Bar
+2021-12-20 16:41:37|DEBUG |logger_until.py:Line23|view as options_aria_controls: 6030e864-ea79-4d46-9f15-91e765c6a571
+2021-12-20 16:41:37|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2021-12-20 16:41:38|INFO  |logger_until.py:Line17|click on display value toggle
+2021-12-20 16:41:39|INFO  |logger_until.py:Line17|set format B, I, underline
+2021-12-20 16:41:45|INFO  |logger_until.py:Line17|getting test result
+2021-12-20 16:41:49|INFO  |logger_until.py:Line17|expected value: ['rgb(65, 117, 5)', 'italic', 'bold', 'underline', '10px'], actually_result: ['rgb(65, 117, 5)', 'italic', 'bold', 'underline', '10px']
+2021-12-20 16:41:49|INFO  |logger_until.py:Line17|testing test_value_bar_unit_format is completed and passed
+2021-12-20 16:41:51|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-20 16:41:51|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-20 16:41:52|INFO  |logger_until.py:Line17|click on Values section
+2021-12-20 16:41:54|INFO  |logger_until.py:Line17|Starting test TC test_value_bar_unit_alignment
+2021-12-20 16:41:54|INFO  |logger_until.py:Line17|click on Values dropdown
+2021-12-20 16:41:56|INFO  |logger_until.py:Line17|click on options: target_count(sum)
+2021-12-20 16:41:56|DEBUG |logger_until.py:Line23|value options_aria_controls: fe1e6112-bc8e-46b5-aece-613524c74943
+2021-12-20 16:41:56|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2021-12-20 16:41:56|INFO  |logger_until.py:Line17|click on view As drop-down
+2021-12-20 16:41:57|INFO  |logger_until.py:Line17|click on the options: Bar
+2021-12-20 16:41:57|DEBUG |logger_until.py:Line23|view as options_aria_controls: 664b8447-6c8d-45e0-e2f9-cdd4d47c4fb0
+2021-12-20 16:41:57|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2021-12-20 16:41:58|INFO  |logger_until.py:Line17|click on display value toggle
+2021-12-20 16:41:59|INFO  |logger_until.py:Line17|set format left, center, right
+2021-12-20 16:41:59|INFO  |logger_until.py:Line17|getting center test result
+2021-12-20 16:42:03|INFO  |logger_until.py:Line17|click on left btn
+2021-12-20 16:42:05|INFO  |logger_until.py:Line17|getting left test result
+2021-12-20 16:42:08|INFO  |logger_until.py:Line17|click on left btn
+2021-12-20 16:42:10|INFO  |logger_until.py:Line17|getting right test result
+2021-12-20 16:42:13|INFO  |logger_until.py:Line17|expected value: ['center', 'left', 'right'], actually_result: ['center', 'left', 'right']
+2021-12-20 16:42:13|INFO  |logger_until.py:Line17|testing test_value_bar_unit_alignment is completed and passed
+2021-12-20 16:42:16|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-20 16:42:16|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-20 16:42:17|INFO  |logger_until.py:Line17|click on Values section
+2021-12-20 16:42:19|INFO  |logger_until.py:Line17|Starting test TC test_value_indicator_size
+2021-12-20 16:42:19|INFO  |logger_until.py:Line17|click on Values dropdown
+2021-12-20 16:42:20|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2021-12-20 16:42:20|DEBUG |logger_until.py:Line23|value options_aria_controls: c6e675c6-5455-4328-bd4c-42825d925e4f
+2021-12-20 16:42:20|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2021-12-20 16:42:20|INFO  |logger_until.py:Line17|click on view As drop-down
+2021-12-20 16:42:22|INFO  |logger_until.py:Line17|click on the options: Indicator
+2021-12-20 16:42:22|DEBUG |logger_until.py:Line23|view as options_aria_controls: d3c28da8-127d-48b4-b07e-44255043fbb6
+2021-12-20 16:42:22|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2021-12-20 16:42:23|INFO  |logger_until.py:Line17|click on add button
+2021-12-20 16:42:25|INFO  |logger_until.py:Line17|click on indicator style
+2021-12-20 16:42:26|INFO  |logger_until.py:Line17|click up for indicatior
+2021-12-20 16:42:26|INFO  |logger_until.py:Line17|click on color picker component
+2021-12-20 16:42:29|INFO  |logger_until.py:Line17|click condition dropdown list
+2021-12-20 16:42:30|INFO  |logger_until.py:Line17|select > for condition
+2021-12-20 16:42:30|INFO  |logger_until.py:Line17|input 0 for control input
+2021-12-20 16:42:31|INFO  |logger_until.py:Line17|set size = 10px
+2021-12-20 16:42:39|INFO  |logger_until.py:Line17|expected value: ['10px', '10px'], actually_result: ['10px', '10px']
+2021-12-20 16:42:39|INFO  |logger_until.py:Line17|testing test_value_indicator_size is completed and passed
+2021-12-20 16:42:41|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-20 16:42:41|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-20 16:42:43|INFO  |logger_until.py:Line17|click on Values section
+2021-12-20 16:42:45|INFO  |logger_until.py:Line17|Starting test TC test_value_indicator_values_delete
+2021-12-20 16:42:45|INFO  |logger_until.py:Line17|click on Values dropdown
+2021-12-20 16:42:46|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2021-12-20 16:42:46|DEBUG |logger_until.py:Line23|value options_aria_controls: 2562c769-4bb8-415c-a623-eb20b0003dc3
+2021-12-20 16:42:46|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2021-12-20 16:42:46|INFO  |logger_until.py:Line17|click on view As drop-down
+2021-12-20 16:42:47|INFO  |logger_until.py:Line17|click on the options: Indicator
+2021-12-20 16:42:47|DEBUG |logger_until.py:Line23|view as options_aria_controls: 76a0e7fb-12e9-4e90-cff2-37388d937af7
+2021-12-20 16:42:47|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2021-12-20 16:42:48|INFO  |logger_until.py:Line17|click on add button
+2021-12-20 16:42:51|INFO  |logger_until.py:Line17|click on indicator style
+2021-12-20 16:42:52|INFO  |logger_until.py:Line17|click up for indicatior
+2021-12-20 16:42:52|INFO  |logger_until.py:Line17|click on color picker component
+2021-12-20 16:42:54|INFO  |logger_until.py:Line17|click condition dropdown list
+2021-12-20 16:42:56|INFO  |logger_until.py:Line17|select > for condition
+2021-12-20 16:42:56|INFO  |logger_until.py:Line17|input 210 for control input
+2021-12-20 16:43:01|INFO  |logger_until.py:Line17|getting test result
+2021-12-20 16:43:05|INFO  |logger_until.py:Line17|click on delete icon
+2021-12-20 16:43:07|INFO  |logger_until.py:Line17|getting test result
+2021-12-20 16:43:10|INFO  |logger_until.py:Line17|[[('anticon anticon-minus', ''), ('arrowIcon arrowUp', 'rgb(65, 117, 5)'), ('anticon anticon-minus', ''), ('arrowIcon arrowUp', 'rgb(65, 117, 5)'), ('arrowIcon arrowUp', 'rgb(65, 117, 5)'), ('anticon anticon-minus', ''), ('arrowIcon arrowUp', 'rgb(65, 117, 5)'), ('arrowIcon arrowUp', 'rgb(65, 117, 5)'), ('anticon anticon-minus', ''), ('arrowIcon arrowUp', 'rgb(65, 117, 5)'), ('arrowIcon arrowUp', 'rgb(65, 117, 5)'), ('anticon anticon-minus', ''), ('arrowIcon arrowUp', 'rgb(65, 117, 5)'), ('anticon anticon-minus', ''), ('arrowIcon arrowUp', 'rgb(65, 117, 5)'), ('arrowIcon arrowUp', 'rgb(65, 117, 5)'), ('arrowIcon arrowUp', 'rgb(65, 117, 5)'), ('arrowIcon arrowUp', 'rgb(65, 117, 5)'), ('anticon anticon-minus', ''), ('anticon anticon-minus', ''), ('anticon anticon-minus', '')], [('anticon anticon-minus', ''), ('anticon anticon-minus', ''), ('anticon anticon-minus', ''), ('anticon anticon-minus', ''), ('anticon anticon-minus', ''), ('anticon anticon-minus', ''), ('anticon anticon-minus', ''), ('anticon anticon-minus', ''), ('anticon anticon-minus', ''), ('anticon anticon-minus', ''), ('anticon anticon-minus', ''), ('anticon anticon-minus', ''), ('anticon anticon-minus', ''), ('anticon anticon-minus', ''), ('anticon anticon-minus', ''), ('anticon anticon-minus', ''), ('anticon anticon-minus', ''), ('anticon anticon-minus', ''), ('anticon anticon-minus', ''), ('anticon anticon-minus', ''), ('anticon anticon-minus', '')]]
+2021-12-20 16:43:12|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-20 16:43:13|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-20 16:43:14|INFO  |logger_until.py:Line17|click on Values section
+2021-12-20 16:43:16|INFO  |logger_until.py:Line17|Starting test TC test_value_indicator_valueborder
+2021-12-20 16:43:16|INFO  |logger_until.py:Line17|click on Values dropdown
+2021-12-20 16:43:17|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2021-12-20 16:43:17|DEBUG |logger_until.py:Line23|value options_aria_controls: 506b8719-e812-47a1-bf46-a09bfdcd72f4
+2021-12-20 16:43:17|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2021-12-20 16:43:17|INFO  |logger_until.py:Line17|click on view As drop-down
+2021-12-20 16:43:18|INFO  |logger_until.py:Line17|click on the options: Indicator
+2021-12-20 16:43:19|DEBUG |logger_until.py:Line23|view as options_aria_controls: a95d0347-4159-4599-f705-9d13212c14e2
+2021-12-20 16:43:19|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2021-12-20 16:43:20|INFO  |logger_until.py:Line17|click on add button
+2021-12-20 16:43:22|INFO  |logger_until.py:Line17|click on indicator style
+2021-12-20 16:43:23|INFO  |logger_until.py:Line17|click up for indicatior
+2021-12-20 16:43:23|INFO  |logger_until.py:Line17|click on color picker component
+2021-12-20 16:43:26|INFO  |logger_until.py:Line17|click condition dropdown list
+2021-12-20 16:43:27|INFO  |logger_until.py:Line17|select > for condition
+2021-12-20 16:43:27|INFO  |logger_until.py:Line17|input 210 for control input
+2021-12-20 16:43:31|INFO  |logger_until.py:Line17|open Show Value Border toggle
+2021-12-20 16:43:33|INFO  |logger_until.py:Line17|getting test result
+2021-12-20 16:43:36|DEBUG |logger_until.py:Line23|border: 1px solid rgb(65, 117, 5), margin: 0px 10%
+2021-12-20 16:43:37|INFO  |logger_until.py:Line17|expected value: ['1px solid rgb(65, 117, 5)', '0px 10%'], actually_result: ['1px solid rgb(65, 117, 5)', '0px 10%']
+2021-12-20 16:43:37|INFO  |logger_until.py:Line17|testing test_value_indicator_valueborder is completed and passed
+2021-12-20 16:43:39|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-20 16:43:39|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-20 16:43:40|INFO  |logger_until.py:Line17|click on Values section
+2021-12-20 16:43:42|INFO  |logger_until.py:Line17|Starting test TC test_value_indicator_valuelabels
+2021-12-20 16:43:42|INFO  |logger_until.py:Line17|click on Values dropdown
+2021-12-20 16:43:44|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2021-12-20 16:43:44|DEBUG |logger_until.py:Line23|value options_aria_controls: 69144e85-dad2-4ece-827d-7076b18c1fdd
+2021-12-20 16:43:44|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2021-12-20 16:43:44|INFO  |logger_until.py:Line17|click on view As drop-down
+2021-12-20 16:43:45|INFO  |logger_until.py:Line17|click on the options: Indicator
+2021-12-20 16:43:45|DEBUG |logger_until.py:Line23|view as options_aria_controls: fc88fbb4-06d9-445d-9363-67b7e2f8b815
+2021-12-20 16:43:45|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2021-12-20 16:43:46|INFO  |logger_until.py:Line17|click on add button
+2021-12-20 16:43:49|INFO  |logger_until.py:Line17|click on indicator style
+2021-12-20 16:43:50|INFO  |logger_until.py:Line17|click up for indicatior
+2021-12-20 16:43:50|INFO  |logger_until.py:Line17|click on color picker component
+2021-12-20 16:43:52|INFO  |logger_until.py:Line17|click condition dropdown list
+2021-12-20 16:43:54|INFO  |logger_until.py:Line17|select > for condition
+2021-12-20 16:43:54|INFO  |logger_until.py:Line17|input 210 for control input
+2021-12-20 16:43:58|INFO  |logger_until.py:Line17|open Show Value Labels toggle
+2021-12-20 16:44:00|INFO  |logger_until.py:Line17|click on bold btn
+2021-12-20 16:44:01|INFO  |logger_until.py:Line17|click on italic btn
+2021-12-20 16:44:02|INFO  |logger_until.py:Line17|click on underline btn
+2021-12-20 16:44:03|INFO  |logger_until.py:Line17|click on color picker btn
+2021-12-20 16:44:04|INFO  |logger_until.py:Line17|select color: #417505
+2021-12-20 16:44:05|INFO  |logger_until.py:Line17|click on size dropdown
+2021-12-20 16:44:06|INFO  |logger_until.py:Line17|select 10 px for size
+2021-12-20 16:44:09|INFO  |logger_until.py:Line17|getting test result
+2021-12-20 16:44:13|INFO  |logger_until.py:Line17|expected value: ['rgb(65, 117, 5)', '10px', 'italic', 'bold', 'underline'], actually_result: ['rgb(65, 117, 5)', '10px', 'italic', 'bold', 'underline']
+2021-12-20 16:44:13|INFO  |logger_until.py:Line17|testing test_value_indicator_valuelabels is completed and passed
+2021-12-20 16:44:15|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-20 16:44:15|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-20 16:44:16|INFO  |logger_until.py:Line17|click on Values section
+2021-12-20 16:44:18|INFO  |logger_until.py:Line17|Starting test TC test_value_indicator_valuelabels_position
+2021-12-20 16:44:18|INFO  |logger_until.py:Line17|click on Values dropdown
+2021-12-20 16:44:20|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2021-12-20 16:44:20|DEBUG |logger_until.py:Line23|value options_aria_controls: e7e856d2-a702-4966-e39c-bfac9a60b9b1
+2021-12-20 16:44:20|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2021-12-20 16:44:20|INFO  |logger_until.py:Line17|click on view As drop-down
+2021-12-20 16:44:21|INFO  |logger_until.py:Line17|click on the options: Indicator
+2021-12-20 16:44:21|DEBUG |logger_until.py:Line23|view as options_aria_controls: 94ef36ce-29ef-4e20-81ee-daefc3b8c53f
+2021-12-20 16:44:21|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2021-12-20 16:44:22|INFO  |logger_until.py:Line17|click on add button
+2021-12-20 16:44:25|INFO  |logger_until.py:Line17|click on indicator style
+2021-12-20 16:44:26|INFO  |logger_until.py:Line17|click up for indicatior
+2021-12-20 16:44:26|INFO  |logger_until.py:Line17|click on color picker component
+2021-12-20 16:44:29|INFO  |logger_until.py:Line17|click condition dropdown list
+2021-12-20 16:44:30|INFO  |logger_until.py:Line17|select > for condition
+2021-12-20 16:44:30|INFO  |logger_until.py:Line17|input 210 for control input
+2021-12-20 16:44:35|INFO  |logger_until.py:Line17|open Show Value Labels toggle
+2021-12-20 16:44:36|INFO  |logger_until.py:Line17|click on position: left
+2021-12-20 16:44:38|INFO  |logger_until.py:Line17|getting test result
+2021-12-20 16:44:42|INFO  |logger_until.py:Line17|click on position: top
+2021-12-20 16:44:44|INFO  |logger_until.py:Line17|getting test result
+2021-12-20 16:44:47|INFO  |logger_until.py:Line17|click on position: right
+2021-12-20 16:44:49|INFO  |logger_until.py:Line17|getting test result
+2021-12-20 16:44:52|INFO  |logger_until.py:Line17|click on position: bottom
+2021-12-20 16:44:54|INFO  |logger_until.py:Line17|getting test result
+2021-12-20 16:44:57|INFO  |logger_until.py:Line17|expected value: ['row', 'column', 'row-reverse', 'column-reverse'], actually_result: ['row', 'column', 'row-reverse', 'column-reverse']
+2021-12-20 16:44:57|INFO  |logger_until.py:Line17|testing test_value_indicator_valuelabels_position is completed and passed
+2021-12-20 16:45:00|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-20 16:45:00|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-20 16:45:01|INFO  |logger_until.py:Line17|click on Values section
+2021-12-20 16:45:03|INFO  |logger_until.py:Line17|Starting test TC test_value_starRate_size
+2021-12-20 16:45:03|INFO  |logger_until.py:Line17|click on Values dropdown
+2021-12-20 16:45:04|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2021-12-20 16:45:04|DEBUG |logger_until.py:Line23|value options_aria_controls: ceaa0f59-89c5-4f15-e881-d5e71aefb11b
+2021-12-20 16:45:04|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2021-12-20 16:45:04|INFO  |logger_until.py:Line17|click on view As drop-down
+2021-12-20 16:45:06|INFO  |logger_until.py:Line17|click on the options: Star Rate
+2021-12-20 16:45:06|DEBUG |logger_until.py:Line23|view as options_aria_controls: d26b7b65-3237-425f-98f6-f5856ea3c8a2
+2021-12-20 16:45:06|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2021-12-20 16:45:07|INFO  |logger_until.py:Line17|input full star: 5
+2021-12-20 16:45:08|INFO  |logger_until.py:Line17|input full star: 400
+2021-12-20 16:45:24|INFO  |logger_until.py:Line17|expected value: 14px, actually_result: 14px
+2021-12-20 16:45:24|INFO  |logger_until.py:Line17|testing test_value_starRate_size is completed and passed
+2021-12-20 17:24:09|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================

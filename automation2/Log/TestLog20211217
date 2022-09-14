@@ -1,0 +1,941 @@
+2021-12-17 11:38:02|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-17 11:38:16|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-12-17 11:38:18|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-12-17 11:38:18|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2021-12-17 11:38:20|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-12-17 11:38:21|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-17 11:38:21|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-17 11:38:22|INFO  |logger_until.py:Line17|click on Values section
+2021-12-17 11:38:24|INFO  |logger_until.py:Line17|Starting test TC test_value_colorCoding_var_sum
+2021-12-17 11:38:24|INFO  |logger_until.py:Line17|click on Values dropdown
+2021-12-17 11:38:25|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2021-12-17 11:38:25|DEBUG |logger_until.py:Line23|value options_aria_controls: c74925b9-1c3d-4f31-9cc9-f917690b43b4
+2021-12-17 11:38:25|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2021-12-17 11:38:26|INFO  |logger_until.py:Line17|click on view As drop-down
+2021-12-17 11:38:27|INFO  |logger_until.py:Line17|click on the options: Color Coding
+2021-12-17 11:38:27|DEBUG |logger_until.py:Line23|view as options_aria_controls: 5a71c7fa-d44d-4f25-ae46-24c3a74fbbab
+2021-12-17 11:38:27|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2021-12-17 11:38:28|INFO  |logger_until.py:Line17|click on type dropdown list
+2021-12-17 11:43:56|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-17 11:44:05|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-12-17 11:44:06|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-12-17 11:44:06|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2021-12-17 11:44:08|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-12-17 11:44:08|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-17 11:44:08|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-17 11:44:10|INFO  |logger_until.py:Line17|click on Values section
+2021-12-17 11:44:12|INFO  |logger_until.py:Line17|Starting test TC test_value_colorCoding_var_sum
+2021-12-17 11:44:12|INFO  |logger_until.py:Line17|click on Values dropdown
+2021-12-17 11:44:13|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2021-12-17 11:44:13|DEBUG |logger_until.py:Line23|value options_aria_controls: 82a1f19e-777c-47e1-dce2-fc7fb100bac5
+2021-12-17 11:44:13|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2021-12-17 11:44:13|INFO  |logger_until.py:Line17|click on view As drop-down
+2021-12-17 11:44:14|INFO  |logger_until.py:Line17|click on the options: Color Coding
+2021-12-17 11:44:14|DEBUG |logger_until.py:Line23|view as options_aria_controls: 70f1ad3e-1de2-4b49-f098-d93ab933788b
+2021-12-17 11:44:14|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2021-12-17 11:44:15|INFO  |logger_until.py:Line17|click on type dropdown list
+2021-12-17 11:44:16|INFO  |logger_until.py:Line17|select Variables for type
+2021-12-17 11:44:19|INFO  |logger_until.py:Line17|click on Add New Button
+2021-12-17 13:38:34|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-17 13:38:41|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-12-17 13:38:42|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-12-17 13:38:42|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2021-12-17 13:38:43|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-12-17 13:38:43|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-17 13:38:43|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-17 13:38:45|INFO  |logger_until.py:Line17|click on Values section
+2021-12-17 13:38:47|INFO  |logger_until.py:Line17|Starting test TC test_value_colorCoding_var_sum
+2021-12-17 13:38:47|INFO  |logger_until.py:Line17|click on Values dropdown
+2021-12-17 13:38:48|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2021-12-17 13:38:48|DEBUG |logger_until.py:Line23|value options_aria_controls: 2bbf56d3-ae59-46ed-d85d-2e69938fa530
+2021-12-17 13:38:48|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2021-12-17 13:38:48|INFO  |logger_until.py:Line17|click on view As drop-down
+2021-12-17 13:38:49|INFO  |logger_until.py:Line17|click on the options: Color Coding
+2021-12-17 13:38:49|DEBUG |logger_until.py:Line23|view as options_aria_controls: 422fc4dd-64a0-48e7-d023-d2dfda9e8956
+2021-12-17 13:38:49|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2021-12-17 13:38:50|INFO  |logger_until.py:Line17|click on type dropdown list
+2021-12-17 13:38:51|INFO  |logger_until.py:Line17|select Variables for type
+2021-12-17 13:41:32|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-17 13:41:39|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-12-17 13:41:40|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-12-17 13:41:41|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2021-12-17 13:41:41|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-12-17 13:41:42|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-17 13:41:42|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-17 13:41:43|INFO  |logger_until.py:Line17|click on Values section
+2021-12-17 13:41:45|INFO  |logger_until.py:Line17|Starting test TC test_value_colorCoding_var_sum
+2021-12-17 13:41:45|INFO  |logger_until.py:Line17|click on Values dropdown
+2021-12-17 13:41:47|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2021-12-17 13:41:47|DEBUG |logger_until.py:Line23|value options_aria_controls: 2e3e47e7-7776-442c-af71-c2d47bf71a1b
+2021-12-17 13:41:47|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2021-12-17 13:41:47|INFO  |logger_until.py:Line17|click on view As drop-down
+2021-12-17 13:41:48|INFO  |logger_until.py:Line17|click on the options: Color Coding
+2021-12-17 13:41:48|DEBUG |logger_until.py:Line23|view as options_aria_controls: 04d7e4c7-44b8-4213-93a8-92ebb080b99d
+2021-12-17 13:41:48|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2021-12-17 13:41:49|INFO  |logger_until.py:Line17|click on type dropdown list
+2021-12-17 13:41:50|INFO  |logger_until.py:Line17|select Variables for type
+2021-12-17 13:41:51|INFO  |logger_until.py:Line17|click on Add New Button
+2021-12-17 13:41:52|INFO  |logger_until.py:Line17|Click on background color picker
+2021-12-17 14:26:13|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-17 14:26:23|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-12-17 14:26:24|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-12-17 14:26:24|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2021-12-17 14:26:25|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-12-17 14:26:25|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-17 14:26:26|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-17 14:26:27|INFO  |logger_until.py:Line17|click on Values section
+2021-12-17 14:26:29|INFO  |logger_until.py:Line17|Starting test TC test_value_colorCoding_var_sum
+2021-12-17 14:26:29|INFO  |logger_until.py:Line17|click on Values dropdown
+2021-12-17 14:26:30|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2021-12-17 14:26:30|DEBUG |logger_until.py:Line23|value options_aria_controls: a880552f-956a-4cda-90b3-fe4151b1d871
+2021-12-17 14:26:30|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2021-12-17 14:26:30|INFO  |logger_until.py:Line17|click on view As drop-down
+2021-12-17 14:26:31|INFO  |logger_until.py:Line17|click on the options: Color Coding
+2021-12-17 14:26:31|DEBUG |logger_until.py:Line23|view as options_aria_controls: 969052f8-29e6-4531-e607-ec540e8c8056
+2021-12-17 14:26:31|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2021-12-17 14:26:32|INFO  |logger_until.py:Line17|click on type dropdown list
+2021-12-17 14:26:34|INFO  |logger_until.py:Line17|select Variables for type
+2021-12-17 14:26:35|INFO  |logger_until.py:Line17|click on Add New Button
+2021-12-17 14:26:36|INFO  |logger_until.py:Line17|Click on background color picker
+2021-12-17 14:26:37|INFO  |logger_until.py:Line17|select #8B572A for background color
+2021-12-17 14:26:38|INFO  |logger_until.py:Line17|Click on color picker
+2021-12-17 14:26:39|INFO  |logger_until.py:Line17|select #F5A623 for background color
+2021-12-17 14:26:40|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 14:26:43|INFO  |logger_until.py:Line17|click on variables dropdown list
+2021-12-17 14:26:44|INFO  |logger_until.py:Line17|select target_count
+2021-12-17 14:26:45|INFO  |logger_until.py:Line17|click on aggregation dropdown list
+2021-12-17 14:26:46|INFO  |logger_until.py:Line17|select target_count
+2021-12-17 14:37:04|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-17 14:37:11|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-12-17 14:37:12|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-12-17 14:37:12|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2021-12-17 14:37:13|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-12-17 14:37:13|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-17 14:37:14|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-17 14:37:16|INFO  |logger_until.py:Line17|click on Values section
+2021-12-17 14:37:18|INFO  |logger_until.py:Line17|Starting test TC test_value_colorCoding_var_sum
+2021-12-17 14:37:18|INFO  |logger_until.py:Line17|click on Values dropdown
+2021-12-17 14:37:19|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2021-12-17 14:37:19|DEBUG |logger_until.py:Line23|value options_aria_controls: ed495bff-19ca-44fa-b87a-22f01a52ac05
+2021-12-17 14:37:19|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2021-12-17 14:37:19|INFO  |logger_until.py:Line17|click on view As drop-down
+2021-12-17 14:37:20|INFO  |logger_until.py:Line17|click on the options: Color Coding
+2021-12-17 14:37:20|DEBUG |logger_until.py:Line23|view as options_aria_controls: 832d4375-6959-46bb-eca9-bebeff1ef347
+2021-12-17 14:37:20|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2021-12-17 14:37:22|INFO  |logger_until.py:Line17|click on type dropdown list
+2021-12-17 14:37:23|INFO  |logger_until.py:Line17|select Variables for type
+2021-12-17 14:37:24|INFO  |logger_until.py:Line17|click on Add New Button
+2021-12-17 14:37:25|INFO  |logger_until.py:Line17|Click on background color picker
+2021-12-17 14:37:26|INFO  |logger_until.py:Line17|select #8B572A for background color
+2021-12-17 14:37:27|INFO  |logger_until.py:Line17|Click on color picker
+2021-12-17 14:37:28|INFO  |logger_until.py:Line17|select #F5A623 for background color
+2021-12-17 14:37:29|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 14:37:32|INFO  |logger_until.py:Line17|click on variables dropdown list
+2021-12-17 14:37:33|INFO  |logger_until.py:Line17|select target_count
+2021-12-17 14:37:34|INFO  |logger_until.py:Line17|click on aggregation dropdown list
+2021-12-17 14:37:36|INFO  |logger_until.py:Line17|select target_count
+2021-12-17 14:37:37|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 14:37:49|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 14:37:51|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 14:38:03|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 14:38:05|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 14:38:17|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 14:38:20|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 14:38:32|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 14:38:34|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 14:38:46|INFO  |logger_until.py:Line17|[[('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', '')], [('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)')], [('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', '')], [('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', '')], [('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)')]]
+2021-12-17 14:41:31|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-17 14:41:38|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-12-17 14:41:39|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-12-17 14:41:39|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2021-12-17 14:41:40|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-12-17 14:41:40|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-17 14:41:41|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-17 14:41:42|INFO  |logger_until.py:Line17|click on Values section
+2021-12-17 14:41:44|INFO  |logger_until.py:Line17|Starting test TC test_value_colorCoding_var_min
+2021-12-17 14:41:44|INFO  |logger_until.py:Line17|click on Values dropdown
+2021-12-17 14:41:45|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2021-12-17 14:41:45|DEBUG |logger_until.py:Line23|value options_aria_controls: c6cad550-16b2-4aa3-fedb-76d15abdc455
+2021-12-17 14:41:45|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2021-12-17 14:41:45|INFO  |logger_until.py:Line17|click on view As drop-down
+2021-12-17 14:41:46|INFO  |logger_until.py:Line17|click on the options: Color Coding
+2021-12-17 14:41:46|DEBUG |logger_until.py:Line23|view as options_aria_controls: 840238b3-d962-4e4f-f1d7-341a68f68c67
+2021-12-17 14:41:47|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2021-12-17 14:41:48|INFO  |logger_until.py:Line17|click on type dropdown list
+2021-12-17 14:41:49|INFO  |logger_until.py:Line17|select Variables for type
+2021-12-17 14:41:50|INFO  |logger_until.py:Line17|click on Add New Button
+2021-12-17 14:41:51|INFO  |logger_until.py:Line17|Click on background color picker
+2021-12-17 14:41:52|INFO  |logger_until.py:Line17|select #8B572A for background color
+2021-12-17 14:41:53|INFO  |logger_until.py:Line17|Click on color picker
+2021-12-17 14:41:54|INFO  |logger_until.py:Line17|select #F5A623 for background color
+2021-12-17 14:41:55|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 14:41:58|INFO  |logger_until.py:Line17|click on variables dropdown list
+2021-12-17 14:41:59|INFO  |logger_until.py:Line17|select target_count
+2021-12-17 14:42:00|INFO  |logger_until.py:Line17|click on aggregation dropdown list
+2021-12-17 14:42:01|INFO  |logger_until.py:Line17|select target_count
+2021-12-17 14:42:03|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 14:42:15|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 14:42:17|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 14:42:29|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 14:42:31|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 14:42:43|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 14:42:46|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 14:42:57|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 14:43:00|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 14:43:12|INFO  |logger_until.py:Line17|[[('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)')], [('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', '')], [('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', '')], [('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)')], [('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', '')]]
+2021-12-17 14:44:08|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-17 14:44:14|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-12-17 14:44:15|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-12-17 14:44:15|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2021-12-17 14:44:16|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-12-17 14:44:17|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-17 14:44:17|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-17 14:44:18|INFO  |logger_until.py:Line17|click on Values section
+2021-12-17 14:44:20|INFO  |logger_until.py:Line17|Starting test TC test_value_colorCoding_var_max
+2021-12-17 14:44:20|INFO  |logger_until.py:Line17|click on Values dropdown
+2021-12-17 14:44:21|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2021-12-17 14:44:21|DEBUG |logger_until.py:Line23|value options_aria_controls: 7f2b30aa-1c3f-49a2-c008-c5ad7eaec451
+2021-12-17 14:44:21|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2021-12-17 14:44:21|INFO  |logger_until.py:Line17|click on view As drop-down
+2021-12-17 14:44:23|INFO  |logger_until.py:Line17|click on the options: Color Coding
+2021-12-17 14:44:23|DEBUG |logger_until.py:Line23|view as options_aria_controls: bf73248e-bdd5-46ce-bad4-b40aa1551d95
+2021-12-17 14:44:23|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2021-12-17 14:44:24|INFO  |logger_until.py:Line17|click on type dropdown list
+2021-12-17 14:44:25|INFO  |logger_until.py:Line17|select Variables for type
+2021-12-17 14:44:26|INFO  |logger_until.py:Line17|click on Add New Button
+2021-12-17 14:44:27|INFO  |logger_until.py:Line17|Click on background color picker
+2021-12-17 14:44:28|INFO  |logger_until.py:Line17|select #8B572A for background color
+2021-12-17 14:44:29|INFO  |logger_until.py:Line17|Click on color picker
+2021-12-17 14:44:30|INFO  |logger_until.py:Line17|select #F5A623 for background color
+2021-12-17 14:44:32|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 14:44:34|INFO  |logger_until.py:Line17|click on variables dropdown list
+2021-12-17 14:44:35|INFO  |logger_until.py:Line17|select target_count
+2021-12-17 14:44:36|INFO  |logger_until.py:Line17|click on aggregation dropdown list
+2021-12-17 14:44:37|INFO  |logger_until.py:Line17|select target_count
+2021-12-17 14:44:39|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 14:44:51|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 14:44:54|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 14:45:06|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 14:45:08|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 14:45:19|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 14:45:22|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 14:45:34|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 14:45:36|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 14:45:48|INFO  |logger_until.py:Line17|[[('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', '')], [('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)')], [('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', '')], [('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', '')], [('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)')]]
+2021-12-17 14:47:29|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-17 14:47:52|ERROR |logger_until.py:Line20|exceptions must derive from BaseException
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Common/dom_until.py", line 46, in wait_url
+    result = WebDriverWait(self.driver, timeout, timeseq).until(EC.url_contains(url_keyword))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/testCase/PivotTable/Properties/test_value.py", line 61, in visit_dashboard
+    bussiness_dashboard = BusinessDashboard(driver, url, user, pwd, project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Dashboard.py", line 9, in __init__
+    self.project = BusinessProject(driver, url, username, pwd).visit_project(project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Project.py", line 12, in __init__
+    BusinessLogin(driver, url, username, pwd).login()
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Login.py", line 19, in login
+    l.login(self._username, self._pwd)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/Login.py", line 144, in login
+    result = self._waiturl("projects", 20, 1)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Common/dom_until.py", line 51, in wait_url
+    raise (type(e), e)
+TypeError: exceptions must derive from BaseException
+2021-12-17 14:48:05|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-17 14:48:07|ERROR |logger_until.py:Line20|exceptions must derive from BaseException
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Common/dom_until.py", line 15, in findelement
+    WebDriverWait(self.driver, timeout, timeseq).until(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 71, in until
+    value = method(self._driver)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/support/expected_conditions.py", line 64, in __call__
+    return _find_element(driver, self.locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/support/expected_conditions.py", line 415, in _find_element
+    raise e
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/support/expected_conditions.py", line 411, in _find_element
+    return driver.find_element(*by)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=96.0.4664.110)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/testCase/PivotTable/Properties/test_value.py", line 61, in visit_dashboard
+    bussiness_dashboard = BusinessDashboard(driver, url, user, pwd, project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Dashboard.py", line 9, in __init__
+    self.project = BusinessProject(driver, url, username, pwd).visit_project(project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Project.py", line 12, in __init__
+    BusinessLogin(driver, url, username, pwd).login()
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Login.py", line 19, in login
+    l.login(self._username, self._pwd)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/Login.py", line 141, in login
+    l.password_input(pwd)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/Login.py", line 39, in password_input
+    ele = Login(self._driver).password()
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/Login.py", line 35, in password
+    ele = self._findele(css, 5, 0.5)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Common/dom_until.py", line 22, in findelement
+    raise (type(e), e)
+TypeError: exceptions must derive from BaseException
+2021-12-17 14:48:40|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-17 14:48:46|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-12-17 14:48:48|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-12-17 14:48:48|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2021-12-17 14:48:49|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-12-17 14:48:49|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-17 14:48:49|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-17 14:48:50|INFO  |logger_until.py:Line17|click on Values section
+2021-12-17 14:48:52|INFO  |logger_until.py:Line17|Starting test TC test_value_colorCoding_var_avg
+2021-12-17 14:48:52|INFO  |logger_until.py:Line17|click on Values dropdown
+2021-12-17 14:48:53|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2021-12-17 14:48:53|DEBUG |logger_until.py:Line23|value options_aria_controls: e4d6066b-5ace-48e1-edb3-abf45211abb3
+2021-12-17 14:48:53|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2021-12-17 14:48:54|INFO  |logger_until.py:Line17|click on view As drop-down
+2021-12-17 14:48:55|INFO  |logger_until.py:Line17|click on the options: Color Coding
+2021-12-17 14:48:55|DEBUG |logger_until.py:Line23|view as options_aria_controls: 3cb74913-eca5-465c-a3bd-61fc245ae02f
+2021-12-17 14:48:55|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2021-12-17 14:48:56|INFO  |logger_until.py:Line17|click on type dropdown list
+2021-12-17 14:48:57|INFO  |logger_until.py:Line17|select Variables for type
+2021-12-17 14:48:58|INFO  |logger_until.py:Line17|click on Add New Button
+2021-12-17 14:48:59|INFO  |logger_until.py:Line17|Click on background color picker
+2021-12-17 14:49:00|INFO  |logger_until.py:Line17|select #8B572A for background color
+2021-12-17 14:49:01|INFO  |logger_until.py:Line17|Click on color picker
+2021-12-17 14:49:03|INFO  |logger_until.py:Line17|select #F5A623 for background color
+2021-12-17 14:49:04|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 14:49:06|INFO  |logger_until.py:Line17|click on variables dropdown list
+2021-12-17 14:49:07|INFO  |logger_until.py:Line17|select target_count
+2021-12-17 14:49:08|INFO  |logger_until.py:Line17|click on aggregation dropdown list
+2021-12-17 14:49:10|INFO  |logger_until.py:Line17|select target_count
+2021-12-17 14:49:11|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 14:49:23|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 14:49:25|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 14:49:37|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 14:49:40|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 14:49:52|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 14:49:53|ERROR |logger_until.py:Line20|exceptions must derive from BaseException
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Common/dom_until.py", line 26, in findelements
+    WebDriverWait(self.driver, timeout, timeseq).until(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 71, in until
+    value = method(self._driver)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/support/expected_conditions.py", line 161, in __call__
+    return _find_elements(driver, self.locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/support/expected_conditions.py", line 422, in _find_elements
+    raise e
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/support/expected_conditions.py", line 420, in _find_elements
+    return driver.find_elements(*by)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 1005, in find_elements
+    return self.execute(Command.FIND_ELEMENTS, {
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 241, in check_response
+    raise exception_class(message, screen, stacktrace, alert_text)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: {Alert text : 
+Message: unexpected alert open: {Alert text : }
+  (Session info: chrome=96.0.4664.110)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/VisibilityLayer/Dashboard/Properties/values.py", line 33, in values_all
+    eles = self._findeles(css_all)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Common/dom_until.py", line 42, in findelements
+    raise (type(e), e)
+TypeError: exceptions must derive from BaseException
+2021-12-17 14:50:30|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-17 14:50:37|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-12-17 14:50:57|ERROR |logger_until.py:Line20|exceptions must derive from BaseException
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Common/dom_until.py", line 15, in findelement
+    WebDriverWait(self.driver, timeout, timeseq).until(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/Project.py", line 18, in get_project
+    ele = self._findele(self._pageobj['projectList']).find_element_by_link_text(
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Common/dom_until.py", line 22, in findelement
+    raise (type(e), e)
+TypeError: exceptions must derive from BaseException
+2021-12-17 14:50:57|ERROR |logger_until.py:Line20|exceptions must derive from BaseException
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Common/dom_until.py", line 15, in findelement
+    WebDriverWait(self.driver, timeout, timeseq).until(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/testCase/PivotTable/Properties/test_value.py", line 61, in visit_dashboard
+    bussiness_dashboard = BusinessDashboard(driver, url, user, pwd, project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Dashboard.py", line 9, in __init__
+    self.project = BusinessProject(driver, url, username, pwd).visit_project(project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Project.py", line 15, in visit_project
+    self.project.visit_project(project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/Project.py", line 27, in visit_project
+    ele = Project(self._driver).get_project(project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/Project.py", line 22, in get_project
+    raise err
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/Project.py", line 18, in get_project
+    ele = self._findele(self._pageobj['projectList']).find_element_by_link_text(
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Common/dom_until.py", line 22, in findelement
+    raise (type(e), e)
+TypeError: exceptions must derive from BaseException
+2021-12-17 14:51:24|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-17 14:51:30|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-12-17 14:51:31|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-12-17 14:51:31|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2021-12-17 14:51:32|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-12-17 14:51:34|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-17 14:51:34|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-17 14:51:35|INFO  |logger_until.py:Line17|click on Values section
+2021-12-17 14:51:37|INFO  |logger_until.py:Line17|Starting test TC test_value_colorCoding_var_avg
+2021-12-17 14:51:37|INFO  |logger_until.py:Line17|click on Values dropdown
+2021-12-17 14:51:38|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2021-12-17 14:51:38|DEBUG |logger_until.py:Line23|value options_aria_controls: 4b758a9f-8f67-4742-e84b-7e845dda525b
+2021-12-17 14:51:38|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2021-12-17 14:51:38|INFO  |logger_until.py:Line17|click on view As drop-down
+2021-12-17 14:51:40|INFO  |logger_until.py:Line17|click on the options: Color Coding
+2021-12-17 14:51:40|DEBUG |logger_until.py:Line23|view as options_aria_controls: a6035af4-ea17-4e30-b7ae-144d8f8fbb88
+2021-12-17 14:51:40|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2021-12-17 14:51:41|INFO  |logger_until.py:Line17|click on type dropdown list
+2021-12-17 14:51:42|INFO  |logger_until.py:Line17|select Variables for type
+2021-12-17 14:51:43|INFO  |logger_until.py:Line17|click on Add New Button
+2021-12-17 14:51:44|INFO  |logger_until.py:Line17|Click on background color picker
+2021-12-17 14:51:45|INFO  |logger_until.py:Line17|select #8B572A for background color
+2021-12-17 14:51:46|INFO  |logger_until.py:Line17|Click on color picker
+2021-12-17 14:51:47|INFO  |logger_until.py:Line17|select #F5A623 for background color
+2021-12-17 14:51:48|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 14:51:51|INFO  |logger_until.py:Line17|click on variables dropdown list
+2021-12-17 14:51:52|INFO  |logger_until.py:Line17|select target_count
+2021-12-17 14:51:53|INFO  |logger_until.py:Line17|click on aggregation dropdown list
+2021-12-17 14:51:54|INFO  |logger_until.py:Line17|select target_count
+2021-12-17 14:51:56|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 14:52:08|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 14:52:10|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 14:52:22|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 14:52:25|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 14:52:36|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 14:52:39|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 14:52:51|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 14:52:54|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 14:53:06|INFO  |logger_until.py:Line17|[[('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', '')], [('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)')], [('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', '')], [('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', '')], [('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)')]]
+2021-12-17 14:56:13|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-17 14:56:19|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-12-17 14:56:20|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-12-17 14:56:20|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2021-12-17 14:56:21|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-12-17 14:56:21|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-17 14:56:22|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-17 14:56:23|INFO  |logger_until.py:Line17|click on Values section
+2021-12-17 14:56:25|INFO  |logger_until.py:Line17|Starting test TC test_value_colorCoding_var_count
+2021-12-17 14:56:25|INFO  |logger_until.py:Line17|click on Values dropdown
+2021-12-17 14:56:26|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2021-12-17 14:56:26|DEBUG |logger_until.py:Line23|value options_aria_controls: 22fde833-0144-416b-c861-c38409c3491e
+2021-12-17 14:56:26|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2021-12-17 14:56:26|INFO  |logger_until.py:Line17|click on view As drop-down
+2021-12-17 14:56:27|INFO  |logger_until.py:Line17|click on the options: Color Coding
+2021-12-17 14:56:27|DEBUG |logger_until.py:Line23|view as options_aria_controls: 4850eefa-ece7-4564-e9e3-88dd990beef3
+2021-12-17 14:56:28|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2021-12-17 14:56:29|INFO  |logger_until.py:Line17|click on type dropdown list
+2021-12-17 14:56:30|INFO  |logger_until.py:Line17|select Variables for type
+2021-12-17 14:56:31|INFO  |logger_until.py:Line17|click on Add New Button
+2021-12-17 14:56:32|INFO  |logger_until.py:Line17|Click on background color picker
+2021-12-17 14:56:33|INFO  |logger_until.py:Line17|select #8B572A for background color
+2021-12-17 14:56:34|INFO  |logger_until.py:Line17|Click on color picker
+2021-12-17 14:56:35|INFO  |logger_until.py:Line17|select #F5A623 for background color
+2021-12-17 14:56:36|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 14:56:39|INFO  |logger_until.py:Line17|click on variables dropdown list
+2021-12-17 14:56:40|INFO  |logger_until.py:Line17|select target_count
+2021-12-17 14:56:41|INFO  |logger_until.py:Line17|click on aggregation dropdown list
+2021-12-17 14:56:42|INFO  |logger_until.py:Line17|select target_count
+2021-12-17 14:56:44|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 14:56:56|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 14:56:58|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 14:57:10|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 14:57:12|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 14:57:24|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 14:57:26|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 14:57:38|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 14:57:41|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 14:57:52|INFO  |logger_until.py:Line17|[[('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)')], [('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', '')], [('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', '')], [('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)')], [('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', '')]]
+2021-12-17 15:00:20|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-17 15:00:27|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-12-17 15:00:29|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-12-17 15:00:29|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2021-12-17 15:00:30|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-12-17 15:00:30|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-17 15:00:31|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-17 15:00:32|INFO  |logger_until.py:Line17|click on Values section
+2021-12-17 15:00:34|INFO  |logger_until.py:Line17|Starting test TC test_value_colorCoding_var_countd
+2021-12-17 15:00:34|INFO  |logger_until.py:Line17|click on Values dropdown
+2021-12-17 15:00:35|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2021-12-17 15:00:35|DEBUG |logger_until.py:Line23|value options_aria_controls: 2a139722-859f-4e36-d02f-2a5f6d78ac43
+2021-12-17 15:00:35|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2021-12-17 15:00:36|INFO  |logger_until.py:Line17|click on view As drop-down
+2021-12-17 15:00:37|INFO  |logger_until.py:Line17|click on the options: Color Coding
+2021-12-17 15:00:37|DEBUG |logger_until.py:Line23|view as options_aria_controls: 4ef245f0-7be3-436c-e360-e2513955cf23
+2021-12-17 15:00:37|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2021-12-17 15:00:38|INFO  |logger_until.py:Line17|click on type dropdown list
+2021-12-17 15:00:39|INFO  |logger_until.py:Line17|select Variables for type
+2021-12-17 15:00:40|INFO  |logger_until.py:Line17|click on Add New Button
+2021-12-17 15:00:41|INFO  |logger_until.py:Line17|Click on background color picker
+2021-12-17 15:00:42|INFO  |logger_until.py:Line17|select #8B572A for background color
+2021-12-17 15:00:43|INFO  |logger_until.py:Line17|Click on color picker
+2021-12-17 15:00:45|INFO  |logger_until.py:Line17|select #F5A623 for background color
+2021-12-17 15:00:46|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 15:00:48|INFO  |logger_until.py:Line17|click on variables dropdown list
+2021-12-17 15:00:49|INFO  |logger_until.py:Line17|select target_count
+2021-12-17 15:00:50|INFO  |logger_until.py:Line17|click on aggregation dropdown list
+2021-12-17 15:00:52|INFO  |logger_until.py:Line17|select target_count
+2021-12-17 15:00:53|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 15:01:05|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 15:01:07|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 15:01:19|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 15:01:21|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 15:01:33|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 15:01:35|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 15:01:47|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 15:01:49|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 15:02:01|INFO  |logger_until.py:Line17|[[('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)')], [('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', '')], [('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', '')], [('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)')], [('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', '')]]
+2021-12-17 15:06:39|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-17 15:06:46|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-12-17 15:06:48|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-12-17 15:06:48|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2021-12-17 15:06:50|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-12-17 15:06:50|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-17 15:06:50|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-17 15:06:52|INFO  |logger_until.py:Line17|click on Values section
+2021-12-17 15:06:54|INFO  |logger_until.py:Line17|Starting test TC test_value_colorCoding_var_allowGrounp_sum
+2021-12-17 15:06:54|INFO  |logger_until.py:Line17|click on Values dropdown
+2021-12-17 15:06:55|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2021-12-17 15:06:55|DEBUG |logger_until.py:Line23|value options_aria_controls: 4bc1e6c5-ca2f-4683-a4fc-437249353e8f
+2021-12-17 15:06:55|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2021-12-17 15:06:55|INFO  |logger_until.py:Line17|click on view As drop-down
+2021-12-17 15:06:56|INFO  |logger_until.py:Line17|click on the options: Color Coding
+2021-12-17 15:06:56|DEBUG |logger_until.py:Line23|view as options_aria_controls: d33ccded-04f9-4fe0-9a43-2e6cce00d178
+2021-12-17 15:06:56|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2021-12-17 15:06:57|INFO  |logger_until.py:Line17|click on type dropdown list
+2021-12-17 15:06:58|INFO  |logger_until.py:Line17|select Variables for type
+2021-12-17 15:07:00|INFO  |logger_until.py:Line17|click on Add New Button
+2021-12-17 15:07:01|INFO  |logger_until.py:Line17|Click on background color picker
+2021-12-17 15:07:02|INFO  |logger_until.py:Line17|select #8B572A for background color
+2021-12-17 15:07:03|INFO  |logger_until.py:Line17|Click on color picker
+2021-12-17 15:07:04|INFO  |logger_until.py:Line17|select #F5A623 for background color
+2021-12-17 15:07:05|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 15:07:08|INFO  |logger_until.py:Line17|click on variables dropdown list
+2021-12-17 15:07:09|INFO  |logger_until.py:Line17|select target_count
+2021-12-17 15:07:10|INFO  |logger_until.py:Line17|click on aggregation dropdown list
+2021-12-17 15:07:11|INFO  |logger_until.py:Line17|select target_count
+2021-12-17 15:07:15|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 15:07:27|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 15:07:29|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 15:07:41|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 15:07:43|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 15:07:55|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 15:07:58|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 15:08:09|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 15:08:12|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 15:09:05|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-17 15:09:11|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-12-17 15:09:12|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-12-17 15:09:12|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2021-12-17 15:09:14|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-12-17 15:09:14|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-17 15:09:15|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-17 15:09:16|INFO  |logger_until.py:Line17|click on Values section
+2021-12-17 15:09:18|INFO  |logger_until.py:Line17|Starting test TC test_value_colorCoding_var_allowGrounp_sum
+2021-12-17 15:09:18|INFO  |logger_until.py:Line17|click on Values dropdown
+2021-12-17 15:09:19|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2021-12-17 15:09:19|DEBUG |logger_until.py:Line23|value options_aria_controls: 3e76a4bf-470a-481f-e48c-b5e105481a92
+2021-12-17 15:09:19|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2021-12-17 15:09:19|INFO  |logger_until.py:Line17|click on view As drop-down
+2021-12-17 15:09:21|INFO  |logger_until.py:Line17|click on the options: Color Coding
+2021-12-17 15:09:21|DEBUG |logger_until.py:Line23|view as options_aria_controls: 18689cea-759d-4d0e-ce78-e00680244855
+2021-12-17 15:09:21|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2021-12-17 15:09:22|INFO  |logger_until.py:Line17|click on type dropdown list
+2021-12-17 15:09:23|INFO  |logger_until.py:Line17|select Variables for type
+2021-12-17 15:09:24|INFO  |logger_until.py:Line17|click on Add New Button
+2021-12-17 15:09:25|INFO  |logger_until.py:Line17|Click on background color picker
+2021-12-17 15:09:26|INFO  |logger_until.py:Line17|select #8B572A for background color
+2021-12-17 15:09:27|INFO  |logger_until.py:Line17|Click on color picker
+2021-12-17 15:09:29|INFO  |logger_until.py:Line17|select #F5A623 for background color
+2021-12-17 15:09:30|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 15:09:32|INFO  |logger_until.py:Line17|click on variables dropdown list
+2021-12-17 15:09:33|INFO  |logger_until.py:Line17|select target_count
+2021-12-17 15:09:34|INFO  |logger_until.py:Line17|click on aggregation dropdown list
+2021-12-17 15:09:36|INFO  |logger_until.py:Line17|select target_count
+2021-12-17 15:09:39|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 15:09:52|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 15:09:54|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 15:10:07|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 15:10:09|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 15:10:21|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 15:10:24|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 15:10:36|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 15:10:38|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 15:10:51|INFO  |logger_until.py:Line17|[[('', ''), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', '')], [('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)')], [('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', '')], [('', ''), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', '')], [('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)')]]
+2021-12-17 15:11:41|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-17 15:11:49|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-12-17 15:11:50|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-12-17 15:11:50|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2021-12-17 15:11:52|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-12-17 15:11:52|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-17 15:11:52|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-17 15:11:53|INFO  |logger_until.py:Line17|click on Values section
+2021-12-17 15:11:56|INFO  |logger_until.py:Line17|Starting test TC test_value_colorCoding_var_allowGrounp_min
+2021-12-17 15:11:56|INFO  |logger_until.py:Line17|click on Values dropdown
+2021-12-17 15:11:57|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2021-12-17 15:11:57|DEBUG |logger_until.py:Line23|value options_aria_controls: 2ade09f7-f728-4552-94e2-47bb3ecf43b9
+2021-12-17 15:11:57|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2021-12-17 15:11:57|INFO  |logger_until.py:Line17|click on view As drop-down
+2021-12-17 15:11:58|INFO  |logger_until.py:Line17|click on the options: Color Coding
+2021-12-17 15:11:58|DEBUG |logger_until.py:Line23|view as options_aria_controls: ced2543e-4050-4c00-9334-cc96e53c4c4a
+2021-12-17 15:11:58|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2021-12-17 15:11:59|INFO  |logger_until.py:Line17|click on type dropdown list
+2021-12-17 15:12:00|INFO  |logger_until.py:Line17|select Variables for type
+2021-12-17 15:12:01|INFO  |logger_until.py:Line17|click on Add New Button
+2021-12-17 15:12:02|INFO  |logger_until.py:Line17|Click on background color picker
+2021-12-17 15:12:04|INFO  |logger_until.py:Line17|select #8B572A for background color
+2021-12-17 15:12:05|INFO  |logger_until.py:Line17|Click on color picker
+2021-12-17 15:12:06|INFO  |logger_until.py:Line17|select #F5A623 for background color
+2021-12-17 15:12:07|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 15:12:09|INFO  |logger_until.py:Line17|click on variables dropdown list
+2021-12-17 15:12:10|INFO  |logger_until.py:Line17|select target_count
+2021-12-17 15:12:12|INFO  |logger_until.py:Line17|click on aggregation dropdown list
+2021-12-17 15:12:13|INFO  |logger_until.py:Line17|select target_count
+2021-12-17 15:12:16|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 15:12:30|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 15:12:32|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 15:12:45|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 15:12:47|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 15:13:00|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 15:13:02|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 15:13:15|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 15:13:17|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 15:13:30|INFO  |logger_until.py:Line17|[[('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)')], [('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('', ''), ('', '')], [('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', '')], [('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)')], [('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('', ''), ('', '')]]
+2021-12-17 15:14:03|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-17 15:14:10|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-12-17 15:14:11|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-12-17 15:14:11|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2021-12-17 15:14:12|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-12-17 15:14:13|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-17 15:14:13|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-17 15:14:14|INFO  |logger_until.py:Line17|click on Values section
+2021-12-17 15:14:17|INFO  |logger_until.py:Line17|Starting test TC test_value_colorCoding_var_allowGrounp_max
+2021-12-17 15:14:17|INFO  |logger_until.py:Line17|click on Values dropdown
+2021-12-17 15:14:18|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2021-12-17 15:14:18|DEBUG |logger_until.py:Line23|value options_aria_controls: 77335814-b497-4aca-9500-dc496baa3d61
+2021-12-17 15:14:18|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2021-12-17 15:14:18|INFO  |logger_until.py:Line17|click on view As drop-down
+2021-12-17 15:14:19|INFO  |logger_until.py:Line17|click on the options: Color Coding
+2021-12-17 15:14:19|DEBUG |logger_until.py:Line23|view as options_aria_controls: a2eaf5e8-4278-4845-c219-e74899cf5698
+2021-12-17 15:14:19|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2021-12-17 15:14:20|INFO  |logger_until.py:Line17|click on type dropdown list
+2021-12-17 15:14:21|INFO  |logger_until.py:Line17|select Variables for type
+2021-12-17 15:14:22|INFO  |logger_until.py:Line17|click on Add New Button
+2021-12-17 15:14:23|INFO  |logger_until.py:Line17|Click on background color picker
+2021-12-17 15:14:25|INFO  |logger_until.py:Line17|select #8B572A for background color
+2021-12-17 15:14:26|INFO  |logger_until.py:Line17|Click on color picker
+2021-12-17 15:14:27|INFO  |logger_until.py:Line17|select #F5A623 for background color
+2021-12-17 15:14:28|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 15:14:30|INFO  |logger_until.py:Line17|click on variables dropdown list
+2021-12-17 15:14:32|INFO  |logger_until.py:Line17|select target_count
+2021-12-17 15:14:33|INFO  |logger_until.py:Line17|click on aggregation dropdown list
+2021-12-17 15:14:34|INFO  |logger_until.py:Line17|select target_count
+2021-12-17 15:14:37|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 15:14:50|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 15:14:52|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 15:15:04|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 15:15:07|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 15:15:19|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 15:15:21|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 15:15:34|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 15:15:36|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 15:15:48|INFO  |logger_until.py:Line17|[[('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', '')], [('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)')], [('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', '')], [('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', '')], [('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)')]]
+2021-12-17 15:16:23|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-17 15:16:29|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-12-17 15:16:31|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-12-17 15:16:31|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2021-12-17 15:16:33|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-12-17 15:16:33|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-17 15:16:33|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-17 15:16:34|INFO  |logger_until.py:Line17|click on Values section
+2021-12-17 15:16:37|INFO  |logger_until.py:Line17|Starting test TC test_value_colorCoding_var_allowGrounp_avg
+2021-12-17 15:16:37|INFO  |logger_until.py:Line17|click on Values dropdown
+2021-12-17 15:16:38|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2021-12-17 15:16:38|DEBUG |logger_until.py:Line23|value options_aria_controls: e60824fb-16c2-45d0-c3b6-5feaba7be188
+2021-12-17 15:16:38|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2021-12-17 15:16:38|INFO  |logger_until.py:Line17|click on view As drop-down
+2021-12-17 15:16:39|INFO  |logger_until.py:Line17|click on the options: Color Coding
+2021-12-17 15:16:39|DEBUG |logger_until.py:Line23|view as options_aria_controls: c4f04bd5-1b11-4692-ecf1-78dbfd85fd07
+2021-12-17 15:16:39|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2021-12-17 15:16:40|INFO  |logger_until.py:Line17|click on type dropdown list
+2021-12-17 15:16:41|INFO  |logger_until.py:Line17|select Variables for type
+2021-12-17 15:16:42|INFO  |logger_until.py:Line17|click on Add New Button
+2021-12-17 15:16:43|INFO  |logger_until.py:Line17|Click on background color picker
+2021-12-17 15:16:45|INFO  |logger_until.py:Line17|select #8B572A for background color
+2021-12-17 15:16:46|INFO  |logger_until.py:Line17|Click on color picker
+2021-12-17 15:16:47|INFO  |logger_until.py:Line17|select #F5A623 for background color
+2021-12-17 15:16:48|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 15:16:50|INFO  |logger_until.py:Line17|click on variables dropdown list
+2021-12-17 15:16:52|INFO  |logger_until.py:Line17|select target_count
+2021-12-17 15:16:53|INFO  |logger_until.py:Line17|click on aggregation dropdown list
+2021-12-17 15:16:54|INFO  |logger_until.py:Line17|select target_count
+2021-12-17 15:16:57|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 15:17:10|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 15:17:12|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 15:17:25|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 15:17:27|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 15:17:40|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 15:17:42|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 15:17:55|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 15:17:57|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 15:18:09|INFO  |logger_until.py:Line17|[[('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', '')], [('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)')], [('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', '')], [('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', '')], [('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('', ''), ('', ''), ('', ''), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)')]]
+2021-12-17 15:18:47|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-17 15:18:53|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-12-17 15:18:55|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-12-17 15:18:55|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2021-12-17 15:18:56|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-12-17 15:18:56|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-17 15:18:56|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-17 15:18:58|INFO  |logger_until.py:Line17|click on Values section
+2021-12-17 15:19:00|INFO  |logger_until.py:Line17|Starting test TC test_value_colorCoding_var_allowGrounp_count
+2021-12-17 15:19:00|INFO  |logger_until.py:Line17|click on Values dropdown
+2021-12-17 15:19:01|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2021-12-17 15:19:01|DEBUG |logger_until.py:Line23|value options_aria_controls: ff07ac3e-613f-4b51-ef70-d83116b26586
+2021-12-17 15:19:01|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2021-12-17 15:19:01|INFO  |logger_until.py:Line17|click on view As drop-down
+2021-12-17 15:19:02|INFO  |logger_until.py:Line17|click on the options: Color Coding
+2021-12-17 15:19:02|DEBUG |logger_until.py:Line23|view as options_aria_controls: bc7c2a1d-776a-4bfd-df5c-c82f5ca5c62e
+2021-12-17 15:19:02|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2021-12-17 15:19:03|INFO  |logger_until.py:Line17|click on type dropdown list
+2021-12-17 15:19:04|INFO  |logger_until.py:Line17|select Variables for type
+2021-12-17 15:19:05|INFO  |logger_until.py:Line17|click on Add New Button
+2021-12-17 15:19:07|INFO  |logger_until.py:Line17|Click on background color picker
+2021-12-17 15:19:08|INFO  |logger_until.py:Line17|select #8B572A for background color
+2021-12-17 15:19:09|INFO  |logger_until.py:Line17|Click on color picker
+2021-12-17 15:19:10|INFO  |logger_until.py:Line17|select #F5A623 for background color
+2021-12-17 15:19:11|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 15:19:13|INFO  |logger_until.py:Line17|click on variables dropdown list
+2021-12-17 15:19:15|INFO  |logger_until.py:Line17|select target_count
+2021-12-17 15:19:16|INFO  |logger_until.py:Line17|click on aggregation dropdown list
+2021-12-17 15:19:17|INFO  |logger_until.py:Line17|select target_count
+2021-12-17 15:19:21|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 15:19:33|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 15:19:35|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 15:19:48|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 15:19:50|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 15:20:02|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 15:20:05|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 15:20:17|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 15:20:20|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 15:20:32|INFO  |logger_until.py:Line17|[[('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)')], [('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', '')], [('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', '')], [('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)')], [('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', '')]]
+2021-12-17 15:22:00|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-17 15:22:07|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-12-17 15:22:08|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-12-17 15:22:08|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2021-12-17 15:22:09|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-12-17 15:22:09|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-17 15:22:10|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-17 15:22:11|INFO  |logger_until.py:Line17|click on Values section
+2021-12-17 15:22:13|INFO  |logger_until.py:Line17|Starting test TC test_value_colorCoding_var_allowGrounp_countd
+2021-12-17 15:22:13|INFO  |logger_until.py:Line17|click on Values dropdown
+2021-12-17 15:22:14|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2021-12-17 15:22:14|DEBUG |logger_until.py:Line23|value options_aria_controls: bd5c8c31-20db-4d86-fbd8-362276a14f93
+2021-12-17 15:22:14|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2021-12-17 15:22:14|INFO  |logger_until.py:Line17|click on view As drop-down
+2021-12-17 15:22:15|INFO  |logger_until.py:Line17|click on the options: Color Coding
+2021-12-17 15:22:16|DEBUG |logger_until.py:Line23|view as options_aria_controls: 12d44a12-d376-40d1-df6e-1be559a0b88e
+2021-12-17 15:22:16|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2021-12-17 15:22:17|INFO  |logger_until.py:Line17|click on type dropdown list
+2021-12-17 15:22:18|INFO  |logger_until.py:Line17|select Variables for type
+2021-12-17 15:22:19|INFO  |logger_until.py:Line17|click on Add New Button
+2021-12-17 15:22:20|INFO  |logger_until.py:Line17|Click on background color picker
+2021-12-17 15:22:21|INFO  |logger_until.py:Line17|select #8B572A for background color
+2021-12-17 15:22:22|INFO  |logger_until.py:Line17|Click on color picker
+2021-12-17 15:22:23|INFO  |logger_until.py:Line17|select #F5A623 for background color
+2021-12-17 15:22:24|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 15:22:27|INFO  |logger_until.py:Line17|click on variables dropdown list
+2021-12-17 15:22:28|INFO  |logger_until.py:Line17|select target_count
+2021-12-17 15:22:29|INFO  |logger_until.py:Line17|click on aggregation dropdown list
+2021-12-17 15:22:30|INFO  |logger_until.py:Line17|select target_count
+2021-12-17 15:22:34|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 15:22:47|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 15:22:49|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 15:23:02|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 15:23:04|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 15:23:16|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 15:23:19|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 15:23:31|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 15:23:33|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 15:23:45|INFO  |logger_until.py:Line17|[[('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)')], [('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', '')], [('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', '')], [('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)')], [('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', '')]]
+2021-12-17 16:19:57|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-17 16:20:06|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-12-17 16:20:08|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-12-17 16:20:08|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2021-12-17 16:20:09|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-12-17 16:20:09|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-17 16:20:09|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-17 16:20:11|INFO  |logger_until.py:Line17|click on Values section
+2021-12-17 16:20:13|INFO  |logger_until.py:Line17|Starting test TC test_value_colorCoding_var_multiple
+2021-12-17 16:20:13|INFO  |logger_until.py:Line17|click on Values dropdown
+2021-12-17 16:20:14|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2021-12-17 16:20:14|DEBUG |logger_until.py:Line23|value options_aria_controls: 2275ed28-7499-4fe7-bff0-b4cd299df4bd
+2021-12-17 16:20:14|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2021-12-17 16:20:14|INFO  |logger_until.py:Line17|click on view As drop-down
+2021-12-17 16:20:15|INFO  |logger_until.py:Line17|click on the options: Color Coding
+2021-12-17 16:20:15|DEBUG |logger_until.py:Line23|view as options_aria_controls: 06c6305d-ac05-4b5f-b73f-267f29631bda
+2021-12-17 16:20:15|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2021-12-17 16:20:16|INFO  |logger_until.py:Line17|click on type dropdown list
+2021-12-17 16:20:17|INFO  |logger_until.py:Line17|select Variables for type
+2021-12-17 16:20:18|INFO  |logger_until.py:Line17|click on Add New Button
+2021-12-17 16:20:20|INFO  |logger_until.py:Line17|Click on background color picker
+2021-12-17 16:20:21|INFO  |logger_until.py:Line17|select #8B572A for background color
+2021-12-17 16:20:22|INFO  |logger_until.py:Line17|Click on color picker
+2021-12-17 16:20:23|INFO  |logger_until.py:Line17|select #F5A623 for background color
+2021-12-17 16:20:24|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 16:20:26|INFO  |logger_until.py:Line17|click on variables dropdown list
+2021-12-17 16:20:28|INFO  |logger_until.py:Line17|select target_count
+2021-12-17 16:20:29|INFO  |logger_until.py:Line17|click on aggregation dropdown list
+2021-12-17 16:20:30|INFO  |logger_until.py:Line17|select target_count
+2021-12-17 16:20:31|INFO  |logger_until.py:Line17|click on type dropdown list
+2021-12-17 16:20:32|INFO  |logger_until.py:Line17|select Variables for type
+2021-12-17 16:20:34|INFO  |logger_until.py:Line17|click on Add New Button
+2021-12-17 16:20:35|INFO  |logger_until.py:Line17|Click on background color picker
+2021-12-17 16:20:36|INFO  |logger_until.py:Line17|select #417505 for background color
+2021-12-17 16:20:37|INFO  |logger_until.py:Line17|Click on color picker
+2021-12-17 16:20:38|INFO  |logger_until.py:Line17|select #D0021B for background color
+2021-12-17 16:20:39|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 16:20:42|INFO  |logger_until.py:Line17|click on variables dropdown list
+2021-12-17 16:20:43|INFO  |logger_until.py:Line17|select sales_count
+2021-12-17 16:22:28|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-17 16:22:34|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-12-17 16:22:36|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-12-17 16:22:36|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2021-12-17 16:22:37|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-12-17 16:22:37|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-17 16:22:37|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-17 16:22:39|INFO  |logger_until.py:Line17|click on Values section
+2021-12-17 16:22:41|INFO  |logger_until.py:Line17|Starting test TC test_value_colorCoding_var_multiple
+2021-12-17 16:22:41|INFO  |logger_until.py:Line17|click on Values dropdown
+2021-12-17 16:22:42|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2021-12-17 16:22:42|DEBUG |logger_until.py:Line23|value options_aria_controls: dd0313ff-cb04-442f-d521-7617ad2e28b1
+2021-12-17 16:22:42|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2021-12-17 16:22:42|INFO  |logger_until.py:Line17|click on view As drop-down
+2021-12-17 16:22:43|INFO  |logger_until.py:Line17|click on the options: Color Coding
+2021-12-17 16:22:43|DEBUG |logger_until.py:Line23|view as options_aria_controls: cc91d312-366a-4f78-e218-4733cfd8f3cd
+2021-12-17 16:22:43|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2021-12-17 16:22:44|INFO  |logger_until.py:Line17|click on type dropdown list
+2021-12-17 16:22:46|INFO  |logger_until.py:Line17|select Variables for type
+2021-12-17 16:22:47|INFO  |logger_until.py:Line17|click on Add New Button
+2021-12-17 16:22:48|INFO  |logger_until.py:Line17|Click on background color picker
+2021-12-17 16:22:49|INFO  |logger_until.py:Line17|select #8B572A for background color
+2021-12-17 16:22:50|INFO  |logger_until.py:Line17|Click on color picker
+2021-12-17 16:22:51|INFO  |logger_until.py:Line17|select #F5A623 for background color
+2021-12-17 16:22:52|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 16:22:55|INFO  |logger_until.py:Line17|click on variables dropdown list
+2021-12-17 16:22:56|INFO  |logger_until.py:Line17|select target_count
+2021-12-17 16:22:57|INFO  |logger_until.py:Line17|click on aggregation dropdown list
+2021-12-17 16:22:59|INFO  |logger_until.py:Line17|select target_count
+2021-12-17 16:23:00|INFO  |logger_until.py:Line17|click on type dropdown list
+2021-12-17 16:23:01|INFO  |logger_until.py:Line17|select Variables for type
+2021-12-17 16:23:02|INFO  |logger_until.py:Line17|click on Add New Button
+2021-12-17 16:23:03|INFO  |logger_until.py:Line17|Click on background color picker
+2021-12-17 16:23:04|INFO  |logger_until.py:Line17|select #417505 for background color
+2021-12-17 16:23:05|INFO  |logger_until.py:Line17|Click on color picker
+2021-12-17 16:23:07|INFO  |logger_until.py:Line17|select #D0021B for background color
+2021-12-17 16:23:08|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 16:23:10|INFO  |logger_until.py:Line17|click on variables dropdown list
+2021-12-17 16:23:12|INFO  |logger_until.py:Line17|select sales_count
+2021-12-17 16:23:13|INFO  |logger_until.py:Line17|click on aggregation dropdown list
+2021-12-17 16:23:14|INFO  |logger_until.py:Line17|select sales_count
+2021-12-17 16:23:14|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 16:23:26|INFO  |logger_until.py:Line17|[('rgb(65, 117, 5)', 'rgb(208, 2, 27)'), ('rgb(65, 117, 5)', 'rgb(208, 2, 27)'), ('', ''), ('rgb(65, 117, 5)', 'rgb(208, 2, 27)'), ('rgb(65, 117, 5)', 'rgb(208, 2, 27)'), ('', ''), ('rgb(65, 117, 5)', 'rgb(208, 2, 27)'), ('rgb(65, 117, 5)', 'rgb(208, 2, 27)'), ('', ''), ('rgb(65, 117, 5)', 'rgb(208, 2, 27)'), ('rgb(65, 117, 5)', 'rgb(208, 2, 27)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(65, 117, 5)', 'rgb(208, 2, 27)'), ('', ''), ('rgb(65, 117, 5)', 'rgb(208, 2, 27)'), ('rgb(65, 117, 5)', 'rgb(208, 2, 27)'), ('rgb(65, 117, 5)', 'rgb(208, 2, 27)'), ('rgb(65, 117, 5)', 'rgb(208, 2, 27)')]
+2021-12-17 16:34:38|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-17 16:34:44|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-12-17 16:34:46|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-12-17 16:34:46|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2021-12-17 16:34:47|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-12-17 16:34:47|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-17 16:34:47|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-17 16:34:49|INFO  |logger_until.py:Line17|click on Values section
+2021-12-17 16:34:51|INFO  |logger_until.py:Line17|Starting test TC test_value_colorCoding_var_delete
+2021-12-17 16:34:51|INFO  |logger_until.py:Line17|click on Values dropdown
+2021-12-17 16:34:52|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2021-12-17 16:34:52|DEBUG |logger_until.py:Line23|value options_aria_controls: aaeb2782-1c7c-4001-a857-397ef47cf78a
+2021-12-17 16:34:52|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2021-12-17 16:34:52|INFO  |logger_until.py:Line17|click on view As drop-down
+2021-12-17 16:34:53|INFO  |logger_until.py:Line17|click on the options: Color Coding
+2021-12-17 16:34:53|DEBUG |logger_until.py:Line23|view as options_aria_controls: 2aead325-ea6f-49fe-a7ba-b85daaf2b9e7
+2021-12-17 16:34:53|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2021-12-17 16:34:54|INFO  |logger_until.py:Line17|click on type dropdown list
+2021-12-17 16:34:55|INFO  |logger_until.py:Line17|select Variables for type
+2021-12-17 16:34:56|INFO  |logger_until.py:Line17|click on Add New Button
+2021-12-17 16:34:58|INFO  |logger_until.py:Line17|Click on background color picker
+2021-12-17 16:34:59|INFO  |logger_until.py:Line17|select #8B572A for background color
+2021-12-17 16:35:00|INFO  |logger_until.py:Line17|Click on color picker
+2021-12-17 16:35:01|INFO  |logger_until.py:Line17|select #F5A623 for background color
+2021-12-17 16:35:02|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 16:35:04|INFO  |logger_until.py:Line17|click on variables dropdown list
+2021-12-17 16:35:06|INFO  |logger_until.py:Line17|select target_count
+2021-12-17 16:35:07|INFO  |logger_until.py:Line17|click on aggregation dropdown list
+2021-12-17 16:35:08|INFO  |logger_until.py:Line17|select target_count
+2021-12-17 16:35:08|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 16:35:21|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 16:35:32|INFO  |logger_until.py:Line17|[[('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', '')], [('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', '')]]
+2021-12-17 16:36:46|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2021-12-17 16:36:52|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-12-17 16:36:53|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-12-17 16:36:53|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2021-12-17 16:36:55|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-12-17 16:36:55|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-12-17 16:36:55|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-12-17 16:36:56|INFO  |logger_until.py:Line17|click on Values section
+2021-12-17 16:36:59|INFO  |logger_until.py:Line17|Starting test TC test_value_colorCoding_var_delete
+2021-12-17 16:36:59|INFO  |logger_until.py:Line17|click on Values dropdown
+2021-12-17 16:37:00|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2021-12-17 16:37:00|DEBUG |logger_until.py:Line23|value options_aria_controls: f1067423-cfa4-4857-cd63-b24498ecadf0
+2021-12-17 16:37:00|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2021-12-17 16:37:00|INFO  |logger_until.py:Line17|click on view As drop-down
+2021-12-17 16:37:01|INFO  |logger_until.py:Line17|click on the options: Color Coding
+2021-12-17 16:37:01|DEBUG |logger_until.py:Line23|view as options_aria_controls: 5bf64a48-2f0c-4745-fe7c-c117c5d9f997
+2021-12-17 16:37:01|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2021-12-17 16:37:02|INFO  |logger_until.py:Line17|click on type dropdown list
+2021-12-17 16:37:03|INFO  |logger_until.py:Line17|select Variables for type
+2021-12-17 16:37:04|INFO  |logger_until.py:Line17|click on Add New Button
+2021-12-17 16:37:05|INFO  |logger_until.py:Line17|Click on background color picker
+2021-12-17 16:37:07|INFO  |logger_until.py:Line17|select #8B572A for background color
+2021-12-17 16:37:08|INFO  |logger_until.py:Line17|Click on color picker
+2021-12-17 16:37:09|INFO  |logger_until.py:Line17|select #F5A623 for background color
+2021-12-17 16:37:10|INFO  |logger_until.py:Line17|click on condition dropdown list
+2021-12-17 16:37:12|INFO  |logger_until.py:Line17|click on variables dropdown list
+2021-12-17 16:37:14|INFO  |logger_until.py:Line17|select target_count
+2021-12-17 16:37:15|INFO  |logger_until.py:Line17|click on aggregation dropdown list
+2021-12-17 16:37:16|INFO  |logger_until.py:Line17|select target_count
+2021-12-17 16:37:16|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 16:37:29|INFO  |logger_until.py:Line17|getting test result
+2021-12-17 16:37:40|INFO  |logger_until.py:Line17|[[('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)'), ('rgb(139, 87, 42)', 'rgb(245, 166, 35)')], [('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', '')]]

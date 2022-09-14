@@ -1,0 +1,28 @@
+env:
+  217: http://172.20.4.217:3002/login
+  ADG: https://eyeguide-designer.essexlg.com/login
+  client_portal: http://172.20.4.217:3020/pub-client-portal/login
+user:
+  valid:
+  -
+    username: xingyang.han@essexlg.com
+    password: 1qaz@WSX3edc
+    user_name: Xingyang Han
+  -
+    username: 5168008@qq.com
+    password: 1qaz@WSX3edc
+    user_name: Karl_client
+  invalid:
+  -
+    username: xingyang.han@essexlg.com
+    password: 1231245515151515
+    message: Username/password incorrect. Please try again.
+  -
+    username: 123@321.com
+    password: 1234567890
+    message: Username/password incorrect. Please try again.
+email_config:
+  smtp: 'smtp.163.com'
+  pop: 'pop.163.com'
+  emailaddr: 'essex_automation@163.com'
+  token: 'RNRIYKBJMEPZGTQK'

@@ -1,0 +1,5 @@
+sorting_field: .ant-select-selection--single
+all_elements: .ant-collapse-item-active *
+sorting_column: .ant-select-selection--multiple
+sort_by: .ant-select-selection--single
+Sort_by: .ant-select-allow-clear

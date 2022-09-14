@@ -1,0 +1,432 @@
+2021-11-29 13:32:27|INFO  |logger_until.py:Line17|
+
+2021-11-29 13:32:27|INFO  |logger_until.py:Line17|===================Login testing is started==============================================
+2021-11-29 13:32:27|INFO  |logger_until.py:Line17|visit http://172.20.4.217:3002/login
+2021-11-29 13:32:29|INFO  |logger_until.py:Line17|input username
+2021-11-29 13:32:29|INFO  |logger_until.py:Line17|input password
+2021-11-29 13:32:29|INFO  |logger_until.py:Line17|click on privacy checkbox
+2021-11-29 13:32:31|INFO  |logger_until.py:Line17|click on submit
+2021-11-29 13:32:31|INFO  |logger_until.py:Line17|checking username_span....
+2021-11-29 13:32:35|INFO  |logger_until.py:Line17|target username: Xingyang Han, actually username: Xingyang Han
+2021-11-29 13:32:35|INFO  |logger_until.py:Line17|testcase //testlogin_esb_success// is completed and passed
+2021-11-29 13:32:35|INFO  |logger_until.py:Line17|visit http://172.20.4.217:3002/login
+2021-11-29 13:32:36|INFO  |logger_until.py:Line17|input username
+2021-11-29 13:32:36|INFO  |logger_until.py:Line17|input password
+2021-11-29 13:32:37|INFO  |logger_until.py:Line17|click on privacy checkbox
+2021-11-29 13:32:38|INFO  |logger_until.py:Line17|click on submit
+2021-11-29 13:32:38|INFO  |logger_until.py:Line17|checking username_span....
+2021-11-29 13:32:45|INFO  |logger_until.py:Line17|target username: Karl_client, actually username: Karl_client
+2021-11-29 13:32:45|INFO  |logger_until.py:Line17|testcase //testlogin_esb_success// is completed and passed
+2021-11-29 13:32:45|INFO  |logger_until.py:Line17|visit http://172.20.4.217:3002/login
+2021-11-29 13:32:47|INFO  |logger_until.py:Line17|input username
+2021-11-29 13:32:47|INFO  |logger_until.py:Line17|input password
+2021-11-29 13:32:48|INFO  |logger_until.py:Line17|click on submit
+2021-11-29 13:32:48|INFO  |logger_until.py:Line17|getting error message
+2021-11-29 13:32:53|INFO  |logger_until.py:Line17|testcase //testlogin_esb_fail// is completed and passed
+2021-11-29 13:32:53|INFO  |logger_until.py:Line17|visit http://172.20.4.217:3002/login
+2021-11-29 13:32:54|INFO  |logger_until.py:Line17|input username
+2021-11-29 13:32:55|INFO  |logger_until.py:Line17|input password
+2021-11-29 13:32:55|INFO  |logger_until.py:Line17|click on privacy checkbox
+2021-11-29 13:32:56|INFO  |logger_until.py:Line17|click on submit
+2021-11-29 13:32:56|INFO  |logger_until.py:Line17|getting error message
+2021-11-29 13:32:57|INFO  |logger_until.py:Line17|testcase //testlogin_esb_fail// is completed and passed
+2021-11-29 13:32:57|INFO  |logger_until.py:Line17|visit http://172.20.4.217:3020/pub-client-portal/login
+2021-11-29 13:32:58|INFO  |logger_until.py:Line17|input username
+2021-11-29 13:32:58|INFO  |logger_until.py:Line17|input password
+2021-11-29 13:32:58|INFO  |logger_until.py:Line17|click on privacy checkbox
+2021-11-29 13:32:59|INFO  |logger_until.py:Line17|click on submit
+2021-11-29 13:33:00|INFO  |logger_until.py:Line17|checking username_span....
+2021-11-29 13:33:04|INFO  |logger_until.py:Line17|testcase //testlogin_clientportal_success// is completed and passed
+2021-11-29 13:33:04|INFO  |logger_until.py:Line17|visit http://172.20.4.217:3020/pub-client-portal/login
+2021-11-29 13:33:05|INFO  |logger_until.py:Line17|input username
+2021-11-29 13:33:05|INFO  |logger_until.py:Line17|input password
+2021-11-29 13:33:05|INFO  |logger_until.py:Line17|click on privacy checkbox
+2021-11-29 13:33:06|INFO  |logger_until.py:Line17|click on submit
+2021-11-29 13:33:06|INFO  |logger_until.py:Line17|checking username_span....
+2021-11-29 13:33:11|INFO  |logger_until.py:Line17|testcase //testlogin_clientportal_success// is completed and passed
+2021-11-29 13:33:11|INFO  |logger_until.py:Line17|visit http://172.20.4.217:3020/pub-client-portal/login
+2021-11-29 13:33:12|INFO  |logger_until.py:Line17|input username
+2021-11-29 13:33:12|INFO  |logger_until.py:Line17|input password
+2021-11-29 13:33:13|INFO  |logger_until.py:Line17|click on submit
+2021-11-29 13:33:14|INFO  |logger_until.py:Line17|getting error message
+2021-11-29 13:33:19|INFO  |logger_until.py:Line17|testcase //testlogin_clientportal_fail// is completed and passed
+2021-11-29 13:33:19|INFO  |logger_until.py:Line17|visit http://172.20.4.217:3020/pub-client-portal/login
+2021-11-29 13:33:19|INFO  |logger_until.py:Line17|input username
+2021-11-29 13:33:19|INFO  |logger_until.py:Line17|input password
+2021-11-29 13:33:20|INFO  |logger_until.py:Line17|click on privacy checkbox
+2021-11-29 13:33:21|INFO  |logger_until.py:Line17|click on submit
+2021-11-29 13:33:21|INFO  |logger_until.py:Line17|getting error message
+2021-11-29 13:33:22|INFO  |logger_until.py:Line17|testcase //testlogin_clientportal_fail// is completed and passed
+2021-11-29 13:33:22|INFO  |logger_until.py:Line17|visit http://172.20.4.217:3020/pub-client-portal/login
+2021-11-29 13:33:22|INFO  |logger_until.py:Line17|input username
+2021-11-29 13:33:23|INFO  |logger_until.py:Line17|input password
+2021-11-29 13:33:24|INFO  |logger_until.py:Line17|click on submit
+2021-11-29 13:33:24|INFO  |logger_until.py:Line17|checking username_span....
+2021-11-29 13:33:28|INFO  |logger_until.py:Line17|testcase //testlogin_clientportal_forgotpwd// is completed and passed
+2021-11-29 13:33:28|INFO  |logger_until.py:Line17|visit http://172.20.4.217:3020/pub-client-portal/login
+2021-11-29 13:33:28|INFO  |logger_until.py:Line17|input username
+2021-11-29 13:33:29|INFO  |logger_until.py:Line17|input password
+2021-11-29 13:33:30|INFO  |logger_until.py:Line17|click on submit
+2021-11-29 13:33:30|INFO  |logger_until.py:Line17|checking username_span....
+2021-11-29 13:33:34|INFO  |logger_until.py:Line17|testcase //testlogin_clientportal_forgotpwd// is completed and passed
+2021-11-29 13:33:34|INFO  |logger_until.py:Line17|===================Login testing is completed============================================
+2021-11-29 13:34:35|INFO  |logger_until.py:Line17|===================Login testing is started==============================================
+2021-11-29 13:34:35|INFO  |logger_until.py:Line17|visit http://172.20.4.217:3002/login
+2021-11-29 13:34:36|INFO  |logger_until.py:Line17|input username
+2021-11-29 13:34:36|INFO  |logger_until.py:Line17|input password
+2021-11-29 13:34:37|INFO  |logger_until.py:Line17|click on privacy checkbox
+2021-11-29 13:34:38|INFO  |logger_until.py:Line17|click on submit
+2021-11-29 13:34:38|INFO  |logger_until.py:Line17|checking username_span....
+2021-11-29 13:34:42|INFO  |logger_until.py:Line17|target username: Xingyang Han, actually username: Xingyang Han
+2021-11-29 13:34:42|INFO  |logger_until.py:Line17|testcase //testlogin_esb_success// is completed and passed
+2021-11-29 13:34:42|INFO  |logger_until.py:Line17|visit http://172.20.4.217:3002/login
+2021-11-29 13:34:43|INFO  |logger_until.py:Line17|input username
+2021-11-29 13:34:43|INFO  |logger_until.py:Line17|input password
+2021-11-29 13:34:43|INFO  |logger_until.py:Line17|click on privacy checkbox
+2021-11-29 13:34:44|INFO  |logger_until.py:Line17|click on submit
+2021-11-29 13:34:45|INFO  |logger_until.py:Line17|checking username_span....
+2021-11-29 13:34:49|INFO  |logger_until.py:Line17|target username: Karl_client, actually username: Karl_client
+2021-11-29 13:34:49|INFO  |logger_until.py:Line17|testcase //testlogin_esb_success// is completed and passed
+2021-11-29 13:34:49|INFO  |logger_until.py:Line17|visit http://172.20.4.217:3002/login
+2021-11-29 13:34:50|INFO  |logger_until.py:Line17|input username
+2021-11-29 13:34:50|INFO  |logger_until.py:Line17|input password
+2021-11-29 13:34:51|INFO  |logger_until.py:Line17|click on submit
+2021-11-29 13:34:51|INFO  |logger_until.py:Line17|getting error message
+2021-11-29 13:34:56|INFO  |logger_until.py:Line17|testcase //testlogin_esb_fail// is completed and passed
+2021-11-29 13:34:56|INFO  |logger_until.py:Line17|visit http://172.20.4.217:3002/login
+2021-11-29 13:34:57|INFO  |logger_until.py:Line17|input username
+2021-11-29 13:34:57|INFO  |logger_until.py:Line17|input password
+2021-11-29 13:34:57|INFO  |logger_until.py:Line17|click on privacy checkbox
+2021-11-29 13:34:59|INFO  |logger_until.py:Line17|click on submit
+2021-11-29 13:34:59|INFO  |logger_until.py:Line17|getting error message
+2021-11-29 13:35:00|INFO  |logger_until.py:Line17|testcase //testlogin_esb_fail// is completed and passed
+2021-11-29 13:35:00|INFO  |logger_until.py:Line17|visit http://172.20.4.217:3020/pub-client-portal/login
+2021-11-29 13:35:30|INFO  |logger_until.py:Line17|input username
+2021-11-29 13:35:30|INFO  |logger_until.py:Line17|input password
+2021-11-29 13:35:31|INFO  |logger_until.py:Line17|click on privacy checkbox
+2021-11-29 13:35:32|INFO  |logger_until.py:Line17|click on submit
+2021-11-29 13:35:32|INFO  |logger_until.py:Line17|checking username_span....
+2021-11-29 13:35:37|INFO  |logger_until.py:Line17|testcase //testlogin_clientportal_success// is completed and passed
+2021-11-29 13:35:37|INFO  |logger_until.py:Line17|visit http://172.20.4.217:3020/pub-client-portal/login
+2021-11-29 13:36:08|INFO  |logger_until.py:Line17|input username
+2021-11-29 13:36:08|INFO  |logger_until.py:Line17|input password
+2021-11-29 13:36:08|INFO  |logger_until.py:Line17|click on privacy checkbox
+2021-11-29 13:36:09|INFO  |logger_until.py:Line17|click on submit
+2021-11-29 13:36:10|INFO  |logger_until.py:Line17|checking username_span....
+2021-11-29 13:36:15|INFO  |logger_until.py:Line17|testcase //testlogin_clientportal_success// is completed and passed
+2021-11-29 13:36:15|INFO  |logger_until.py:Line17|visit http://172.20.4.217:3020/pub-client-portal/login
+2021-11-29 13:36:45|INFO  |logger_until.py:Line17|input username
+2021-11-29 13:36:45|INFO  |logger_until.py:Line17|input password
+2021-11-29 13:36:47|INFO  |logger_until.py:Line17|click on submit
+2021-11-29 13:36:47|INFO  |logger_until.py:Line17|getting error message
+2021-11-29 13:36:52|INFO  |logger_until.py:Line17|testcase //testlogin_clientportal_fail// is completed and passed
+2021-11-29 13:36:52|INFO  |logger_until.py:Line17|visit http://172.20.4.217:3020/pub-client-portal/login
+2021-11-29 13:36:52|INFO  |logger_until.py:Line17|input username
+2021-11-29 13:36:53|INFO  |logger_until.py:Line17|input password
+2021-11-29 13:36:53|INFO  |logger_until.py:Line17|click on privacy checkbox
+2021-11-29 13:36:54|INFO  |logger_until.py:Line17|click on submit
+2021-11-29 13:36:54|INFO  |logger_until.py:Line17|getting error message
+2021-11-29 13:36:55|INFO  |logger_until.py:Line17|testcase //testlogin_clientportal_fail// is completed and passed
+2021-11-29 13:36:55|INFO  |logger_until.py:Line17|visit http://172.20.4.217:3020/pub-client-portal/login
+2021-11-29 13:36:55|INFO  |logger_until.py:Line17|input username
+2021-11-29 13:36:56|INFO  |logger_until.py:Line17|input password
+2021-11-29 13:36:57|INFO  |logger_until.py:Line17|click on submit
+2021-11-29 13:36:57|INFO  |logger_until.py:Line17|checking username_span....
+2021-11-29 13:37:01|INFO  |logger_until.py:Line17|testcase //testlogin_clientportal_forgotpwd// is completed and passed
+2021-11-29 13:37:01|INFO  |logger_until.py:Line17|visit http://172.20.4.217:3020/pub-client-portal/login
+2021-11-29 13:37:01|INFO  |logger_until.py:Line17|input username
+2021-11-29 13:37:02|INFO  |logger_until.py:Line17|input password
+2021-11-29 13:37:03|INFO  |logger_until.py:Line17|click on submit
+2021-11-29 13:37:03|INFO  |logger_until.py:Line17|checking username_span....
+2021-11-29 13:37:07|INFO  |logger_until.py:Line17|testcase //testlogin_clientportal_forgotpwd// is completed and passed
+2021-11-29 13:37:07|INFO  |logger_until.py:Line17|===================Login testing is completed============================================
+2021-11-29 13:38:06|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-11-29 13:38:07|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-11-29 13:38:10|INFO  |logger_until.py:Line17|visit dashboard Automation_visibilityLayer_pivotTable
+2021-11-29 13:38:11|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-11-29 13:38:27|ERROR |logger_until.py:Line20|exceptions must derive from BaseException
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Common/dom_until.py", line 15, in findelement
+    WebDriverWait(self.driver, timeout, timeseq).until(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/VisibilityLayer/Dashboard/Dashboard.py", line 76, in actiontool_edit
+    ele = self._findele(css, 15, 1)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Common/dom_until.py", line 22, in findelement
+    raise (type(e), e)
+TypeError: exceptions must derive from BaseException
+2021-11-29 13:38:30|INFO  |logger_until.py:Line17|===================Login testing is started==============================================
+2021-11-29 13:38:30|INFO  |logger_until.py:Line17|visit http://172.20.4.217:3002/login
+2021-11-29 13:38:32|INFO  |logger_until.py:Line17|input username
+2021-11-29 13:38:32|INFO  |logger_until.py:Line17|input password
+2021-11-29 13:38:32|INFO  |logger_until.py:Line17|click on privacy checkbox
+2021-11-29 13:38:33|INFO  |logger_until.py:Line17|click on submit
+2021-11-29 13:38:33|INFO  |logger_until.py:Line17|checking username_span....
+2021-11-29 13:38:37|INFO  |logger_until.py:Line17|target username: Xingyang Han, actually username: Xingyang Han
+2021-11-29 13:38:37|INFO  |logger_until.py:Line17|testcase //testlogin_esb_success// is completed and passed
+2021-11-29 13:38:37|INFO  |logger_until.py:Line17|visit http://172.20.4.217:3002/login
+2021-11-29 13:38:38|INFO  |logger_until.py:Line17|input username
+2021-11-29 13:38:39|INFO  |logger_until.py:Line17|input password
+2021-11-29 13:38:39|INFO  |logger_until.py:Line17|click on privacy checkbox
+2021-11-29 13:38:40|INFO  |logger_until.py:Line17|click on submit
+2021-11-29 13:38:40|INFO  |logger_until.py:Line17|checking username_span....
+2021-11-29 13:38:45|INFO  |logger_until.py:Line17|target username: Karl_client, actually username: Karl_client
+2021-11-29 13:38:45|INFO  |logger_until.py:Line17|testcase //testlogin_esb_success// is completed and passed
+2021-11-29 13:38:45|INFO  |logger_until.py:Line17|visit http://172.20.4.217:3002/login
+2021-11-29 13:38:46|INFO  |logger_until.py:Line17|input username
+2021-11-29 13:38:46|INFO  |logger_until.py:Line17|input password
+2021-11-29 13:38:47|INFO  |logger_until.py:Line17|click on submit
+2021-11-29 13:38:47|INFO  |logger_until.py:Line17|getting error message
+2021-11-29 13:38:52|INFO  |logger_until.py:Line17|testcase //testlogin_esb_fail// is completed and passed
+2021-11-29 13:38:52|INFO  |logger_until.py:Line17|visit http://172.20.4.217:3002/login
+2021-11-29 13:38:53|INFO  |logger_until.py:Line17|input username
+2021-11-29 13:38:53|INFO  |logger_until.py:Line17|input password
+2021-11-29 13:38:54|INFO  |logger_until.py:Line17|click on privacy checkbox
+2021-11-29 13:38:55|INFO  |logger_until.py:Line17|click on submit
+2021-11-29 13:38:55|INFO  |logger_until.py:Line17|getting error message
+2021-11-29 13:38:56|INFO  |logger_until.py:Line17|testcase //testlogin_esb_fail// is completed and passed
+2021-11-29 13:38:56|INFO  |logger_until.py:Line17|visit http://172.20.4.217:3020/pub-client-portal/login
+2021-11-29 13:38:57|INFO  |logger_until.py:Line17|input username
+2021-11-29 13:38:57|INFO  |logger_until.py:Line17|input password
+2021-11-29 13:38:57|INFO  |logger_until.py:Line17|click on privacy checkbox
+2021-11-29 13:38:58|INFO  |logger_until.py:Line17|click on submit
+2021-11-29 13:38:58|INFO  |logger_until.py:Line17|checking username_span....
+2021-11-29 13:39:02|INFO  |logger_until.py:Line17|testcase //testlogin_clientportal_success// is completed and passed
+2021-11-29 13:39:02|INFO  |logger_until.py:Line17|visit http://172.20.4.217:3020/pub-client-portal/login
+2021-11-29 13:39:03|INFO  |logger_until.py:Line17|input username
+2021-11-29 13:39:03|INFO  |logger_until.py:Line17|input password
+2021-11-29 13:39:03|INFO  |logger_until.py:Line17|click on privacy checkbox
+2021-11-29 13:39:04|INFO  |logger_until.py:Line17|click on submit
+2021-11-29 13:39:04|INFO  |logger_until.py:Line17|checking username_span....
+2021-11-29 13:39:09|INFO  |logger_until.py:Line17|testcase //testlogin_clientportal_success// is completed and passed
+2021-11-29 13:39:09|INFO  |logger_until.py:Line17|visit http://172.20.4.217:3020/pub-client-portal/login
+2021-11-29 13:39:09|INFO  |logger_until.py:Line17|input username
+2021-11-29 13:39:09|INFO  |logger_until.py:Line17|input password
+2021-11-29 13:39:11|INFO  |logger_until.py:Line17|click on submit
+2021-11-29 13:39:11|INFO  |logger_until.py:Line17|getting error message
+2021-11-29 13:39:16|INFO  |logger_until.py:Line17|testcase //testlogin_clientportal_fail// is completed and passed
+2021-11-29 13:39:16|INFO  |logger_until.py:Line17|visit http://172.20.4.217:3020/pub-client-portal/login
+2021-11-29 13:39:16|INFO  |logger_until.py:Line17|input username
+2021-11-29 13:39:17|INFO  |logger_until.py:Line17|input password
+2021-11-29 13:39:17|INFO  |logger_until.py:Line17|click on privacy checkbox
+2021-11-29 13:39:18|INFO  |logger_until.py:Line17|click on submit
+2021-11-29 13:39:18|INFO  |logger_until.py:Line17|getting error message
+2021-11-29 13:39:18|INFO  |logger_until.py:Line17|testcase //testlogin_clientportal_fail// is completed and passed
+2021-11-29 13:39:18|INFO  |logger_until.py:Line17|visit http://172.20.4.217:3020/pub-client-portal/login
+2021-11-29 13:39:18|INFO  |logger_until.py:Line17|input username
+2021-11-29 13:39:19|INFO  |logger_until.py:Line17|input password
+2021-11-29 13:39:20|INFO  |logger_until.py:Line17|click on submit
+2021-11-29 13:39:20|INFO  |logger_until.py:Line17|checking username_span....
+2021-11-29 13:39:24|INFO  |logger_until.py:Line17|testcase //testlogin_clientportal_forgotpwd// is completed and passed
+2021-11-29 13:39:24|INFO  |logger_until.py:Line17|visit http://172.20.4.217:3020/pub-client-portal/login
+2021-11-29 13:39:24|INFO  |logger_until.py:Line17|input username
+2021-11-29 13:39:25|INFO  |logger_until.py:Line17|input password
+2021-11-29 13:39:26|INFO  |logger_until.py:Line17|click on submit
+2021-11-29 13:39:26|INFO  |logger_until.py:Line17|checking username_span....
+2021-11-29 13:39:30|INFO  |logger_until.py:Line17|testcase //testlogin_clientportal_forgotpwd// is completed and passed
+2021-11-29 13:39:30|INFO  |logger_until.py:Line17|===================Login testing is completed============================================
+2021-11-29 13:39:30|INFO  |logger_until.py:Line17|
+
+2021-11-29 13:39:30|INFO  |logger_until.py:Line17|===================values testing is started==============================================
+2021-11-29 13:39:36|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-11-29 13:39:40|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-11-29 13:39:40|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2021-11-29 13:39:42|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-11-29 13:39:45|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-11-29 13:39:45|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-11-29 13:39:46|INFO  |logger_until.py:Line17|click on Values section
+2021-11-29 13:39:48|INFO  |logger_until.py:Line17|Starting test TC test_hide_value_headers
+2021-11-29 13:39:48|INFO  |logger_until.py:Line17|click on Hide value headers toggle
+2021-11-29 13:39:48|INFO  |logger_until.py:Line17|verify the value header is hiding...
+2021-11-29 13:39:52|INFO  |logger_until.py:Line17|indicator: item
+2021-11-29 13:39:52|INFO  |logger_until.py:Line17|target value: item, actually value: item
+2021-11-29 13:39:52|INFO  |logger_until.py:Line17|testcase //test_hide_value_headers// is completed and passed
+2021-11-29 13:39:52|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-11-29 13:39:52|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-11-29 13:39:53|INFO  |logger_until.py:Line17|click on Values section
+2021-11-29 13:39:56|INFO  |logger_until.py:Line17|Starting test TC test_hide_value_headers
+2021-11-29 13:39:56|INFO  |logger_until.py:Line17|click on value header border dropdown element
+2021-11-29 13:39:58|INFO  |logger_until.py:Line17|verify the border options is correct
+2021-11-29 13:39:58|INFO  |logger_until.py:Line17|target value: ['Apr', 'Jan', 'Mar'], actually value: ['Apr', 'Jan', 'Mar']
+2021-11-29 13:39:58|INFO  |logger_until.py:Line17|testcase //test_value_header_border// is completed and passed
+2021-11-29 13:39:58|INFO  |logger_until.py:Line17|===================values testing is completed============================================
+2021-11-29 13:55:10|INFO  |logger_until.py:Line17|
+
+2021-11-29 13:55:10|INFO  |logger_until.py:Line17|===================values testing is started==============================================
+2021-11-29 13:55:19|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-11-29 13:55:23|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-11-29 13:55:23|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2021-11-29 13:55:27|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-11-29 13:55:27|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-11-29 13:55:27|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-11-29 13:55:30|INFO  |logger_until.py:Line17|click on Values section
+2021-11-29 13:55:32|INFO  |logger_until.py:Line17|Starting test TC test_hide_value_headers
+2021-11-29 13:55:32|INFO  |logger_until.py:Line17|click on Hide value headers toggle
+2021-11-29 13:55:32|INFO  |logger_until.py:Line17|verify the value header is hiding...
+2021-11-29 13:55:36|INFO  |logger_until.py:Line17|indicator: item
+2021-11-29 13:55:36|INFO  |logger_until.py:Line17|target value: item, actually value: item
+2021-11-29 13:55:36|INFO  |logger_until.py:Line17|testcase //test_hide_value_headers// is completed and passed
+2021-11-29 13:55:36|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-11-29 13:55:36|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-11-29 13:55:37|INFO  |logger_until.py:Line17|click on Values section
+2021-11-29 13:55:39|INFO  |logger_until.py:Line17|Starting test TC test_hide_value_headers
+2021-11-29 13:55:39|INFO  |logger_until.py:Line17|click on value header border dropdown element
+2021-11-29 13:55:41|INFO  |logger_until.py:Line17|verify the border options is correct
+2021-11-29 13:55:41|INFO  |logger_until.py:Line17|target value: ['Apr', 'Jan', 'Mar'], actually value: ['Apr', 'Jan', 'Mar']
+2021-11-29 13:55:41|INFO  |logger_until.py:Line17|testcase //test_value_header_border// is completed and passed
+2021-11-29 13:55:42|INFO  |logger_until.py:Line17|===================values testing is completed============================================
+2021-11-29 14:43:03|INFO  |logger_until.py:Line17|===================values testing is started==============================================
+2021-11-29 14:43:12|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-11-29 14:43:13|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-11-29 14:43:13|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2021-11-29 14:43:15|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-11-29 14:43:16|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-11-29 14:43:16|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-11-29 14:43:19|INFO  |logger_until.py:Line17|click on Values section
+2021-11-29 14:43:21|INFO  |logger_until.py:Line17|Starting test TC test_value_header_border_del
+2021-11-29 14:43:21|INFO  |logger_until.py:Line17|click on delete icon for existed header border
+2021-11-29 14:43:22|INFO  |logger_until.py:Line17|actually style: vertical-align: middle; background-color: rgb(245, 245, 245); border-bottom: 1px solid rgb(221, 221, 221);
+2021-11-29 14:43:22|INFO  |logger_until.py:Line17|Starting test TC test_value_header_border_del
+2021-11-29 14:43:22|INFO  |logger_until.py:Line17|click on delete icon for existed header border
+2021-11-29 14:43:22|INFO  |logger_until.py:Line17|===================values testing is completed============================================
+2021-11-29 14:46:50|INFO  |logger_until.py:Line17|===================values testing is started==============================================
+2021-11-29 14:47:07|INFO  |logger_until.py:Line17|===================values testing is completed============================================
+2021-11-29 14:47:15|INFO  |logger_until.py:Line17|===================values testing is started==============================================
+2021-11-29 14:47:21|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-11-29 14:47:23|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-11-29 14:47:23|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2021-11-29 14:47:25|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-11-29 14:47:26|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-11-29 14:47:26|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-11-29 14:47:27|INFO  |logger_until.py:Line17|click on Values section
+2021-11-29 14:47:29|INFO  |logger_until.py:Line17|Starting test TC test_value_header_border_del
+2021-11-29 14:47:29|INFO  |logger_until.py:Line17|click on delete icon for existed header border
+2021-11-29 14:47:30|INFO  |logger_until.py:Line17|actually style: vertical-align: middle; background-color: rgb(245, 245, 245); border-bottom: 1px solid rgb(221, 221, 221);
+2021-11-29 14:47:30|INFO  |logger_until.py:Line17|Starting test TC test_value_header_border_del
+2021-11-29 14:47:30|INFO  |logger_until.py:Line17|click on delete icon for existed header border
+2021-11-29 14:47:30|INFO  |logger_until.py:Line17|===================values testing is completed============================================
+2021-11-29 14:49:35|INFO  |logger_until.py:Line17|===================values testing is started==============================================
+2021-11-29 14:49:44|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-11-29 14:49:45|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-11-29 14:49:45|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2021-11-29 14:49:47|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-11-29 14:49:48|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-11-29 14:49:48|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-11-29 14:49:49|INFO  |logger_until.py:Line17|click on Values section
+2021-11-29 14:49:51|INFO  |logger_until.py:Line17|Starting test TC test_value_header_border_del
+2021-11-29 14:49:51|INFO  |logger_until.py:Line17|click on delete icon for existed header border
+2021-11-29 14:49:52|INFO  |logger_until.py:Line17|actually style: vertical-align: middle; background-color: rgb(245, 245, 245); border-bottom: 1px solid rgb(221, 221, 221);
+2021-11-29 14:49:52|INFO  |logger_until.py:Line17|Starting test TC test_value_header_border_del
+2021-11-29 14:49:52|INFO  |logger_until.py:Line17|click on delete icon for existed header border
+2021-11-29 14:49:52|INFO  |logger_until.py:Line17|===================values testing is completed============================================
+2021-11-29 14:50:09|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-11-29 14:50:17|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-11-29 14:50:19|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-11-29 14:50:22|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-11-29 14:50:23|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-11-29 14:50:24|INFO  |logger_until.py:Line17|click on properties tab
+2021-11-29 14:50:26|INFO  |logger_until.py:Line17|click on Values section
+2021-11-29 14:51:20|INFO  |logger_until.py:Line17|===================values testing is started==============================================
+2021-11-29 14:51:27|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-11-29 14:51:28|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-11-29 14:51:28|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2021-11-29 14:51:30|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-11-29 14:51:32|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-11-29 14:51:32|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-11-29 14:51:33|INFO  |logger_until.py:Line17|click on Values section
+2021-11-29 14:51:35|INFO  |logger_until.py:Line17|Starting test TC test_value_header_border_del
+2021-11-29 14:51:35|INFO  |logger_until.py:Line17|click on delete icon for existed header border
+2021-11-29 14:51:37|INFO  |logger_until.py:Line17|actually style: vertical-align: middle; background-color: rgb(245, 245, 245); border-bottom: 1px solid rgb(221, 221, 221);
+2021-11-29 14:51:37|INFO  |logger_until.py:Line17|Starting test TC test_value_header_border_del
+2021-11-29 14:51:37|INFO  |logger_until.py:Line17|click on delete icon for existed header border
+2021-11-29 14:51:37|INFO  |logger_until.py:Line17|===================values testing is completed============================================
+2021-11-29 14:55:53|INFO  |logger_until.py:Line17|===================values testing is started==============================================
+2021-11-29 14:55:59|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-11-29 14:56:00|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-11-29 14:56:00|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2021-11-29 14:56:02|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-11-29 14:56:03|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-11-29 14:56:03|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-11-29 14:56:04|INFO  |logger_until.py:Line17|click on Values section
+2021-11-29 14:56:06|INFO  |logger_until.py:Line17|Starting test TC test_value_header_border_del
+2021-11-29 14:56:06|INFO  |logger_until.py:Line17|click on delete icon for existed header border
+2021-11-29 14:56:08|INFO  |logger_until.py:Line17|actually style: vertical-align: middle; background-color: rgb(245, 245, 245); border-bottom: 1px solid rgb(221, 221, 221);
+2021-11-29 14:56:08|INFO  |logger_until.py:Line17|testcase //test_value_header_border_del// is completed and passed
+2021-11-29 14:56:08|INFO  |logger_until.py:Line17|===================values testing is completed============================================
+2021-11-29 14:56:27|INFO  |logger_until.py:Line17|===================values testing is started==============================================
+2021-11-29 14:56:33|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-11-29 14:56:35|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-11-29 14:56:35|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2021-11-29 14:56:37|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-11-29 14:56:37|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-11-29 14:56:37|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-11-29 14:56:40|INFO  |logger_until.py:Line17|click on Values section
+2021-11-29 14:56:42|INFO  |logger_until.py:Line17|Starting test TC test_hide_value_headers
+2021-11-29 14:56:42|INFO  |logger_until.py:Line17|click on Hide value headers toggle
+2021-11-29 14:56:42|INFO  |logger_until.py:Line17|verify the value header is hiding...
+2021-11-29 14:56:46|INFO  |logger_until.py:Line17|indicator: item
+2021-11-29 14:56:46|INFO  |logger_until.py:Line17|target value: item, actually value: item
+2021-11-29 14:56:46|INFO  |logger_until.py:Line17|testcase //test_hide_value_headers// is completed and passed
+2021-11-29 14:56:46|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-11-29 14:56:46|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-11-29 14:56:47|INFO  |logger_until.py:Line17|click on Values section
+2021-11-29 14:56:49|INFO  |logger_until.py:Line17|Starting test TC test_hide_value_headers
+2021-11-29 14:56:49|INFO  |logger_until.py:Line17|click on value header border dropdown element
+2021-11-29 14:56:51|INFO  |logger_until.py:Line17|verify the border options is correct
+2021-11-29 14:56:51|INFO  |logger_until.py:Line17|target value: ['Apr', 'Jan', 'Mar'], actually value: ['Apr', 'Jan', 'Mar']
+2021-11-29 14:56:51|INFO  |logger_until.py:Line17|testcase //test_value_header_border// is completed and passed
+2021-11-29 14:56:52|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-11-29 14:56:52|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-11-29 14:56:53|INFO  |logger_until.py:Line17|click on Values section
+2021-11-29 14:56:55|INFO  |logger_until.py:Line17|Starting test TC test_value_header_border_del
+2021-11-29 14:56:55|INFO  |logger_until.py:Line17|click on delete icon for existed header border
+2021-11-29 14:56:57|INFO  |logger_until.py:Line17|actually style: vertical-align: middle; background-color: rgb(245, 245, 245); border-bottom: 1px solid rgb(221, 221, 221);
+2021-11-29 14:56:57|INFO  |logger_until.py:Line17|testcase //test_value_header_border_del// is completed and passed
+2021-11-29 14:56:57|INFO  |logger_until.py:Line17|===================values testing is completed============================================
+2021-11-29 15:03:09|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-11-29 15:03:12|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-11-29 15:03:14|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-11-29 15:03:15|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-11-29 15:03:16|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-11-29 15:03:17|INFO  |logger_until.py:Line17|click on properties tab
+2021-11-29 15:03:18|INFO  |logger_until.py:Line17|click on Values section
+2021-11-29 15:12:20|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-11-29 15:12:21|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-11-29 15:12:23|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-11-29 15:12:24|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-11-29 15:12:25|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-11-29 15:12:26|INFO  |logger_until.py:Line17|click on properties tab
+2021-11-29 15:12:27|INFO  |logger_until.py:Line17|click on Values section
+2021-11-29 15:23:42|INFO  |logger_until.py:Line17|===================values testing is started==============================================
+2021-11-29 15:23:52|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-11-29 15:23:53|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-11-29 15:23:53|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2021-11-29 15:23:56|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-11-29 15:23:56|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-11-29 15:23:57|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-11-29 15:23:59|INFO  |logger_until.py:Line17|click on Values section
+2021-11-29 15:24:01|INFO  |logger_until.py:Line17|Starting test TC test_value_header_border_close
+2021-11-29 15:24:01|INFO  |logger_until.py:Line17|click on close icon for existed header border
+2021-11-29 15:24:02|INFO  |logger_until.py:Line17|actually len: 1, expected len: 1
+2021-11-29 15:24:02|INFO  |logger_until.py:Line17|testcase //test_value_header_border_close// is completed and passed
+2021-11-29 15:24:02|INFO  |logger_until.py:Line17|===================values testing is completed============================================
+2021-11-29 15:33:22|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-11-29 15:33:25|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-11-29 15:33:28|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-11-29 15:33:29|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-11-29 15:33:30|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-11-29 15:33:31|INFO  |logger_until.py:Line17|click on properties tab
+2021-11-29 15:33:33|INFO  |logger_until.py:Line17|click on Values section
+2021-11-29 15:34:05|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2021-11-29 15:34:13|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2021-11-29 15:34:15|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2021-11-29 15:34:16|INFO  |logger_until.py:Line17|click on singleChartBody
+2021-11-29 15:34:18|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2021-11-29 15:34:19|INFO  |logger_until.py:Line17|click on properties tab
+2021-11-29 15:34:22|INFO  |logger_until.py:Line17|click on Values section

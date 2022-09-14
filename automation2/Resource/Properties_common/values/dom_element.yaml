@@ -1,0 +1,44 @@
+#contains(eles, "Occupy The Whole Area")
+values_elements: .ant-collapse-item-active *
+occupy_whole_area: div:nth-child(2)>button
+hide_value_headers: div:nth-child(2)>button
+header_border_options: "#rc-tree-select-list_1 ul li"
+header_border_set_options: "#rc-tree-select-list_3 .ant-select-tree-checkbox-inner"
+header_border_delete_icon: ".ant-collapse-content-active i[aria-label='icon: close']"
+column_border_options: "#rc-tree-select-list_2 ul li"
+column_border_set_options: "#rc-tree-select-list_3 .ant-select-tree-checkbox-inner"
+css_bar_color_green: .sketch-picker div[title='#417505']
+view_as_min: .panel-container-small>div:nth-child(3)>div:nth-child(1) .ant-select-selection--single
+view_as_max: .panel-container-small>div:nth-child(3)>div:nth-child(2) .ant-select-selection--single
+view_as_bar_addNew_btn: .number-props-panel button
+view_as_bar_controls: .number-props-panel .wrapper-inline-controls
+view_as_bar_controls_color-picker: :nth-child(1)
+view_as_bar_controls_condition: :nth-child(2)
+view_as_bar_controls_values: :nth-child(3) input
+view_as_bar_controls_var: :nth-child(3)>div
+view_as_bar_controls_delete: button
+view_as_bar_unitconversion_Decimal_input: .ant-collapse-item-active .ant-input-number
+view_as_bar_unitconversion_Prefix_inpput: .ant-collapse-item-active input[placeholder='prefix']
+view_as_bar_unitconversion_Suffix_inpput: .ant-collapse-item-active input[placeholder='suffix']
+view_as_bar_unitconversion_format_bold_css: .ant-collapse-item-active i.fa-bold
+view_as_bar_unitconversion_format_italic_css: .ant-collapse-item-active i.fa-italic
+view_as_bar_unitconversion_format_underline_css: .ant-collapse-item-active i.fa-underline
+view_as_bar_unitconversion_format_colorPicker_css: .wrapper-inline div:nth-child(2)
+view_as_bar_unitconversion_format_siez_css: .wrapper-inline div:nth-child(3) .ant-select-selection--single
+view_as_bar_alignment_left: .ant-collapse-item-active .icon-position-left
+view_as_bar_alignment_center: .ant-collapse-item-active .icon-position-center
+view_as_bar_alignment_right: .ant-collapse-item-active .icon-position-right
+view_as_bar_alignment_bottom: .ant-collapse-item-active .icon-position-bottom
+view_as_indicator_Dropdown: .ant-select-selection--single
+view_as_indicator_indicatorCssStyle: .value-viewer>:nth-child(1)
+handle_starRate_result: li.ant-rate-star-full
+view_as_dropdown: .ant-select-selection--single
+view_as_color_pickercontainer: .color-picker-container
+view_as_icon_delete: "i[aria-label='icon: delete']"
+view_as_unitconversion_decimal: .ant-collapse-item-active .decimal-points
+view_as_starRate_aggregation_dropdown: .aggregation-wrapper
+handle_colorCoding_result_bc: .bar-viewer
+handle_colorCoding_result_font: .value-viewer
+handle_colorCoding_values_control_container: .number-props-panel .wrapper-inline-controls
+handle_gradientColor_result_bc: div
+handle_gradientColor_result_font: div>div

@@ -1,0 +1,7 @@
+#[1].querySelectorAll("span")[0,1,2,3.....]
+dimensions_container: .SideBar_fieldPanel__3pA5Z
+measures_container: .SideBar_fieldList__3h12R
+properties_tab: .ant-tabs-nav div div:nth-child(2)
+X: 'i[aria-label="icon: close"]'
+pivot_table_viewScreen: .chart-container table
+pivot_table_viewScreen_tr: .chart-container table tr

@@ -1,0 +1,964 @@
+2022-02-23 10:04:44|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-23 10:05:09|INFO  |logger_until.py:Line17|login ESB with essexa2021@163.com
+2022-02-23 10:05:24|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2022-02-23 10:05:24|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2022-02-23 10:05:40|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2022-02-23 10:05:41|INFO  |logger_until.py:Line17|click on singleChartBody
+2022-02-23 10:05:41|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2022-02-23 10:05:51|INFO  |logger_until.py:Line17|click on Values section
+2022-02-23 10:05:53|INFO  |logger_until.py:Line17|Starting test TC test_value_bar_unit_prefixAndSuffix
+2022-02-23 10:05:53|INFO  |logger_until.py:Line17|click on Values dropdown
+2022-02-23 10:05:54|INFO  |logger_until.py:Line17|click on options: target_count(sum)
+2022-02-23 10:05:54|DEBUG |logger_until.py:Line23|value options_aria_controls: 62065631-317a-497e-ab53-772b53bd3716
+2022-02-23 10:05:54|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2022-02-23 10:05:54|INFO  |logger_until.py:Line17|click on view As drop-down
+2022-02-23 10:05:55|INFO  |logger_until.py:Line17|click on the options: Bar
+2022-02-23 10:05:55|DEBUG |logger_until.py:Line23|view as options_aria_controls: 4cd221ec-c293-4012-8a3d-da24535c78da
+2022-02-23 10:05:55|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2022-02-23 10:05:56|INFO  |logger_until.py:Line17|click on display value toggle
+2022-02-23 10:05:57|INFO  |logger_until.py:Line17|input !@#1,-aC% to prefix input element 
+2022-02-23 10:06:07|INFO  |logger_until.py:Line17|input !@#1,-aC% to suffix input element 
+2022-02-23 10:06:19|INFO  |logger_until.py:Line17|getting test result
+2022-02-23 10:08:03|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-23 10:08:28|INFO  |logger_until.py:Line17|login ESB with essexa2021@163.com
+2022-02-23 10:08:34|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2022-02-23 10:08:35|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2022-02-23 10:08:47|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2022-02-23 10:08:48|INFO  |logger_until.py:Line17|click on singleChartBody
+2022-02-23 10:08:48|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2022-02-23 10:08:54|INFO  |logger_until.py:Line17|click on Values section
+2022-02-23 10:08:56|INFO  |logger_until.py:Line17|Starting test TC test_value_bar_unit_prefixAndSuffix
+2022-02-23 10:08:56|INFO  |logger_until.py:Line17|click on Values dropdown
+2022-02-23 10:08:57|INFO  |logger_until.py:Line17|click on options: target_count(sum)
+2022-02-23 10:08:57|DEBUG |logger_until.py:Line23|value options_aria_controls: b89a8f11-e802-4fe3-b2cf-be2adb841652
+2022-02-23 10:08:57|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2022-02-23 10:08:57|INFO  |logger_until.py:Line17|click on view As drop-down
+2022-02-23 10:08:58|INFO  |logger_until.py:Line17|click on the options: Bar
+2022-02-23 10:08:58|DEBUG |logger_until.py:Line23|view as options_aria_controls: 0af88237-28ba-4af6-f6fe-430807ae2d48
+2022-02-23 10:08:58|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2022-02-23 10:08:59|INFO  |logger_until.py:Line17|click on display value toggle
+2022-02-23 10:09:00|INFO  |logger_until.py:Line17|input !@#1,-aC% to prefix input element 
+2022-02-23 10:09:10|INFO  |logger_until.py:Line17|input !@#1,-aC% to suffix input element 
+2022-02-23 10:09:22|INFO  |logger_until.py:Line17|getting test result
+2022-02-23 10:09:25|INFO  |logger_until.py:Line17|expected value: !@#1,-aC%220!@#1,-aC%, actually_result: !@1,-aC%220!@#1,-aC%
+2022-02-23 10:09:25|INFO  |logger_until.py:Line17|screenShot has been done in path
+2022-02-23 10:09:25|ERROR |logger_until.py:Line20|<class 'AssertionError'>
+NoneType: None
+2022-02-23 10:15:40|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-23 10:15:53|INFO  |logger_until.py:Line17|login ESB with essexa2021@163.com
+2022-02-23 10:15:56|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2022-02-23 10:15:57|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2022-02-23 10:16:03|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2022-02-23 10:16:05|INFO  |logger_until.py:Line17|click on singleChartBody
+2022-02-23 10:16:05|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2022-02-23 10:16:09|INFO  |logger_until.py:Line17|click on Values section
+2022-02-23 10:16:11|INFO  |logger_until.py:Line17|Starting test TC test_value_bar_unit_prefixAndSuffix
+2022-02-23 10:16:11|INFO  |logger_until.py:Line17|click on Values dropdown
+2022-02-23 10:16:12|INFO  |logger_until.py:Line17|click on options: target_count(sum)
+2022-02-23 10:16:12|DEBUG |logger_until.py:Line23|value options_aria_controls: 81677ea6-6036-4ab9-e1af-e64d1ab30ef1
+2022-02-23 10:16:13|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2022-02-23 10:16:13|INFO  |logger_until.py:Line17|click on view As drop-down
+2022-02-23 10:16:14|INFO  |logger_until.py:Line17|click on the options: Bar
+2022-02-23 10:16:14|DEBUG |logger_until.py:Line23|view as options_aria_controls: 8165a259-d436-45d2-fbae-ed96d40a4a3f
+2022-02-23 10:16:14|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2022-02-23 10:16:15|INFO  |logger_until.py:Line17|click on display value toggle
+2022-02-23 10:16:16|INFO  |logger_until.py:Line17|input !@#1,-aC% to prefix input element 
+2022-02-23 10:16:26|INFO  |logger_until.py:Line17|input !@#1,-aC% to suffix input element 
+2022-02-23 10:16:37|INFO  |logger_until.py:Line17|getting test result
+2022-02-23 10:16:41|INFO  |logger_until.py:Line17|expected value: !@#1,-aC%220!@#1,-aC%, actually_result: !@#1,-aC%220!@#1,-aC%
+2022-02-23 10:16:41|INFO  |logger_until.py:Line17|testing test_value_bar_unit_prefixAndSuffix is completed and passed
+2022-02-23 10:17:38|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-23 10:17:51|INFO  |logger_until.py:Line17|login ESB with essexa2021@163.com
+2022-02-23 10:17:55|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2022-02-23 10:17:55|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2022-02-23 10:18:01|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2022-02-23 10:18:03|INFO  |logger_until.py:Line17|click on singleChartBody
+2022-02-23 10:18:03|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2022-02-23 10:18:05|INFO  |logger_until.py:Line17|click on Values section
+2022-02-23 10:18:07|INFO  |logger_until.py:Line17|Starting test TC test_value_indicator_style
+2022-02-23 10:18:07|INFO  |logger_until.py:Line17|click on Values dropdown
+2022-02-23 10:18:08|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2022-02-23 10:18:08|DEBUG |logger_until.py:Line23|value options_aria_controls: b2f75863-babe-4faa-9b1b-0dda09b8ff91
+2022-02-23 10:18:09|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2022-02-23 10:18:09|INFO  |logger_until.py:Line17|click on view As drop-down
+2022-02-23 10:18:10|INFO  |logger_until.py:Line17|click on the options: Indicator
+2022-02-23 10:18:10|DEBUG |logger_until.py:Line23|view as options_aria_controls: 8616f333-7dfa-45e4-d9eb-1f491fbada38
+2022-02-23 10:18:10|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2022-02-23 10:18:11|INFO  |logger_until.py:Line17|click on add button
+2022-02-23 10:18:13|INFO  |logger_until.py:Line17|click on indicator style
+2022-02-23 10:18:14|INFO  |logger_until.py:Line17|click up for indicatior
+2022-02-23 10:18:14|INFO  |logger_until.py:Line17|click on color picker component
+2022-02-23 10:18:16|INFO  |logger_until.py:Line17|click condition dropdown list
+2022-02-23 10:30:27|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-23 10:30:32|INFO  |logger_until.py:Line17|login ESB with essexa2021@163.com
+2022-02-23 10:30:35|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2022-02-23 10:30:36|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2022-02-23 10:30:41|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2022-02-23 10:30:42|INFO  |logger_until.py:Line17|click on singleChartBody
+2022-02-23 10:30:43|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2022-02-23 10:30:45|INFO  |logger_until.py:Line17|click on Values section
+2022-02-23 10:30:47|INFO  |logger_until.py:Line17|Starting test TC test_value_indicator_style
+2022-02-23 10:30:47|INFO  |logger_until.py:Line17|click on Values dropdown
+2022-02-23 10:30:48|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2022-02-23 10:30:48|DEBUG |logger_until.py:Line23|value options_aria_controls: fd9302d8-61a1-47b3-e516-cbe6d5a8f14e
+2022-02-23 10:30:48|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2022-02-23 10:30:48|INFO  |logger_until.py:Line17|click on view As drop-down
+2022-02-23 10:30:49|INFO  |logger_until.py:Line17|click on the options: Indicator
+2022-02-23 10:30:49|DEBUG |logger_until.py:Line23|view as options_aria_controls: 1717f24b-d327-4fa7-96e3-e76049c4e2a6
+2022-02-23 10:30:50|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2022-02-23 10:30:51|INFO  |logger_until.py:Line17|click on add button
+2022-02-23 10:30:53|INFO  |logger_until.py:Line17|click on indicator style
+2022-02-23 10:30:54|INFO  |logger_until.py:Line17|click up for indicatior
+2022-02-23 10:30:54|INFO  |logger_until.py:Line17|click on color picker component
+2022-02-23 10:30:56|INFO  |logger_until.py:Line17|click condition dropdown list
+2022-02-23 10:36:20|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-23 10:36:28|INFO  |logger_until.py:Line17|login ESB with essexa2021@163.com
+2022-02-23 10:36:29|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2022-02-23 10:36:30|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2022-02-23 10:36:34|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2022-02-23 10:36:35|INFO  |logger_until.py:Line17|click on singleChartBody
+2022-02-23 10:36:35|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2022-02-23 10:36:40|INFO  |logger_until.py:Line17|click on Values section
+2022-02-23 10:36:42|INFO  |logger_until.py:Line17|Starting test TC test_value_indicator_style
+2022-02-23 10:36:42|INFO  |logger_until.py:Line17|click on Values dropdown
+2022-02-23 10:36:43|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2022-02-23 10:36:43|DEBUG |logger_until.py:Line23|value options_aria_controls: 239d9858-ffb8-40fa-ac87-322086fdce3c
+2022-02-23 10:36:43|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2022-02-23 10:36:43|INFO  |logger_until.py:Line17|click on view As drop-down
+2022-02-23 10:36:44|INFO  |logger_until.py:Line17|click on the options: Indicator
+2022-02-23 10:36:44|DEBUG |logger_until.py:Line23|view as options_aria_controls: 107652b9-82e1-402d-c37b-46f16455c703
+2022-02-23 10:36:44|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2022-02-23 10:36:45|INFO  |logger_until.py:Line17|click on add button
+2022-02-23 10:36:47|INFO  |logger_until.py:Line17|click on indicator style
+2022-02-23 10:36:48|INFO  |logger_until.py:Line17|click up for indicatior
+2022-02-23 10:36:49|INFO  |logger_until.py:Line17|click on color picker component
+2022-02-23 10:36:51|INFO  |logger_until.py:Line17|click condition dropdown list
+2022-02-23 10:36:52|INFO  |logger_until.py:Line17|select > for condition
+2022-02-23 10:36:52|INFO  |logger_until.py:Line17|input 0 for control input
+2022-02-23 10:38:52|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-23 10:38:59|INFO  |logger_until.py:Line17|login ESB with essexa2021@163.com
+2022-02-23 10:39:00|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2022-02-23 10:39:00|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2022-02-23 10:39:06|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2022-02-23 10:39:07|INFO  |logger_until.py:Line17|click on singleChartBody
+2022-02-23 10:39:07|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2022-02-23 10:39:09|INFO  |logger_until.py:Line17|click on Values section
+2022-02-23 10:39:12|INFO  |logger_until.py:Line17|Starting test TC test_value_indicator_style
+2022-02-23 10:39:12|INFO  |logger_until.py:Line17|click on Values dropdown
+2022-02-23 10:39:13|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2022-02-23 10:39:13|DEBUG |logger_until.py:Line23|value options_aria_controls: b21e2532-b3b2-45ee-c36c-4e2d0f1543da
+2022-02-23 10:39:13|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2022-02-23 10:39:13|INFO  |logger_until.py:Line17|click on view As drop-down
+2022-02-23 10:39:14|INFO  |logger_until.py:Line17|click on the options: Indicator
+2022-02-23 10:39:14|DEBUG |logger_until.py:Line23|view as options_aria_controls: 33bcaacc-583f-41f2-909c-7b73de8fd07c
+2022-02-23 10:39:14|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2022-02-23 10:39:15|INFO  |logger_until.py:Line17|click on add button
+2022-02-23 10:39:17|INFO  |logger_until.py:Line17|click on indicator style
+2022-02-23 10:39:18|INFO  |logger_until.py:Line17|click up for indicatior
+2022-02-23 10:39:18|INFO  |logger_until.py:Line17|click on color picker component
+2022-02-23 10:39:21|INFO  |logger_until.py:Line17|click condition dropdown list
+2022-02-23 10:39:22|INFO  |logger_until.py:Line17|select > for condition
+2022-02-23 10:39:22|INFO  |logger_until.py:Line17|input 0 for control input
+2022-02-23 10:39:26|DEBUG |logger_until.py:Line23|indicator style count: 14
+2022-02-23 10:40:53|INFO  |logger_until.py:Line17|expected value: ['arrowIcon indicatorCircular', 'arrowIcon indicatorDiamond', 'arrowIcon indicatorRectangle', 'arrowIcon indicatorSquare', 'anticon anticon-caret-up', 'anticon anticon-up-circle', 'arrowIcon arrowUp', 'arrowIcon angleDoubleUp', 'arrowIcon arrowDottedUp', 'arrowIcon arrowCircleUp', 'arrowIcon caretCircleUp', 'arrowIcon angleUp', 'arrowIcon caretDoubleUp', 'arrowIcon arrowCircleOutlinedUp'], actually_result: ['arrowIcon indicatorCircular', 'arrowIcon indicatorDiamond', 'arrowIcon indicatorRectangle', 'arrowIcon indicatorSquare', 'anticon anticon-caret-up', 'anticon anticon-up-circle', 'arrowIcon arrowUp', 'arrowIcon angleDoubleUp', 'arrowIcon arrowDottedUp', 'arrowIcon arrowCircleUp', 'arrowIcon caretCircleUp', 'arrowIcon angleUp', 'arrowIcon caretDoubleUp', 'arrowIcon arrowCircleOutlinedUp']
+2022-02-23 10:40:53|INFO  |logger_until.py:Line17|testing test_value_indicator_style is completed and passed
+2022-02-23 10:41:17|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-23 10:41:30|INFO  |logger_until.py:Line17|login ESB with essexa2021@163.com
+2022-02-23 10:41:35|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2022-02-23 10:41:36|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2022-02-23 10:41:43|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2022-02-23 10:41:45|INFO  |logger_until.py:Line17|click on singleChartBody
+2022-02-23 10:41:45|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2022-02-23 10:41:49|INFO  |logger_until.py:Line17|click on Values section
+2022-02-23 10:41:51|INFO  |logger_until.py:Line17|Starting test TC test_value_indicator_size
+2022-02-23 10:41:51|INFO  |logger_until.py:Line17|click on Values dropdown
+2022-02-23 10:41:52|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2022-02-23 10:41:53|DEBUG |logger_until.py:Line23|value options_aria_controls: 2bf712a9-647b-43ce-9126-4a4ebc44c8c9
+2022-02-23 10:41:53|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2022-02-23 10:41:53|INFO  |logger_until.py:Line17|click on view As drop-down
+2022-02-23 10:41:54|INFO  |logger_until.py:Line17|click on the options: Indicator
+2022-02-23 10:41:54|DEBUG |logger_until.py:Line23|view as options_aria_controls: 37fcdc12-9735-438c-98e6-00441e6ed16f
+2022-02-23 10:41:54|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2022-02-23 10:41:55|INFO  |logger_until.py:Line17|click on add button
+2022-02-23 10:41:57|INFO  |logger_until.py:Line17|click on indicator style
+2022-02-23 10:41:58|INFO  |logger_until.py:Line17|click up for indicatior
+2022-02-23 10:41:58|INFO  |logger_until.py:Line17|click on color picker component
+2022-02-23 10:42:00|INFO  |logger_until.py:Line17|click condition dropdown list
+2022-02-23 10:42:02|INFO  |logger_until.py:Line17|select > for condition
+2022-02-23 10:42:02|INFO  |logger_until.py:Line17|input 0 for control input
+2022-02-23 10:42:03|INFO  |logger_until.py:Line17|set size = 10px
+2022-02-23 10:42:10|INFO  |logger_until.py:Line17|expected value: ['10px', '10px'], actually_result: ['10px', '10px']
+2022-02-23 10:42:10|INFO  |logger_until.py:Line17|testing test_value_indicator_size is completed and passed
+2022-02-23 10:42:26|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-23 10:42:31|ERROR |logger_until.py:Line20|Message: unknown error: Cannot construct KeyEvent from non-typeable key
+  (Session info: chrome=98.0.4758.102)
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/testCase/PivotTable/Properties/test_value.py", line 53, in visit_dashboard
+    bussiness_dashboard = BusinessDashboard(driver, url, user, pwd, project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Dashboard.py", line 9, in __init__
+    self.project = BusinessProject(driver, url, username, pwd).visit_project(project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Project.py", line 12, in __init__
+    BusinessLogin(driver, url, username, pwd).login()
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Login.py", line 19, in login
+    l.login(self._username, self._pwd)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/Login.py", line 140, in login
+    l.username_input(username)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/Login.py", line 31, in username_input
+    ele.send_keys(username)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 477, in send_keys
+    self._execute(Command.SEND_KEYS_TO_ELEMENT,
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: Cannot construct KeyEvent from non-typeable key
+  (Session info: chrome=98.0.4758.102)
+
+2022-02-23 10:42:48|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-23 10:42:52|ERROR |logger_until.py:Line20|Message: unknown error: Cannot construct KeyEvent from non-typeable key
+  (Session info: chrome=98.0.4758.102)
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/testCase/PivotTable/Properties/test_value.py", line 53, in visit_dashboard
+    bussiness_dashboard = BusinessDashboard(driver, url, user, pwd, project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Dashboard.py", line 9, in __init__
+    self.project = BusinessProject(driver, url, username, pwd).visit_project(project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Project.py", line 12, in __init__
+    BusinessLogin(driver, url, username, pwd).login()
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Login.py", line 19, in login
+    l.login(self._username, self._pwd)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/Login.py", line 140, in login
+    l.username_input(username)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/Login.py", line 31, in username_input
+    ele.send_keys(username)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 477, in send_keys
+    self._execute(Command.SEND_KEYS_TO_ELEMENT,
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: Cannot construct KeyEvent from non-typeable key
+  (Session info: chrome=98.0.4758.102)
+
+2022-02-23 10:43:36|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-23 10:43:40|ERROR |logger_until.py:Line20|Message: unknown error: Cannot construct KeyEvent from non-typeable key
+  (Session info: chrome=98.0.4758.102)
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/testCase/PivotTable/Properties/test_value.py", line 53, in visit_dashboard
+    bussiness_dashboard = BusinessDashboard(driver, url, user, pwd, project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Dashboard.py", line 9, in __init__
+    self.project = BusinessProject(driver, url, username, pwd).visit_project(project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Project.py", line 12, in __init__
+    BusinessLogin(driver, url, username, pwd).login()
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Login.py", line 19, in login
+    l.login(self._username, self._pwd)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/Login.py", line 140, in login
+    l.username_input(username)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/Login.py", line 31, in username_input
+    ele.send_keys(username)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 477, in send_keys
+    self._execute(Command.SEND_KEYS_TO_ELEMENT,
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: Cannot construct KeyEvent from non-typeable key
+  (Session info: chrome=98.0.4758.102)
+
+2022-02-23 10:44:17|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-23 10:44:22|ERROR |logger_until.py:Line20|Message: unknown error: Cannot construct KeyEvent from non-typeable key
+  (Session info: chrome=98.0.4758.102)
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/testCase/PivotTable/Properties/test_value.py", line 53, in visit_dashboard
+    bussiness_dashboard = BusinessDashboard(driver, url, user, pwd, project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Dashboard.py", line 9, in __init__
+    self.project = BusinessProject(driver, url, username, pwd).visit_project(project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Project.py", line 12, in __init__
+    BusinessLogin(driver, url, username, pwd).login()
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Login.py", line 19, in login
+    l.login(self._username, self._pwd)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/Login.py", line 140, in login
+    l.username_input(username)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/Login.py", line 31, in username_input
+    ele.send_keys(username)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 477, in send_keys
+    self._execute(Command.SEND_KEYS_TO_ELEMENT,
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: Cannot construct KeyEvent from non-typeable key
+  (Session info: chrome=98.0.4758.102)
+
+2022-02-23 10:44:33|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-23 10:44:36|ERROR |logger_until.py:Line20|Message: unknown error: Cannot construct KeyEvent from non-typeable key
+  (Session info: chrome=98.0.4758.102)
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/testCase/PivotTable/Properties/test_value.py", line 53, in visit_dashboard
+    bussiness_dashboard = BusinessDashboard(driver, url, user, pwd, project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Dashboard.py", line 9, in __init__
+    self.project = BusinessProject(driver, url, username, pwd).visit_project(project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Project.py", line 12, in __init__
+    BusinessLogin(driver, url, username, pwd).login()
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Login.py", line 19, in login
+    l.login(self._username, self._pwd)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/Login.py", line 140, in login
+    l.username_input(username)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/Login.py", line 31, in username_input
+    ele.send_keys(username)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 477, in send_keys
+    self._execute(Command.SEND_KEYS_TO_ELEMENT,
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: Cannot construct KeyEvent from non-typeable key
+  (Session info: chrome=98.0.4758.102)
+
+2022-02-23 10:46:34|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-23 10:46:39|INFO  |logger_until.py:Line17|login ESB with essexa2021@163.com
+2022-02-23 10:46:41|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2022-02-23 10:46:41|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2022-02-23 10:46:46|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2022-02-23 10:46:47|INFO  |logger_until.py:Line17|click on singleChartBody
+2022-02-23 10:46:48|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2022-02-23 10:46:49|INFO  |logger_until.py:Line17|click on Values section
+2022-02-23 10:46:51|INFO  |logger_until.py:Line17|Starting test TC test_value_indicator_values
+2022-02-23 10:46:51|INFO  |logger_until.py:Line17|click on Values dropdown
+2022-02-23 10:46:52|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2022-02-23 10:46:52|DEBUG |logger_until.py:Line23|value options_aria_controls: 43ddf7ea-3fab-4ecd-e2d4-95367382c942
+2022-02-23 10:46:52|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2022-02-23 10:46:52|INFO  |logger_until.py:Line17|click on view As drop-down
+2022-02-23 10:46:54|INFO  |logger_until.py:Line17|click on the options: Indicator
+2022-02-23 10:46:54|DEBUG |logger_until.py:Line23|view as options_aria_controls: 177c2b84-ac30-4322-c104-9a982403129f
+2022-02-23 10:46:54|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2022-02-23 10:46:55|INFO  |logger_until.py:Line17|click on add button
+2022-02-23 10:46:57|INFO  |logger_until.py:Line17|click on indicator style
+2022-02-23 10:46:58|INFO  |logger_until.py:Line17|click up for indicatior
+2022-02-23 10:46:58|INFO  |logger_until.py:Line17|click on color picker component
+2022-02-23 10:47:00|INFO  |logger_until.py:Line17|click condition dropdown list
+2022-02-23 10:47:02|INFO  |logger_until.py:Line17|select > for condition
+2022-02-23 10:47:02|INFO  |logger_until.py:Line17|input 210 for control input
+2022-02-23 10:47:05|INFO  |logger_until.py:Line17|click condition dropdown list
+2022-02-23 10:47:06|INFO  |logger_until.py:Line17|select > for condition
+2022-02-23 10:49:11|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-23 10:49:16|INFO  |logger_until.py:Line17|login ESB with essexa2021@163.com
+2022-02-23 10:49:18|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2022-02-23 10:49:18|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2022-02-23 10:49:25|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2022-02-23 10:49:26|INFO  |logger_until.py:Line17|click on singleChartBody
+2022-02-23 10:49:26|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2022-02-23 10:49:28|INFO  |logger_until.py:Line17|click on Values section
+2022-02-23 10:49:30|INFO  |logger_until.py:Line17|Starting test TC test_value_indicator_values
+2022-02-23 10:49:30|INFO  |logger_until.py:Line17|click on Values dropdown
+2022-02-23 10:49:31|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2022-02-23 10:49:31|DEBUG |logger_until.py:Line23|value options_aria_controls: 15e272b2-05bc-4d81-961b-fa57ef7da910
+2022-02-23 10:49:31|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2022-02-23 10:49:31|INFO  |logger_until.py:Line17|click on view As drop-down
+2022-02-23 10:49:32|INFO  |logger_until.py:Line17|click on the options: Indicator
+2022-02-23 10:49:32|DEBUG |logger_until.py:Line23|view as options_aria_controls: e36520be-5943-480a-d8a4-1926357fa561
+2022-02-23 10:49:32|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2022-02-23 10:49:33|INFO  |logger_until.py:Line17|click on add button
+2022-02-23 10:49:36|INFO  |logger_until.py:Line17|click on indicator style
+2022-02-23 10:49:37|INFO  |logger_until.py:Line17|click up for indicatior
+2022-02-23 10:49:37|INFO  |logger_until.py:Line17|click on color picker component
+2022-02-23 10:49:39|INFO  |logger_until.py:Line17|click condition dropdown list
+2022-02-23 10:49:40|INFO  |logger_until.py:Line17|select > for condition
+2022-02-23 10:49:40|INFO  |logger_until.py:Line17|input 210 for control input
+2022-02-23 10:49:43|INFO  |logger_until.py:Line17|click condition dropdown list
+2022-02-23 10:49:45|INFO  |logger_until.py:Line17|select > for condition
+2022-02-23 10:49:48|INFO  |logger_until.py:Line17|getting test result
+2022-02-23 10:49:48|INFO  |logger_until.py:Line17|click condition dropdown list
+2022-02-23 10:49:50|INFO  |logger_until.py:Line17|select < for condition
+2022-02-23 10:49:53|INFO  |logger_until.py:Line17|getting test result
+2022-02-23 10:49:53|INFO  |logger_until.py:Line17|click condition dropdown list
+2022-02-23 10:49:54|INFO  |logger_until.py:Line17|select = for condition
+2022-02-23 10:49:57|INFO  |logger_until.py:Line17|getting test result
+2022-02-23 10:49:57|INFO  |logger_until.py:Line17|click condition dropdown list
+2022-02-23 10:49:58|INFO  |logger_until.py:Line17|select >= for condition
+2022-02-23 10:50:01|INFO  |logger_until.py:Line17|getting test result
+2022-02-23 10:50:01|INFO  |logger_until.py:Line17|click condition dropdown list
+2022-02-23 10:50:03|INFO  |logger_until.py:Line17|select <= for condition
+2022-02-23 10:50:50|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-23 10:50:56|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2022-02-23 10:50:58|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2022-02-23 10:50:58|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2022-02-23 10:51:04|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2022-02-23 10:51:05|INFO  |logger_until.py:Line17|click on singleChartBody
+2022-02-23 10:51:05|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2022-02-23 10:51:08|INFO  |logger_until.py:Line17|click on Values section
+2022-02-23 10:51:10|INFO  |logger_until.py:Line17|Starting test TC test_value_indicator_values
+2022-02-23 10:51:10|INFO  |logger_until.py:Line17|click on Values dropdown
+2022-02-23 10:51:11|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2022-02-23 10:51:11|DEBUG |logger_until.py:Line23|value options_aria_controls: 840f8f0e-18ef-40e1-dc6e-e38555d6f153
+2022-02-23 10:51:11|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2022-02-23 10:51:11|INFO  |logger_until.py:Line17|click on view As drop-down
+2022-02-23 10:51:12|INFO  |logger_until.py:Line17|click on the options: Indicator
+2022-02-23 10:51:12|DEBUG |logger_until.py:Line23|view as options_aria_controls: c98a9cdf-7707-4ef6-c069-2a56e943adb7
+2022-02-23 10:51:12|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2022-02-23 10:51:13|INFO  |logger_until.py:Line17|click on add button
+2022-02-23 10:51:35|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-23 10:51:41|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2022-02-23 10:51:42|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2022-02-23 10:51:43|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2022-02-23 10:51:47|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2022-02-23 10:51:49|INFO  |logger_until.py:Line17|click on singleChartBody
+2022-02-23 10:51:49|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2022-02-23 10:51:51|INFO  |logger_until.py:Line17|click on Values section
+2022-02-23 10:51:53|INFO  |logger_until.py:Line17|Starting test TC test_value_indicator_values
+2022-02-23 10:51:53|INFO  |logger_until.py:Line17|click on Values dropdown
+2022-02-23 10:51:54|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2022-02-23 10:51:54|DEBUG |logger_until.py:Line23|value options_aria_controls: da4a1cf4-f693-4ebc-f67b-924c3ff73f7b
+2022-02-23 10:51:54|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2022-02-23 10:51:54|INFO  |logger_until.py:Line17|click on view As drop-down
+2022-02-23 10:51:56|INFO  |logger_until.py:Line17|click on the options: Indicator
+2022-02-23 10:51:56|DEBUG |logger_until.py:Line23|view as options_aria_controls: 93c02057-b18f-4ada-fbd8-fb178932e7cd
+2022-02-23 10:51:56|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2022-02-23 10:51:57|INFO  |logger_until.py:Line17|click on add button
+2022-02-23 10:51:59|INFO  |logger_until.py:Line17|click on indicator style
+2022-02-23 10:52:00|INFO  |logger_until.py:Line17|click up for indicatior
+2022-02-23 10:52:00|INFO  |logger_until.py:Line17|click on color picker component
+2022-02-23 10:52:02|INFO  |logger_until.py:Line17|click condition dropdown list
+2022-02-23 10:52:03|INFO  |logger_until.py:Line17|select > for condition
+2022-02-23 10:52:04|INFO  |logger_until.py:Line17|input 210 for control input
+2022-02-23 10:52:07|INFO  |logger_until.py:Line17|click condition dropdown list
+2022-02-23 10:52:08|INFO  |logger_until.py:Line17|select > for condition
+2022-02-23 10:52:11|INFO  |logger_until.py:Line17|getting test result
+2022-02-23 10:52:12|INFO  |logger_until.py:Line17|click condition dropdown list
+2022-02-23 10:52:13|INFO  |logger_until.py:Line17|select < for condition
+2022-02-23 10:52:16|INFO  |logger_until.py:Line17|getting test result
+2022-02-23 10:52:16|INFO  |logger_until.py:Line17|click condition dropdown list
+2022-02-23 10:52:17|INFO  |logger_until.py:Line17|select = for condition
+2022-02-23 10:52:20|INFO  |logger_until.py:Line17|getting test result
+2022-02-23 10:52:21|INFO  |logger_until.py:Line17|click condition dropdown list
+2022-02-23 10:52:22|INFO  |logger_until.py:Line17|select >= for condition
+2022-02-23 10:52:25|INFO  |logger_until.py:Line17|getting test result
+2022-02-23 10:52:25|INFO  |logger_until.py:Line17|click condition dropdown list
+2022-02-23 10:52:26|INFO  |logger_until.py:Line17|select <= for condition
+2022-02-23 10:52:29|INFO  |logger_until.py:Line17|getting test result
+2022-02-23 10:52:30|INFO  |logger_until.py:Line17|expected value: ['anticon anticon-minus', 'arrowIcon arrowUp', 'anticon anticon-minus', 'arrowIcon arrowUp', 'arrowIcon arrowUp', 'anticon anticon-minus', 'arrowIcon arrowUp', 'arrowIcon arrowUp', 'anticon anticon-minus', 'arrowIcon arrowUp', 'arrowIcon arrowUp', 'anticon anticon-minus', 'arrowIcon arrowUp', 'anticon anticon-minus', 'arrowIcon arrowUp', 'arrowIcon arrowUp', 'arrowIcon arrowUp', 'arrowIcon arrowUp', 'anticon anticon-minus', 'anticon anticon-minus', 'anticon anticon-minus', 'anticon anticon-minus', 'anticon anticon-minus', 'arrowIcon arrowUp', 'anticon anticon-minus', 'anticon anticon-minus', 'arrowIcon arrowUp', 'anticon anticon-minus', 'anticon anticon-minus', 'arrowIcon arrowUp', 'anticon anticon-minus', 'anticon anticon-minus', 'arrowIcon arrowUp', 'anticon anticon-minus', 'arrowIcon arrowUp', 'anticon anticon-minus', 'anticon anticon-minus', 'anticon anticon-minus', 'anticon anticon-minus', 'arrowIcon arrowUp', 'anticon anticon-minus', 'anticon anticon-minus', 'arrowIcon arrowUp', 'anticon anticon-minus', 'anticon anticon-minus', 'anticon anticon-minus', 'anticon anticon-minus', 'anticon anticon-minus', 'anticon anticon-minus', 'anticon anticon-minus', 'anticon anticon-minus', 'anticon anticon-minus', 'anticon anticon-minus', 'anticon anticon-minus', 'anticon anticon-minus', 'anticon anticon-minus', 'anticon anticon-minus', 'anticon anticon-minus', 'anticon anticon-minus', 'anticon anticon-minus', 'anticon anticon-minus', 'anticon anticon-minus', 'anticon anticon-minus', 'arrowIcon arrowUp', 'arrowIcon arrowUp', 'anticon anticon-minus', 'arrowIcon arrowUp', 'arrowIcon arrowUp', 'anticon anticon-minus', 'arrowIcon arrowUp', 'arrowIcon arrowUp', 'anticon anticon-minus', 'arrowIcon arrowUp', 'arrowIcon arrowUp', 'anticon anticon-minus', 'arrowIcon arrowUp', 'anticon anticon-minus', 'arrowIcon arrowUp', 'arrowIcon arrowUp', 'arrowIcon arrowUp', 'arrowIcon arrowUp', 'anticon anticon-minus', 'anticon anticon-minus', 'anticon anticon-minus', 'arrowIcon arrowUp', 'anticon anticon-minus', 'arrowIcon arrowUp', 'anticon anticon-minus', 'anticon anticon-minus', 'arrowIcon arrowUp', 'anticon anticon-minus', 'anticon anticon-minus', 'arrowIcon arrowUp', 'anticon anticon-minus', 'anticon anticon-minus', 'arrowIcon arrowUp', 'anticon anticon-minus', 'arrowIcon arrowUp', 'anticon anticon-minus', 'anticon anticon-minus', 'anticon anticon-minus', 'anticon anticon-minus', 'arrowIcon arrowUp', 'anticon anticon-minus', 'anticon anticon-minus'], actually_result: ['anticon anticon-minus', 'arrowIcon arrowUp', 'anticon anticon-minus', 'arrowIcon arrowUp', 'arrowIcon arrowUp', 'anticon anticon-minus', 'arrowIcon arrowUp', 'arrowIcon arrowUp', 'anticon anticon-minus', 'arrowIcon arrowUp', 'arrowIcon arrowUp', 'anticon anticon-minus', 'arrowIcon arrowUp', 'anticon anticon-minus', 'arrowIcon arrowUp', 'arrowIcon arrowUp', 'arrowIcon arrowUp', 'arrowIcon arrowUp', 'anticon anticon-minus', 'anticon anticon-minus', 'anticon anticon-minus', 'anticon anticon-minus', 'anticon anticon-minus', 'arrowIcon arrowUp', 'anticon anticon-minus', 'anticon anticon-minus', 'arrowIcon arrowUp', 'anticon anticon-minus', 'anticon anticon-minus', 'arrowIcon arrowUp', 'anticon anticon-minus', 'anticon anticon-minus', 'arrowIcon arrowUp', 'anticon anticon-minus', 'arrowIcon arrowUp', 'anticon anticon-minus', 'anticon anticon-minus', 'anticon anticon-minus', 'anticon anticon-minus', 'arrowIcon arrowUp', 'anticon anticon-minus', 'anticon anticon-minus', 'arrowIcon arrowUp', 'anticon anticon-minus', 'anticon anticon-minus', 'anticon anticon-minus', 'anticon anticon-minus', 'anticon anticon-minus', 'anticon anticon-minus', 'anticon anticon-minus', 'anticon anticon-minus', 'anticon anticon-minus', 'anticon anticon-minus', 'anticon anticon-minus', 'anticon anticon-minus', 'anticon anticon-minus', 'anticon anticon-minus', 'anticon anticon-minus', 'anticon anticon-minus', 'anticon anticon-minus', 'anticon anticon-minus', 'anticon anticon-minus', 'anticon anticon-minus', 'arrowIcon arrowUp', 'arrowIcon arrowUp', 'anticon anticon-minus', 'arrowIcon arrowUp', 'arrowIcon arrowUp', 'anticon anticon-minus', 'arrowIcon arrowUp', 'arrowIcon arrowUp', 'anticon anticon-minus', 'arrowIcon arrowUp', 'arrowIcon arrowUp', 'anticon anticon-minus', 'arrowIcon arrowUp', 'anticon anticon-minus', 'arrowIcon arrowUp', 'arrowIcon arrowUp', 'arrowIcon arrowUp', 'arrowIcon arrowUp', 'anticon anticon-minus', 'anticon anticon-minus', 'anticon anticon-minus', 'arrowIcon arrowUp', 'anticon anticon-minus', 'arrowIcon arrowUp', 'anticon anticon-minus', 'anticon anticon-minus', 'arrowIcon arrowUp', 'anticon anticon-minus', 'anticon anticon-minus', 'arrowIcon arrowUp', 'anticon anticon-minus', 'anticon anticon-minus', 'arrowIcon arrowUp', 'anticon anticon-minus', 'arrowIcon arrowUp', 'anticon anticon-minus', 'anticon anticon-minus', 'anticon anticon-minus', 'anticon anticon-minus', 'arrowIcon arrowUp', 'anticon anticon-minus', 'anticon anticon-minus']
+2022-02-23 10:52:30|INFO  |logger_until.py:Line17|testing test_value_indicator_values is completed and passed
+2022-02-23 10:52:50|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-23 10:52:54|ERROR |logger_until.py:Line20|Message: unknown error: Cannot construct KeyEvent from non-typeable key
+  (Session info: chrome=98.0.4758.102)
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/testCase/PivotTable/Properties/test_value.py", line 53, in visit_dashboard
+    bussiness_dashboard = BusinessDashboard(driver, url, user, pwd, project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Dashboard.py", line 9, in __init__
+    self.project = BusinessProject(driver, url, username, pwd).visit_project(project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Project.py", line 12, in __init__
+    BusinessLogin(driver, url, username, pwd).login()
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Login.py", line 19, in login
+    l.login(self._username, self._pwd)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/Login.py", line 140, in login
+    l.username_input(username)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/Login.py", line 31, in username_input
+    ele.send_keys(username)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 477, in send_keys
+    self._execute(Command.SEND_KEYS_TO_ELEMENT,
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: Cannot construct KeyEvent from non-typeable key
+  (Session info: chrome=98.0.4758.102)
+
+2022-02-23 10:53:06|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-23 10:53:10|ERROR |logger_until.py:Line20|Message: unknown error: Cannot construct KeyEvent from non-typeable key
+  (Session info: chrome=98.0.4758.102)
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/testCase/PivotTable/Properties/test_value.py", line 53, in visit_dashboard
+    bussiness_dashboard = BusinessDashboard(driver, url, user, pwd, project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Dashboard.py", line 9, in __init__
+    self.project = BusinessProject(driver, url, username, pwd).visit_project(project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Project.py", line 12, in __init__
+    BusinessLogin(driver, url, username, pwd).login()
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Login.py", line 19, in login
+    l.login(self._username, self._pwd)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/Login.py", line 140, in login
+    l.username_input(username)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/Login.py", line 31, in username_input
+    ele.send_keys(username)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 477, in send_keys
+    self._execute(Command.SEND_KEYS_TO_ELEMENT,
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: Cannot construct KeyEvent from non-typeable key
+  (Session info: chrome=98.0.4758.102)
+
+2022-02-23 10:53:19|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-23 10:53:25|ERROR |logger_until.py:Line20|Message: unknown error: Cannot construct KeyEvent from non-typeable key
+  (Session info: chrome=98.0.4758.102)
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/testCase/PivotTable/Properties/test_value.py", line 53, in visit_dashboard
+    bussiness_dashboard = BusinessDashboard(driver, url, user, pwd, project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Dashboard.py", line 9, in __init__
+    self.project = BusinessProject(driver, url, username, pwd).visit_project(project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Project.py", line 12, in __init__
+    BusinessLogin(driver, url, username, pwd).login()
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Login.py", line 19, in login
+    l.login(self._username, self._pwd)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/Login.py", line 140, in login
+    l.username_input(username)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/Login.py", line 31, in username_input
+    ele.send_keys(username)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 477, in send_keys
+    self._execute(Command.SEND_KEYS_TO_ELEMENT,
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: Cannot construct KeyEvent from non-typeable key
+  (Session info: chrome=98.0.4758.102)
+
+2022-02-23 10:54:37|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-23 10:54:46|ERROR |logger_until.py:Line20|Message: unknown error: Cannot construct KeyEvent from non-typeable key
+  (Session info: chrome=98.0.4758.102)
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/testCase/PivotTable/Properties/test_value.py", line 53, in visit_dashboard
+    bussiness_dashboard = BusinessDashboard(driver, url, user, pwd, project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Dashboard.py", line 9, in __init__
+    self.project = BusinessProject(driver, url, username, pwd).visit_project(project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Project.py", line 12, in __init__
+    BusinessLogin(driver, url, username, pwd).login()
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Login.py", line 19, in login
+    l.login(self._username, self._pwd)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/Login.py", line 140, in login
+    l.username_input(username)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/Login.py", line 31, in username_input
+    ele.send_keys(username)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 477, in send_keys
+    self._execute(Command.SEND_KEYS_TO_ELEMENT,
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: Cannot construct KeyEvent from non-typeable key
+  (Session info: chrome=98.0.4758.102)
+
+2022-02-23 10:55:05|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-23 10:55:12|ERROR |logger_until.py:Line20|Message: unknown error: Cannot construct KeyEvent from non-typeable key
+  (Session info: chrome=98.0.4758.102)
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/testCase/PivotTable/Properties/test_value.py", line 53, in visit_dashboard
+    bussiness_dashboard = BusinessDashboard(driver, url, user, pwd, project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Dashboard.py", line 9, in __init__
+    self.project = BusinessProject(driver, url, username, pwd).visit_project(project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Project.py", line 12, in __init__
+    BusinessLogin(driver, url, username, pwd).login()
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Login.py", line 19, in login
+    l.login(self._username, self._pwd)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/Login.py", line 140, in login
+    l.username_input(username)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/Login.py", line 31, in username_input
+    ele.send_keys(username)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 477, in send_keys
+    self._execute(Command.SEND_KEYS_TO_ELEMENT,
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: Cannot construct KeyEvent from non-typeable key
+  (Session info: chrome=98.0.4758.102)
+
+2022-02-23 10:55:52|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-23 10:56:05|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2022-02-23 10:56:09|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2022-02-23 10:56:09|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2022-02-23 10:56:14|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2022-02-23 10:56:16|INFO  |logger_until.py:Line17|click on singleChartBody
+2022-02-23 10:56:16|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2022-02-23 10:56:18|INFO  |logger_until.py:Line17|click on Values section
+2022-02-23 10:56:20|INFO  |logger_until.py:Line17|Starting test TC test_value_indicator_types_values_multiple
+2022-02-23 10:56:20|INFO  |logger_until.py:Line17|click on Values dropdown
+2022-02-23 10:56:22|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2022-02-23 10:56:22|DEBUG |logger_until.py:Line23|value options_aria_controls: 3bfdfa1c-e939-4bb2-b3d7-6a0c6875479c
+2022-02-23 10:56:22|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2022-02-23 10:56:22|INFO  |logger_until.py:Line17|click on view As drop-down
+2022-02-23 10:56:23|INFO  |logger_until.py:Line17|click on the options: Indicator
+2022-02-23 10:56:23|DEBUG |logger_until.py:Line23|view as options_aria_controls: 7d8c8638-a325-4709-bcbb-b51aabdc7613
+2022-02-23 10:56:23|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2022-02-23 10:56:24|INFO  |logger_until.py:Line17|click on add button
+2022-02-23 10:56:26|INFO  |logger_until.py:Line17|click on indicator style
+2022-02-23 10:56:27|INFO  |logger_until.py:Line17|click up for indicatior
+2022-02-23 10:56:27|INFO  |logger_until.py:Line17|click on color picker component
+2022-02-23 10:56:29|INFO  |logger_until.py:Line17|click condition dropdown list
+2022-02-23 10:56:31|INFO  |logger_until.py:Line17|select > for condition
+2022-02-23 10:56:31|INFO  |logger_until.py:Line17|input 210 for control input
+2022-02-23 10:56:35|INFO  |logger_until.py:Line17|click on Values dropdown
+2022-02-23 10:56:36|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2022-02-23 10:56:36|DEBUG |logger_until.py:Line23|value options_aria_controls: 3bfdfa1c-e939-4bb2-b3d7-6a0c6875479c
+2022-02-23 10:56:36|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2022-02-23 10:56:36|INFO  |logger_until.py:Line17|click on view As drop-down
+2022-02-23 10:56:37|INFO  |logger_until.py:Line17|click on the options: Indicator
+2022-02-23 10:56:37|DEBUG |logger_until.py:Line23|view as options_aria_controls: 7d8c8638-a325-4709-bcbb-b51aabdc7613
+2022-02-23 10:56:37|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2022-02-23 10:56:38|INFO  |logger_until.py:Line17|click on add button
+2022-02-23 10:56:40|INFO  |logger_until.py:Line17|click on indicator style
+2022-02-23 10:56:42|INFO  |logger_until.py:Line17|click up for indicatior
+2022-02-23 10:56:42|INFO  |logger_until.py:Line17|click on color picker component
+2022-02-23 10:56:44|INFO  |logger_until.py:Line17|click condition dropdown list
+2022-02-23 10:56:45|INFO  |logger_until.py:Line17|select > for condition
+2022-02-23 10:56:45|INFO  |logger_until.py:Line17|input 400 for control input
+2022-02-23 10:56:48|INFO  |logger_until.py:Line17|getting test result
+2022-02-23 10:56:52|INFO  |logger_until.py:Line17|expected value: [('anticon anticon-minus', ''), ('arrowIcon arrowUp', 'rgb(65, 117, 5)'), ('anticon anticon-minus', ''), ('arrowIcon arrowUp', 'rgb(248, 231, 28)'), ('arrowIcon arrowUp', 'rgb(65, 117, 5)'), ('anticon anticon-minus', ''), ('arrowIcon arrowUp', 'rgb(248, 231, 28)'), ('arrowIcon arrowUp', 'rgb(65, 117, 5)'), ('anticon anticon-minus', ''), ('arrowIcon arrowUp', 'rgb(65, 117, 5)'), ('arrowIcon arrowUp', 'rgb(65, 117, 5)'), ('anticon anticon-minus', ''), ('arrowIcon arrowUp', 'rgb(65, 117, 5)'), ('anticon anticon-minus', ''), ('arrowIcon arrowUp', 'rgb(248, 231, 28)'), ('arrowIcon arrowUp', 'rgb(65, 117, 5)'), ('arrowIcon arrowUp', 'rgb(65, 117, 5)'), ('arrowIcon arrowUp', 'rgb(65, 117, 5)'), ('anticon anticon-minus', ''), ('anticon anticon-minus', ''), ('anticon anticon-minus', '')], actually_result: [('anticon anticon-minus', ''), ('arrowIcon arrowUp', ''), ('anticon anticon-minus', ''), ('arrowIcon arrowUp', ''), ('arrowIcon arrowUp', ''), ('anticon anticon-minus', ''), ('arrowIcon arrowUp', ''), ('arrowIcon arrowUp', ''), ('anticon anticon-minus', ''), ('arrowIcon arrowUp', ''), ('arrowIcon arrowUp', ''), ('anticon anticon-minus', ''), ('arrowIcon arrowUp', ''), ('anticon anticon-minus', ''), ('arrowIcon arrowUp', ''), ('arrowIcon arrowUp', ''), ('arrowIcon arrowUp', ''), ('arrowIcon arrowUp', ''), ('anticon anticon-minus', ''), ('anticon anticon-minus', ''), ('anticon anticon-minus', '')]
+2022-02-23 10:56:52|INFO  |logger_until.py:Line17|screenShot has been done in path
+2022-02-23 10:56:52|ERROR |logger_until.py:Line20|<class 'AssertionError'>
+NoneType: None
+2022-02-23 11:02:09|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-23 11:02:16|ERROR |logger_until.py:Line20|Message: unknown error: Cannot construct KeyEvent from non-typeable key
+  (Session info: chrome=98.0.4758.102)
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/testCase/PivotTable/Properties/test_value.py", line 53, in visit_dashboard
+    bussiness_dashboard = BusinessDashboard(driver, url, user, pwd, project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Dashboard.py", line 9, in __init__
+    self.project = BusinessProject(driver, url, username, pwd).visit_project(project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Project.py", line 12, in __init__
+    BusinessLogin(driver, url, username, pwd).login()
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Login.py", line 19, in login
+    l.login(self._username, self._pwd)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/Login.py", line 140, in login
+    l.username_input(username)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/Login.py", line 31, in username_input
+    ele.send_keys(username)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 477, in send_keys
+    self._execute(Command.SEND_KEYS_TO_ELEMENT,
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: Cannot construct KeyEvent from non-typeable key
+  (Session info: chrome=98.0.4758.102)
+
+2022-02-23 11:02:58|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-23 11:03:04|ERROR |logger_until.py:Line20|Message: unknown error: Cannot construct KeyEvent from non-typeable key
+  (Session info: chrome=98.0.4758.102)
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/testCase/PivotTable/Properties/test_value.py", line 53, in visit_dashboard
+    bussiness_dashboard = BusinessDashboard(driver, url, user, pwd, project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Dashboard.py", line 9, in __init__
+    self.project = BusinessProject(driver, url, username, pwd).visit_project(project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Project.py", line 12, in __init__
+    BusinessLogin(driver, url, username, pwd).login()
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Login.py", line 19, in login
+    l.login(self._username, self._pwd)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/Login.py", line 140, in login
+    l.username_input(username)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/Login.py", line 31, in username_input
+    ele.send_keys(username)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 477, in send_keys
+    self._execute(Command.SEND_KEYS_TO_ELEMENT,
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: Cannot construct KeyEvent from non-typeable key
+  (Session info: chrome=98.0.4758.102)
+
+2022-02-23 11:03:42|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-23 11:03:46|ERROR |logger_until.py:Line20|Message: unknown error: Cannot construct KeyEvent from non-typeable key
+  (Session info: chrome=98.0.4758.102)
+Traceback (most recent call last):
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/testCase/PivotTable/Properties/test_value.py", line 53, in visit_dashboard
+    bussiness_dashboard = BusinessDashboard(driver, url, user, pwd, project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Dashboard.py", line 9, in __init__
+    self.project = BusinessProject(driver, url, username, pwd).visit_project(project_name)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Project.py", line 12, in __init__
+    BusinessLogin(driver, url, username, pwd).login()
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Business/Login.py", line 19, in login
+    l.login(self._username, self._pwd)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/Login.py", line 140, in login
+    l.username_input(username)
+  File "/Users/xingyanghan/Desktop/work/ESB/EyeGuide_ESBAutomation/Components/Component/Login.py", line 31, in username_input
+    ele.send_keys(username)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 477, in send_keys
+    self._execute(Command.SEND_KEYS_TO_ELEMENT,
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: Cannot construct KeyEvent from non-typeable key
+  (Session info: chrome=98.0.4758.102)
+
+2022-02-23 11:09:51|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-23 11:10:15|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2022-02-23 11:10:24|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2022-02-23 11:10:24|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2022-02-23 11:10:36|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2022-02-23 11:10:38|INFO  |logger_until.py:Line17|click on singleChartBody
+2022-02-23 11:10:39|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2022-02-23 11:10:42|INFO  |logger_until.py:Line17|click on Values section
+2022-02-23 11:10:44|INFO  |logger_until.py:Line17|Starting test TC test_value_indicator_types_values_multiple
+2022-02-23 11:10:44|INFO  |logger_until.py:Line17|click on Values dropdown
+2022-02-23 11:10:45|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2022-02-23 11:10:45|DEBUG |logger_until.py:Line23|value options_aria_controls: c28c69d5-fb0b-4d14-f444-9a783b56f107
+2022-02-23 11:10:45|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2022-02-23 11:10:45|INFO  |logger_until.py:Line17|click on view As drop-down
+2022-02-23 11:10:46|INFO  |logger_until.py:Line17|click on the options: Indicator
+2022-02-23 11:10:46|DEBUG |logger_until.py:Line23|view as options_aria_controls: 90fe8891-e251-4782-93af-5c4b2e095b73
+2022-02-23 11:10:46|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2022-02-23 11:10:48|INFO  |logger_until.py:Line17|click on add button
+2022-02-23 11:10:50|INFO  |logger_until.py:Line17|click on indicator style
+2022-02-23 11:10:51|INFO  |logger_until.py:Line17|click up for indicatior
+2022-02-23 11:10:51|INFO  |logger_until.py:Line17|click on color picker component
+2022-02-23 11:10:53|INFO  |logger_until.py:Line17|click condition dropdown list
+2022-02-23 11:10:54|INFO  |logger_until.py:Line17|select > for condition
+2022-02-23 11:10:54|INFO  |logger_until.py:Line17|input 210 for control input
+2022-02-23 11:10:59|INFO  |logger_until.py:Line17|click on Values dropdown
+2022-02-23 11:11:00|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2022-02-23 11:11:00|DEBUG |logger_until.py:Line23|value options_aria_controls: c28c69d5-fb0b-4d14-f444-9a783b56f107
+2022-02-23 11:11:00|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2022-02-23 11:11:00|INFO  |logger_until.py:Line17|click on view As drop-down
+2022-02-23 11:11:01|INFO  |logger_until.py:Line17|click on the options: Indicator
+2022-02-23 11:11:01|DEBUG |logger_until.py:Line23|view as options_aria_controls: 90fe8891-e251-4782-93af-5c4b2e095b73
+2022-02-23 11:11:01|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2022-02-23 11:11:02|INFO  |logger_until.py:Line17|click on add button
+2022-02-23 11:11:04|INFO  |logger_until.py:Line17|click on indicator style
+2022-02-23 11:11:05|INFO  |logger_until.py:Line17|click up for indicatior
+2022-02-23 11:11:05|INFO  |logger_until.py:Line17|click on color picker component
+2022-02-23 11:11:07|INFO  |logger_until.py:Line17|click condition dropdown list
+2022-02-23 11:11:09|INFO  |logger_until.py:Line17|select > for condition
+2022-02-23 11:11:09|INFO  |logger_until.py:Line17|input 400 for control input
+2022-02-23 11:11:12|INFO  |logger_until.py:Line17|getting test result
+2022-02-23 11:11:16|INFO  |logger_until.py:Line17|expected value: [('anticon anticon-minus', ''), ('arrowIcon arrowUp', 'rgb(65, 117, 5)'), ('anticon anticon-minus', ''), ('arrowIcon arrowUp', 'rgb(248, 231, 28)'), ('arrowIcon arrowUp', 'rgb(65, 117, 5)'), ('anticon anticon-minus', ''), ('arrowIcon arrowUp', 'rgb(248, 231, 28)'), ('arrowIcon arrowUp', 'rgb(65, 117, 5)'), ('anticon anticon-minus', ''), ('arrowIcon arrowUp', 'rgb(65, 117, 5)'), ('arrowIcon arrowUp', 'rgb(65, 117, 5)'), ('anticon anticon-minus', ''), ('arrowIcon arrowUp', 'rgb(65, 117, 5)'), ('anticon anticon-minus', ''), ('arrowIcon arrowUp', 'rgb(248, 231, 28)'), ('arrowIcon arrowUp', 'rgb(65, 117, 5)'), ('arrowIcon arrowUp', 'rgb(65, 117, 5)'), ('arrowIcon arrowUp', 'rgb(65, 117, 5)'), ('anticon anticon-minus', ''), ('anticon anticon-minus', ''), ('anticon anticon-minus', '')], actually_result: [('anticon anticon-minus', ''), ('arrowIcon arrowUp', ''), ('anticon anticon-minus', ''), ('arrowIcon arrowUp', ''), ('arrowIcon arrowUp', ''), ('anticon anticon-minus', ''), ('arrowIcon arrowUp', ''), ('arrowIcon arrowUp', ''), ('anticon anticon-minus', ''), ('arrowIcon arrowUp', ''), ('arrowIcon arrowUp', ''), ('anticon anticon-minus', ''), ('arrowIcon arrowUp', ''), ('anticon anticon-minus', ''), ('arrowIcon arrowUp', ''), ('arrowIcon arrowUp', ''), ('arrowIcon arrowUp', ''), ('arrowIcon arrowUp', ''), ('anticon anticon-minus', ''), ('anticon anticon-minus', ''), ('anticon anticon-minus', '')]
+2022-02-23 11:11:16|INFO  |logger_until.py:Line17|screenShot has been done in path
+2022-02-23 11:11:16|ERROR |logger_until.py:Line20|<class 'AssertionError'>
+NoneType: None
+2022-02-23 11:26:13|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-23 11:26:19|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2022-02-23 11:26:22|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2022-02-23 11:26:22|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2022-02-23 11:26:27|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2022-02-23 11:26:29|INFO  |logger_until.py:Line17|click on singleChartBody
+2022-02-23 11:26:29|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2022-02-23 11:26:31|INFO  |logger_until.py:Line17|click on Values section
+2022-02-23 11:26:34|INFO  |logger_until.py:Line17|Starting test TC test_value_indicator_types_values_multiple
+2022-02-23 11:26:34|INFO  |logger_until.py:Line17|click on Values dropdown
+2022-02-23 11:26:35|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2022-02-23 11:26:35|DEBUG |logger_until.py:Line23|value options_aria_controls: 2a80bff2-8ab4-4be4-85b5-5ea3f3899301
+2022-02-23 11:26:35|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2022-02-23 11:26:35|INFO  |logger_until.py:Line17|click on view As drop-down
+2022-02-23 11:26:36|INFO  |logger_until.py:Line17|click on the options: Indicator
+2022-02-23 11:26:36|DEBUG |logger_until.py:Line23|view as options_aria_controls: 7725d1a3-fe00-4d3a-fc69-482ed9c82466
+2022-02-23 11:26:36|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2022-02-23 11:26:37|INFO  |logger_until.py:Line17|click on add button
+2022-02-23 11:26:39|INFO  |logger_until.py:Line17|click on indicator style
+2022-02-23 11:26:40|INFO  |logger_until.py:Line17|click up for indicatior
+2022-02-23 11:26:40|INFO  |logger_until.py:Line17|click on color picker component
+2022-02-23 11:26:43|INFO  |logger_until.py:Line17|click condition dropdown list
+2022-02-23 11:26:44|INFO  |logger_until.py:Line17|select > for condition
+2022-02-23 11:26:44|INFO  |logger_until.py:Line17|input 210 for control input
+2022-02-23 11:26:48|INFO  |logger_until.py:Line17|click on Values dropdown
+2022-02-23 11:26:49|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2022-02-23 11:26:49|DEBUG |logger_until.py:Line23|value options_aria_controls: 2a80bff2-8ab4-4be4-85b5-5ea3f3899301
+2022-02-23 11:26:49|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2022-02-23 11:26:49|INFO  |logger_until.py:Line17|click on view As drop-down
+2022-02-23 11:26:50|INFO  |logger_until.py:Line17|click on the options: Indicator
+2022-02-23 11:26:50|DEBUG |logger_until.py:Line23|view as options_aria_controls: 7725d1a3-fe00-4d3a-fc69-482ed9c82466
+2022-02-23 11:26:50|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2022-02-23 11:26:51|INFO  |logger_until.py:Line17|click on add button
+2022-02-23 11:26:54|INFO  |logger_until.py:Line17|click on indicator style
+2022-02-23 11:26:55|INFO  |logger_until.py:Line17|click up for indicatior
+2022-02-23 11:26:55|INFO  |logger_until.py:Line17|click on color picker component
+2022-02-23 11:26:57|INFO  |logger_until.py:Line17|click condition dropdown list
+2022-02-23 11:26:58|INFO  |logger_until.py:Line17|select > for condition
+2022-02-23 11:26:58|INFO  |logger_until.py:Line17|input 400 for control input
+2022-02-23 11:27:01|INFO  |logger_until.py:Line17|getting test result
+2022-02-23 11:27:58|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-23 11:28:04|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2022-02-23 11:28:05|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2022-02-23 11:28:06|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2022-02-23 11:28:09|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2022-02-23 11:28:11|INFO  |logger_until.py:Line17|click on singleChartBody
+2022-02-23 11:28:11|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2022-02-23 11:28:13|INFO  |logger_until.py:Line17|click on Values section
+2022-02-23 11:28:15|INFO  |logger_until.py:Line17|Starting test TC test_value_indicator_types_values_multiple
+2022-02-23 11:28:15|INFO  |logger_until.py:Line17|click on Values dropdown
+2022-02-23 11:28:17|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2022-02-23 11:28:17|DEBUG |logger_until.py:Line23|value options_aria_controls: 0b996122-99f9-400a-d4c1-de853612d059
+2022-02-23 11:28:17|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2022-02-23 11:28:17|INFO  |logger_until.py:Line17|click on view As drop-down
+2022-02-23 11:28:18|INFO  |logger_until.py:Line17|click on the options: Indicator
+2022-02-23 11:28:18|DEBUG |logger_until.py:Line23|view as options_aria_controls: f09bb5d7-5d2e-4ea8-d23f-66cb1de29314
+2022-02-23 11:28:18|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2022-02-23 11:28:19|INFO  |logger_until.py:Line17|click on add button
+2022-02-23 11:28:21|INFO  |logger_until.py:Line17|click on indicator style
+2022-02-23 11:28:22|INFO  |logger_until.py:Line17|click up for indicatior
+2022-02-23 11:28:22|INFO  |logger_until.py:Line17|click on color picker component
+2022-02-23 11:28:24|INFO  |logger_until.py:Line17|click condition dropdown list
+2022-02-23 11:28:26|INFO  |logger_until.py:Line17|select > for condition
+2022-02-23 11:28:26|INFO  |logger_until.py:Line17|input 210 for control input
+2022-02-23 11:28:30|INFO  |logger_until.py:Line17|click on Values dropdown
+2022-02-23 11:28:31|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2022-02-23 11:28:31|DEBUG |logger_until.py:Line23|value options_aria_controls: 0b996122-99f9-400a-d4c1-de853612d059
+2022-02-23 11:28:31|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2022-02-23 11:28:31|INFO  |logger_until.py:Line17|click on view As drop-down
+2022-02-23 11:28:32|INFO  |logger_until.py:Line17|click on the options: Indicator
+2022-02-23 11:28:32|DEBUG |logger_until.py:Line23|view as options_aria_controls: f09bb5d7-5d2e-4ea8-d23f-66cb1de29314
+2022-02-23 11:28:32|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2022-02-23 11:28:33|INFO  |logger_until.py:Line17|click on add button
+2022-02-23 11:28:35|INFO  |logger_until.py:Line17|click on indicator style
+2022-02-23 11:28:37|INFO  |logger_until.py:Line17|click up for indicatior
+2022-02-23 11:28:37|INFO  |logger_until.py:Line17|click on color picker component
+2022-02-23 11:28:39|INFO  |logger_until.py:Line17|click condition dropdown list
+2022-02-23 11:28:40|INFO  |logger_until.py:Line17|select > for condition
+2022-02-23 11:28:40|INFO  |logger_until.py:Line17|input 400 for control input
+2022-02-23 11:28:43|INFO  |logger_until.py:Line17|getting test result
+2022-02-23 11:28:47|INFO  |logger_until.py:Line17|expected value: [('anticon anticon-minus', ''), ('arrowIcon arrowUp', 'rgb(65, 117, 5)'), ('anticon anticon-minus', ''), ('arrowIcon arrowUp', 'rgb(248, 231, 28)'), ('arrowIcon arrowUp', 'rgb(65, 117, 5)'), ('anticon anticon-minus', ''), ('arrowIcon arrowUp', 'rgb(248, 231, 28)'), ('arrowIcon arrowUp', 'rgb(65, 117, 5)'), ('anticon anticon-minus', ''), ('arrowIcon arrowUp', 'rgb(65, 117, 5)'), ('arrowIcon arrowUp', 'rgb(65, 117, 5)'), ('anticon anticon-minus', ''), ('arrowIcon arrowUp', 'rgb(65, 117, 5)'), ('anticon anticon-minus', ''), ('arrowIcon arrowUp', 'rgb(248, 231, 28)'), ('arrowIcon arrowUp', 'rgb(65, 117, 5)'), ('arrowIcon arrowUp', 'rgb(65, 117, 5)'), ('arrowIcon arrowUp', 'rgb(65, 117, 5)'), ('anticon anticon-minus', ''), ('anticon anticon-minus', ''), ('anticon anticon-minus', '')], actually_result: [('anticon anticon-minus', ''), ('arrowIcon arrowUp', 'rgb(65, 117, 5)'), ('anticon anticon-minus', ''), ('arrowIcon arrowUp', 'rgb(248, 231, 28)'), ('arrowIcon arrowUp', 'rgb(65, 117, 5)'), ('anticon anticon-minus', ''), ('arrowIcon arrowUp', 'rgb(248, 231, 28)'), ('arrowIcon arrowUp', 'rgb(65, 117, 5)'), ('anticon anticon-minus', ''), ('arrowIcon arrowUp', 'rgb(65, 117, 5)'), ('arrowIcon arrowUp', 'rgb(65, 117, 5)'), ('anticon anticon-minus', ''), ('arrowIcon arrowUp', 'rgb(65, 117, 5)'), ('anticon anticon-minus', ''), ('arrowIcon arrowUp', 'rgb(248, 231, 28)'), ('arrowIcon arrowUp', 'rgb(65, 117, 5)'), ('arrowIcon arrowUp', 'rgb(65, 117, 5)'), ('arrowIcon arrowUp', 'rgb(65, 117, 5)'), ('anticon anticon-minus', ''), ('anticon anticon-minus', ''), ('anticon anticon-minus', '')]
+2022-02-23 11:28:47|INFO  |logger_until.py:Line17|testing test_value_indicator_types_values_multiple is completed and passed
+2022-02-23 11:30:04|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-23 11:30:12|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2022-02-23 11:30:14|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2022-02-23 11:30:14|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2022-02-23 11:30:21|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2022-02-23 11:30:22|INFO  |logger_until.py:Line17|click on singleChartBody
+2022-02-23 11:30:23|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2022-02-23 11:30:25|INFO  |logger_until.py:Line17|click on Values section
+2022-02-23 11:30:27|INFO  |logger_until.py:Line17|Starting test TC test_value_indicator_valuelabels_position
+2022-02-23 11:30:27|INFO  |logger_until.py:Line17|click on Values dropdown
+2022-02-23 11:30:28|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2022-02-23 11:30:28|DEBUG |logger_until.py:Line23|value options_aria_controls: 4644a0eb-8141-466e-8748-d33cecc96b22
+2022-02-23 11:30:28|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2022-02-23 11:30:28|INFO  |logger_until.py:Line17|click on view As drop-down
+2022-02-23 11:30:29|INFO  |logger_until.py:Line17|click on the options: Indicator
+2022-02-23 11:30:29|DEBUG |logger_until.py:Line23|view as options_aria_controls: f3f8e1aa-66e5-4ac0-ff37-5d5b6dc10d64
+2022-02-23 11:30:30|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2022-02-23 11:30:31|INFO  |logger_until.py:Line17|click on add button
+2022-02-23 11:30:33|INFO  |logger_until.py:Line17|click on indicator style
+2022-02-23 11:30:34|INFO  |logger_until.py:Line17|click up for indicatior
+2022-02-23 11:30:34|INFO  |logger_until.py:Line17|click on color picker component
+2022-02-23 11:30:36|INFO  |logger_until.py:Line17|click condition dropdown list
+2022-02-23 11:30:37|INFO  |logger_until.py:Line17|select > for condition
+2022-02-23 11:30:37|INFO  |logger_until.py:Line17|input 210 for control input
+2022-02-23 11:30:42|INFO  |logger_until.py:Line17|open Show Value Labels toggle
+2022-02-23 11:30:43|INFO  |logger_until.py:Line17|click on position: left
+2022-02-23 11:30:45|INFO  |logger_until.py:Line17|getting test result
+2022-02-23 11:30:49|INFO  |logger_until.py:Line17|click on position: top
+2022-02-23 11:30:51|INFO  |logger_until.py:Line17|getting test result
+2022-02-23 11:30:54|INFO  |logger_until.py:Line17|click on position: right
+2022-02-23 11:30:56|INFO  |logger_until.py:Line17|getting test result
+2022-02-23 11:30:59|INFO  |logger_until.py:Line17|click on position: bottom
+2022-02-23 11:31:01|INFO  |logger_until.py:Line17|getting test result
+2022-02-23 11:31:04|INFO  |logger_until.py:Line17|expected value: ['row', 'column', 'row-reverse', 'column-reverse'], actually_result: ['row', 'column', 'row-reverse', 'column-reverse']
+2022-02-23 11:31:04|INFO  |logger_until.py:Line17|testing test_value_indicator_valuelabels_position is completed and passed
+2022-02-23 11:31:45|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-23 11:31:54|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2022-02-23 11:31:56|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2022-02-23 11:31:56|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2022-02-23 11:32:02|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2022-02-23 11:32:03|INFO  |logger_until.py:Line17|click on singleChartBody
+2022-02-23 11:32:03|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2022-02-23 11:32:07|INFO  |logger_until.py:Line17|click on Values section
+2022-02-23 11:32:09|INFO  |logger_until.py:Line17|Starting test TC test_value_gradient_baseFunc
+2022-02-23 11:32:09|INFO  |logger_until.py:Line17|click on Values dropdown
+2022-02-23 11:32:10|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2022-02-23 11:32:10|DEBUG |logger_until.py:Line23|value options_aria_controls: ba7e587d-5673-4788-ae23-06b8ca1b13a3
+2022-02-23 11:32:10|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2022-02-23 11:32:10|INFO  |logger_until.py:Line17|click on view As drop-down
+2022-02-23 11:32:11|INFO  |logger_until.py:Line17|click on the options: Gradient Color
+2022-02-23 11:32:11|DEBUG |logger_until.py:Line23|view as options_aria_controls: 7c8f7391-5a47-48cf-c30e-aa3869e2e693
+2022-02-23 11:32:11|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2022-02-23 11:32:14|INFO  |logger_until.py:Line17|Getting test result
+2022-02-23 11:32:14|INFO  |logger_until.py:Line17|getting test result
+2022-02-23 11:32:26|INFO  |logger_until.py:Line17|expected value: [('rgb(100, 128, 167)', ''), ('rgb(39, 75, 127)', ''), ('rgb(222, 235, 247)', ''), ('rgb(39, 75, 127)', ''), ('rgb(100, 128, 167)', ''), ('rgb(222, 235, 247)', ''), ('rgb(39, 75, 127)', ''), ('rgb(39, 75, 127)', ''), ('rgb(191, 208, 227)', ''), ('rgb(100, 128, 167)', ''), ('rgb(39, 75, 127)', ''), ('rgb(222, 235, 247)', ''), ('rgb(100, 128, 167)', ''), ('rgb(222, 235, 247)', ''), ('rgb(39, 75, 127)', ''), ('rgb(69, 101, 147)', ''), ('rgb(39, 75, 127)', ''), ('rgb(69, 101, 147)', '')], actually_result: [('rgb(100, 128, 167)', ''), ('rgb(39, 75, 127)', ''), ('rgb(222, 235, 247)', ''), ('rgb(39, 75, 127)', ''), ('rgb(100, 128, 167)', ''), ('rgb(222, 235, 247)', ''), ('rgb(39, 75, 127)', ''), ('rgb(39, 75, 127)', ''), ('rgb(191, 208, 227)', ''), ('rgb(100, 128, 167)', ''), ('rgb(39, 75, 127)', ''), ('rgb(222, 235, 247)', ''), ('rgb(100, 128, 167)', ''), ('rgb(222, 235, 247)', ''), ('rgb(39, 75, 127)', ''), ('rgb(69, 101, 147)', ''), ('rgb(39, 75, 127)', ''), ('rgb(69, 101, 147)', '')]
+2022-02-23 11:32:26|INFO  |logger_until.py:Line17|screenShot has been done in path
+2022-02-23 11:32:26|ERROR |logger_until.py:Line20|<class 'AssertionError'>
+NoneType: None
+2022-02-23 11:33:08|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-23 11:33:13|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2022-02-23 11:33:18|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2022-02-23 11:33:18|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2022-02-23 11:33:23|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2022-02-23 11:33:24|INFO  |logger_until.py:Line17|click on singleChartBody
+2022-02-23 11:33:25|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2022-02-23 11:33:27|INFO  |logger_until.py:Line17|click on Values section
+2022-02-23 11:33:29|INFO  |logger_until.py:Line17|Starting test TC test_value_gradient_baseFunc
+2022-02-23 11:33:29|INFO  |logger_until.py:Line17|click on Values dropdown
+2022-02-23 11:33:30|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2022-02-23 11:33:30|DEBUG |logger_until.py:Line23|value options_aria_controls: 2611784e-576e-4039-b43c-50b628a68b31
+2022-02-23 11:33:30|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2022-02-23 11:33:30|INFO  |logger_until.py:Line17|click on view As drop-down
+2022-02-23 11:33:31|INFO  |logger_until.py:Line17|click on the options: Gradient Color
+2022-02-23 11:33:32|DEBUG |logger_until.py:Line23|view as options_aria_controls: 4b259ada-ea37-4be7-ba00-c9d3da7bd69a
+2022-02-23 11:33:32|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2022-02-23 11:33:35|INFO  |logger_until.py:Line17|Getting test result
+2022-02-23 11:33:35|INFO  |logger_until.py:Line17|getting test result
+2022-02-23 11:36:43|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-23 11:36:49|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2022-02-23 11:36:50|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2022-02-23 11:36:50|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2022-02-23 11:36:55|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2022-02-23 11:36:56|INFO  |logger_until.py:Line17|click on singleChartBody
+2022-02-23 11:36:56|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2022-02-23 11:36:58|INFO  |logger_until.py:Line17|click on Values section
+2022-02-23 11:37:01|INFO  |logger_until.py:Line17|Starting test TC test_value_gradient_baseFunc
+2022-02-23 11:37:01|INFO  |logger_until.py:Line17|click on Values dropdown
+2022-02-23 11:37:02|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2022-02-23 11:37:02|DEBUG |logger_until.py:Line23|value options_aria_controls: c70648d0-0650-46c8-8ae5-1e34b20c933f
+2022-02-23 11:37:02|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2022-02-23 11:37:02|INFO  |logger_until.py:Line17|click on view As drop-down
+2022-02-23 11:37:03|INFO  |logger_until.py:Line17|click on the options: Gradient Color
+2022-02-23 11:37:03|DEBUG |logger_until.py:Line23|view as options_aria_controls: 0e851905-2f9b-4e0a-9deb-8b7f7939dc2a
+2022-02-23 11:37:03|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2022-02-23 11:37:06|INFO  |logger_until.py:Line17|Getting test result
+2022-02-23 11:37:06|INFO  |logger_until.py:Line17|getting test result
+2022-02-23 11:37:17|INFO  |logger_until.py:Line17|expected value: [('rgb(100, 128, 167)', ''), ('rgb(39, 75, 127)', ''), ('rgb(222, 235, 247)', ''), ('rgb(39, 75, 127)', ''), ('rgb(100, 128, 167)', ''), ('rgb(222, 235, 247)', ''), ('rgb(39, 75, 127)', ''), ('rgb(39, 75, 127)', ''), ('rgb(191, 208, 227)', ''), ('rgb(100, 128, 167)', ''), ('rgb(39, 75, 127)', ''), ('rgb(222, 235, 247)', ''), ('rgb(100, 128, 167)', ''), ('rgb(222, 235, 247)', ''), ('rgb(39, 75, 127)', ''), ('rgb(69, 101, 147)', ''), ('rgb(39, 75, 127)', ''), ('rgb(69, 101, 147)', '')], actually_result: [('rgb(100, 128, 167)', ''), ('rgb(39, 75, 127)', ''), ('rgb(222, 235, 247)', ''), ('rgb(39, 75, 127)', ''), ('rgb(100, 128, 167)', ''), ('rgb(222, 235, 247)', ''), ('rgb(39, 75, 127)', ''), ('rgb(39, 75, 127)', ''), ('rgb(191, 208, 227)', ''), ('rgb(100, 128, 167)', ''), ('rgb(39, 75, 127)', ''), ('rgb(222, 235, 247)', ''), ('rgb(100, 128, 167)', ''), ('rgb(222, 235, 247)', ''), ('rgb(39, 75, 127)', ''), ('rgb(69, 101, 147)', ''), ('rgb(39, 75, 127)', ''), ('rgb(69, 101, 147)', '')]
+2022-02-23 11:37:17|INFO  |logger_until.py:Line17|screenShot has been done in path
+2022-02-23 11:37:17|ERROR |logger_until.py:Line20|<class 'AssertionError'>
+NoneType: None
+2022-02-23 11:40:11|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-23 11:40:24|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2022-02-23 11:40:28|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2022-02-23 11:40:28|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2022-02-23 11:40:35|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2022-02-23 11:40:36|INFO  |logger_until.py:Line17|click on singleChartBody
+2022-02-23 11:40:36|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2022-02-23 11:40:39|INFO  |logger_until.py:Line17|click on Values section
+2022-02-23 11:40:41|INFO  |logger_until.py:Line17|Starting test TC test_value_gradient_baseFunc
+2022-02-23 11:40:41|INFO  |logger_until.py:Line17|click on Values dropdown
+2022-02-23 11:40:42|INFO  |logger_until.py:Line17|click on options: sales_count(sum)
+2022-02-23 11:40:42|DEBUG |logger_until.py:Line23|value options_aria_controls: 2b9ee717-42ae-46d3-a7c0-709443f60791
+2022-02-23 11:40:42|DEBUG |logger_until.py:Line23|values options: ['sales_count(sum)', 'target_count(sum)', 'sales_count/ amount(sum)']
+2022-02-23 11:40:42|INFO  |logger_until.py:Line17|click on view As drop-down
+2022-02-23 11:40:43|INFO  |logger_until.py:Line17|click on the options: Gradient Color
+2022-02-23 11:40:43|DEBUG |logger_until.py:Line23|view as options_aria_controls: 4eeff520-c6f4-4cd6-e26e-23bb84fd30c9
+2022-02-23 11:40:43|DEBUG |logger_until.py:Line23|values options: ['Bar', 'Indicator', 'Star Rate', 'Color Coding', 'Bullet', 'Value', 'Gradient Color']
+2022-02-23 11:40:46|INFO  |logger_until.py:Line17|Getting test result
+2022-02-23 11:40:46|INFO  |logger_until.py:Line17|getting test result
+2022-02-23 11:43:24|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-23 11:43:31|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com
+2022-02-23 11:43:32|INFO  |logger_until.py:Line17|Visit project AutomationTest
+2022-02-23 11:43:32|INFO  |logger_until.py:Line17|visit dashboard: AutomationDashboard
+2022-02-23 11:43:36|INFO  |logger_until.py:Line17|visit dashboard AutomationDashboard
+2022-02-23 11:43:38|INFO  |logger_until.py:Line17|click on singleChartBody
+2022-02-23 11:43:38|INFO  |logger_until.py:Line17|click on actiontool_edit_click btn
+2022-02-23 11:43:39|INFO  |logger_until.py:Line17|click on Values section
+2022-02-23 11:43:55|INFO  |logger_until.py:Line17|===================values testing STEUP started==============================================
+2022-02-23 11:44:01|INFO  |logger_until.py:Line17|login ESB with xingyang.han@essexlg.com

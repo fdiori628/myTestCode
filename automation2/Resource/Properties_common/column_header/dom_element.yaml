@@ -1,0 +1,7 @@
+all_elements: .ant-collapse-item-active *
+bottom_border_width_0: .icon-line-width-0
+bottom_border_width_2: .icon-line-width-2
+bottom_border_width_3: .icon-line-width-3
+bottom_border_width_5: .icon-line-width-5
+background_color: .ColorPicker_swatch__3MngE
+bottom_border_color: .ColorPicker_swatch__3MngE

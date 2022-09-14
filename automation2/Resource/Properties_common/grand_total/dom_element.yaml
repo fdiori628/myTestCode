@@ -1,0 +1,4 @@
+all_elements: .ant-collapse-item-active *
+strong: '.ant-collapse-item-active i[aria-label="icon: bold"]'
+italic: '.ant-collapse-item-active i[aria-label="icon: italic"]'
+underline: '.ant-collapse-item-active i[aria-label="icon: underline"]'
